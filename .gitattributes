@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+other/*/include/* linguist-vendored
+src/engine/external/* linguist-vendored

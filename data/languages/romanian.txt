@@ -1,0 +1,1326 @@
+##### authors #####
+#originally created by:
+#	kneekoo
+#modified by:
+#	kneekoo		2011-01-18 18:26:02
+#	kneekoo		2011-02-09 12:23:47
+#	kneekoo		2011-04-03 23:00:38
+#	kneekoo		2011-05-25 18:36:32
+#	kneekoo		2011-07-01 18:40:49
+#	kneekoo		2011-07-05 23:34:34
+#	kneekoo		2012-05-01 02:01:47
+##### /authors #####
+
+##### translated strings #####
+
+%ds left
+== %ds a ieșit
+
+%i minute left
+== %i minute rămas
+
+%i minutes left
+== %i minutes rămase
+
+%i second left
+== %i secundă rămasă
+
+%i seconds left
+== %i secunde rămase
+
+%s wins!
+== %s câștigă!
+
+-Page %d-
+== -Pagina %d-
+
+Abort
+== Anulează
+
+Add
+== Adaugă
+
+Add Friend
+== Adaugă prieten
+
+Address
+== Adresa
+
+All
+== Toți
+
+Are you sure that you want to delete the demo?
+== Sigur vrei să ștergi demo-ul?
+
+Are you sure that you want to quit?
+== Sigur vrei să ieși?
+
+Are you sure that you want to remove the player from your friends list?
+== Sigur vrei să ștergi jucătorul din lista ta de prieteni?
+
+Automatically record demos
+== Înregistrează automat demo-uri
+
+Automatically take game over screenshot
+== Fă automat o captură de ecran la final
+
+Blue team
+== Echipa albastră
+
+Blue team wins!
+== Echipa albastră a câștigat!
+
+Body
+== Corp
+
+Call vote
+== Votează
+
+Change settings
+== Modifică setările
+
+Chat
+== Chat
+
+Clan
+== Clanul
+
+Client
+== Clientul
+
+Close
+== Închide
+
+Compatible version
+== Versiune compatibilă
+
+Connect
+== Conectează
+
+Connecting to
+== Conectare la
+
+Connection Problems...
+== Probleme la conexiune...
+
+Console
+== Consolă
+
+Controls
+== Controale
+
+Count players only
+== Numără doar jucătorii
+
+Current
+== Curent
+
+Custom colors
+== Culori personalizate
+
+Delete
+== Șterge
+
+Delete demo
+== Șterge demonstrația
+
+Demo details
+== Detalii demo
+
+Demofile: %s
+== Fișier demo: %s
+
+Demos
+== Demo
+
+Disconnect
+== Deconectare
+
+Disconnected
+== Deconectat
+
+Downloading map
+== Se descarcă harta
+
+Draw!
+== Egalitate!
+
+Dynamic Camera
+== Cameră dinamică
+
+Emoticon
+== Figurine
+
+Enter
+== Intră
+
+Error
+== Eroare
+
+Error loading demo
+== Eroare la încărcarea demo-ului
+
+Favorite
+== Favorit
+
+Favorites
+== Favorite
+
+Feet
+== Picioare
+
+Filter
+== Filtre
+
+Fire
+== Foc
+
+Folder
+== Dosar
+
+Force vote
+== Forțează votul
+
+Free-View
+== Vizualizare liberă
+
+Friends
+== Prieteni
+
+Fullscreen
+== Ecrat complet
+
+Game
+== Joc
+
+Game info
+== Informații joc
+
+Game over
+== Final de joc
+
+Game paused
+== Joc în pauză
+
+Game type
+== Tip de joc
+
+Game types:
+== Tipuri de joc:
+
+General
+== General
+
+Graphics
+== Grafică
+
+Grenade
+== Grenade
+
+Hammer
+== Ciocan
+
+Has people playing
+== Are jucători activi
+
+High Detail
+== Detalii înalte
+
+Hook
+== Cârlig
+
+Invalid Demo
+== Demo nevalid
+
+Join blue
+== La albaștri
+
+Join red
+== La roșii
+
+Jump
+== Salt
+
+Kick player
+== Dă afară jucător
+
+Language
+== Limba
+
+MOTD
+== Mesajul zilei
+
+Map
+== Hartă
+
+Maximum ping:
+== Ping maxim:
+
+Mouse sens.
+== Sensib. maus
+
+Move left
+== Mută la stânga
+
+Move player to spectators
+== Mută jucătorul la spectatori
+
+Move right
+== Mută la dreapta
+
+Movement
+== Mișcare
+
+Mute when not active
+== Opreşte sunetul la inactivate
+
+Name
+== Nume
+
+Next weapon
+== Arma următoare
+
+Nickname
+== Pseudonim
+
+No
+== Nu
+
+No password
+== Fără parolă
+
+No servers found
+== Nici un server găsit
+
+No servers match your filter criteria
+== Nici un server nu corespunde criteriilor
+
+Ok
+== Bine
+
+Open
+== Deschide
+
+Parent Folder
+== Dosarul părinte
+
+Password
+== Parolă
+
+Password incorrect
+== Parolă incorectă
+
+Ping
+== Ping
+
+Pistol
+== Pistol
+
+[Demo browser]
+Play
+== Redă
+
+Play background music
+== Redă muzică în fundal
+
+Player
+== Jucător
+
+Player country:
+== Țara jucătorului:
+
+Player options
+== Opțiuni jucător
+
+Players
+== Jucători
+
+Please balance teams!
+== Echilibrați echipele!
+
+Prev. weapon
+== Arma precedentă
+
+Quit
+== Ieșire
+
+Reason:
+== Motiv:
+
+Red team
+== Echipa roșie
+
+Red team wins!
+== Echipa roșie a câștigat!
+
+Refresh
+== Reîncarcă
+
+Remote console
+== Consolă server
+
+Remove
+== Șterge
+
+Remove friend
+== Șterge prietenul
+
+Rename
+== Redenumește
+
+Rename demo
+== Redenumește demo-ul
+
+Reset filter
+== Filtru implicit
+
+Sample rate
+== Frecvența
+
+Score
+== Scor
+
+Score limit
+== Limita de scor
+
+Scoreboard
+== Scoruri
+
+Screenshot
+== Captură de ecran
+
+Server address:
+== Adresă server:
+
+Server details
+== Detalii server
+
+Server filter
+== Filtru servere:
+
+Server info
+== Info. server
+
+Server not full
+== Are locuri libere
+
+Shotgun
+== Pușcă
+
+Show chat
+== Afișare chat
+
+Show friends only
+== Arată prietenii
+
+Show ingame HUD
+== Arată scorul în joc
+
+Show name plates
+== Arată pseudonimele
+
+Show only chat messages from friends
+== Arată doar chatul prietenilor
+
+Skins
+== Costume
+
+Sound
+== Sunet
+
+Sound error
+== Eroare de sunet
+
+Spectate
+== Spectator
+
+Spectate next
+== Vezi următorul
+
+Spectate previous
+== Vezi anteriorul
+
+Spectator mode
+== Mod spectator
+
+Spectators
+== Spectatori
+
+Stop record
+== Stop înreg.
+
+Strict gametype filter
+== Filtru strict tip joc
+
+Sudden Death
+== Moarte subită
+
+Switch weapon on pickup
+== Schimbă arma la găsire
+
+Team
+== Echipa
+
+Team chat
+== Chat cu echipa
+
+The audio device couldn't be initialised.
+== Dispozitivul audio nu a putut fi inițializat.
+
+The server is running a non-standard tuning on a pure game type.
+== Serverul folosește parametri ne-standard într-un joc standard.
+
+There's an unsaved map in the editor, you might want to save it before you quit the game.
+== Există o hartă nesalvată în editor. Probabil vrei să o salvezi înainte să ieși din joc.
+
+Time limit
+== Timp limită
+
+Time limit: %d min
+== Timp limită : %d min
+
+Try again
+== Reîncearcă
+
+Type
+== Tip
+
+Unable to delete the demo
+== Nu pot șterge demo-ul
+
+Unable to rename the demo
+== Nu pot redenumi demo-ul
+
+Use sounds
+== Folosește sunetul
+
+Use team colors for name plates
+== Folosește culorile echipelor pe etichetele de nume
+
+V-Sync
+== Sincronizare verticală (V-Sync)
+
+Version
+== Versiune
+
+Vote command:
+== Comandă votare:
+
+Vote description:
+== Descriere votare:
+
+Vote no
+== Votează nu
+
+Vote yes
+== Votează da
+
+Voting
+== Votare
+
+Warmup
+== Încălzire
+
+Weapon
+== Arme
+
+Yes
+== Da
+
+You must restart the game for all settings to take effect.
+== Trebuie să repornești jocul pentru aplicarea setărilor.
+
+##### needs translation #####
+
+New name:
+== Nume nou:
+
+Sat.
+== Saturație
+
+Miscellaneous
+== Diverse
+
+Internet
+== Internet
+
+Max demos
+== Număr maxim de demo-uri
+
+News
+== Știri
+
+Join game
+== Intră în joc
+
+FSAA samples
+== Eșantioane FSAA
+
+Sound volume
+== Volum sunet
+
+Created:
+== Creată la data:
+
+Max Screenshots
+== Număr maxim de capturi de ecran
+
+Length:
+== Durată:
+
+Laser
+== Carabină
+
+Netversion:
+== Cod rețea:
+
+Map:
+== Harta:
+
+Info
+== Informații
+
+Hue
+== Tentă
+
+Record demo
+== Înreg. demo
+
+Your skin
+== Costumul tău
+
+Size:
+== Dimensiunea:
+
+Reset to defaults
+== Setări implicite
+
+Quit anyway?
+== Ieși oricum?
+
+Display Modes
+== Moduri de afișare
+
+Version:
+== Versiune:
+
+Round
+== Runda
+
+Lht.
+== Luminozitate
+
+UI Color
+== Culoare meniu
+
+Crc:
+== Suma de control:
+
+Alpha
+== Alfa
+
+LAN
+== Rețea
+
+Name plates size
+== Dimensiune nume placă
+
+Type:
+== Tip:
+
+Successfully saved the replay!
+== 
+
+Saving ddnet-settings.cfg failed
+== 
+
+Replay feature is disabled!
+== 
+
+The width of texture %s is not divisible by %d, or the height is not divisible by %d, which might cause visual bugs.
+== 
+
+Warning
+== 
+
+Debug mode enabled. Press Ctrl+Shift+D to disable debug mode.
+== 
+
+Server best:
+== 
+
+Personal best:
+== 
+
+Reset
+== 
+
+Browser
+== 
+
+Ghost
+== 
+
+Loading DDNet Client
+== 
+
+Reconnect in %d sec
+== 
+
+Render demo
+== 
+
+Replace video
+== 
+
+File already exists, do you want to overwrite it?
+== 
+
+Are you sure that you want to disconnect?
+== 
+
+Disconnect Dummy
+== 
+
+Are you sure that you want to disconnect your dummy?
+== 
+
+Welcome to DDNet
+== 
+
+DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
+== 
+
+The maps contain freeze, which temporarily make a tee unable to move. You have to work together to get through these parts.
+== 
+
+The mouse wheel changes weapons. Hammer (left mouse) can be used to hit other tees and wake them up from being frozen.
+== 
+
+Hook (right mouse) can be used to swing through the map and to hook other tees to you.
+== 
+
+Most importantly communication is key: There is no tutorial so you'll have to chat (t key) with other players to learn the basics and tricks of the game.
+== 
+
+Use k key to kill (restart), q to pause and watch other players. See settings for other key binds.
+== 
+
+It's recommended that you check the settings to adjust them to your liking before joining a server.
+== 
+
+Please enter your nickname below.
+== 
+
+Existing Player
+== 
+
+Your nickname '%s' is already used (%d points). Do you still want to use it?
+== 
+
+Checking for existing player with your name
+== 
+
+Country / Region
+== 
+
+Destination file already exist
+== 
+
+Speed
+== 
+
+Video name:
+== 
+
+Show DDNet map finishes in server browser
+== 
+
+transmits your player name to info2.ddnet.tw
+== 
+
+Theme
+== 
+
+AFR
+== 
+
+ASI
+== 
+
+AUS
+== 
+
+EUR
+== 
+
+NA
+== 
+
+SA
+== 
+
+CHN
+== 
+
+Getting server list from master server
+== 
+
+Search
+== 
+
+Exclude
+== 
+
+%d of %d servers
+== 
+
+%d of %d server
+== 
+
+%d players
+== 
+
+%d player
+== 
+
+Filter connecting players
+== 
+
+Indicate map finish
+== 
+
+Unfinished map
+== 
+
+Countries
+== 
+
+Types
+== 
+
+Leak IP
+== 
+
+Select a name
+== 
+
+Please use a different name
+== 
+
+Remove chat
+== 
+
+Markers:
+== 
+
+%.2f MiB
+== 
+
+%.2f KiB
+== 
+
+Demo
+== 
+
+Markers
+== 
+
+Length
+== 
+
+Date
+== 
+
+Fetch Info
+== 
+
+Demos directory
+== 
+
+Render
+== 
+
+Connecting dummy
+== 
+
+Connect Dummy
+== 
+
+Kill
+== 
+
+Pause
+== 
+
+Reload
+== 
+
+Deactivate
+== 
+
+Activate
+== 
+
+Save
+== 
+
+Smooth Dynamic Camera
+== 
+
+Switch weapon when out of ammo
+== 
+
+Reset wanted weapon on death
+== 
+
+Show clan above name plates
+== 
+
+Clan plates size
+== 
+
+Skip the main menu
+== 
+
+Refresh Rate
+== 
+
+Show console window
+== 
+
+Themes directory
+== 
+
+Automatically take statboard screenshot
+== 
+
+Automatically create statboard csv
+== 
+
+Max CSVs
+== 
+
+Dummy settings
+== 
+
+Download skins
+== 
+
+Vanilla skins only
+== 
+
+Fat skins (DDFat)
+== 
+
+Skin prefix
+== 
+
+Skin Database
+== 
+
+Skins directory
+== 
+
+Hook collisions
+== 
+
+Zoom in
+== 
+
+Zoom out
+== 
+
+Default zoom
+== 
+
+Show others
+== 
+
+Show all
+== 
+
+Toggle dyncam
+== 
+
+Toggle dummy
+== 
+
+Toggle ghost
+== 
+
+Dummy copy
+== 
+
+Hammerfly dummy
+== 
+
+Converse
+== 
+
+Statboard
+== 
+
+Lock team
+== 
+
+Show entities
+== 
+
+Show HUD
+== 
+
+Chat command
+== 
+
+UI mouse s.
+== 
+
+Dummy
+== 
+
+Windowed
+== 
+
+Windowed borderless
+== 
+
+Desktop fullscreen
+== 
+
+may cause delay
+== 
+
+Screen
+== 
+
+Use modern OpenGL
+== 
+
+Preinit VBO (iGPUs only)
+== 
+
+Multiple texture units (disable for macOS)
+== 
+
+Use high DPI
+== 
+
+Enable game sounds
+== 
+
+Enable gun sound
+== 
+
+Enable long pain sound (used when shooting in freeze)
+== 
+
+Enable server message sound
+== 
+
+Enable regular chat sound
+== 
+
+Enable team chat sound
+== 
+
+Enable highlighted chat sound
+== 
+
+Threaded sound loading
+== 
+
+Game sound volume
+== 
+
+Chat sound volume
+== 
+
+Map sound volume
+== 
+
+Background music volume
+== 
+
+HUD
+== 
+
+DDNet
+== 
+
+Assets
+== 
+
+DDNet Client needs to be restarted to complete update!
+== 
+
+Use DDRace Scoreboard
+== 
+
+Show client IDs
+== 
+
+Show score
+== 
+
+Show health + ammo
+== 
+
+Show names in chat in team colors
+== 
+
+Show kill messages
+== 
+
+Show votes window after voting
+== 
+
+Laser Outline Color
+== 
+
+Laser Inner Color
+== 
+
+Hookline
+== 
+
+No hit
+== 
+
+Hookable
+== 
+
+Tee
+== 
+
+Use old chat style
+== 
+
+Messages
+== 
+
+System message
+== 
+
+Highlighted message
+== 
+
+Team message
+== 
+
+Friend message
+== 
+
+Normal message
+== 
+
+Client message
+== 
+
+Preview
+== 
+
+Save the best demo of each race
+== 
+
+Default length: %d
+== 
+
+Enable replays
+== 
+
+Show ghost
+== 
+
+Save ghost
+== 
+
+Gameplay
+== 
+
+Overlay entities
+== 
+
+Size
+== 
+
+Show text entities
+== 
+
+Show others (own team only)
+== 
+
+Show quads
+== 
+
+AntiPing
+== 
+
+AntiPing: predict other players
+== 
+
+AntiPing: predict weapons
+== 
+
+AntiPing: predict grenade paths
+== 
+
+Show other players' hook collision lines
+== 
+
+Show other players' key presses
+== 
+
+Old mouse mode
+== 
+
+Background
+== 
+
+Entities Background color
+== 
+
+Use current map as background
+== 
+
+Show tiles layers from BG map
+== 
+
+Regular Background Color
+== 
+
+Try fast HTTP map download first
+== 
+
+New random timeout code
+== 
+
+DDNet %s is available:
+== 
+
+Update now
+== 
+
+Updating...
+== 
+
+DDNet Client updated!
+== 
+
+No updates available
+== 
+
+Check now
+== 
+
+Entities
+== 
+
+Emoticons
+== 
+
+Particles
+== 
+
+Assets directory
+== 
+
+Discord
+== 
+
+https://ddnet.tw/discord
+== 
+
+Learn
+== 
+
+https://wiki.ddnet.tw/
+== 
+
+Website
+== 
+
+Settings
+== 
+
+Stop server
+== 
+
+Run server
+== 
+
+Server executable not found, can't run server
+== 
+
+Editor
+== 
+
+[Start menu]
+Play
+== 
+
+DDNet %s is out!
+== 
+
+Downloading %s:
+== 
+
+Update failed! Check log...
+== 
+
+Restart
+== 
+
+Time
+== 
+
+Manual
+== 
+
+Race
+== 
+
+Auto
+== 
+
+Replay
+== 
+
+Follow
+== 
+
+Frags
+== 
+
+Deaths
+== 
+
+Suicides
+== 
+
+Ratio
+== 
+
+Net
+== 
+
+FPM
+== 
+
+Spree
+== 
+
+Best
+== 
+
+Grabs
+== 
+
+1 new mention
+== 
+
+%d new mentions
+== 
+
+9+ new mentions
+== 

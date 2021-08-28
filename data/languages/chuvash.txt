@@ -1,0 +1,1290 @@
+##### authors #####
+#originally created by:
+#	Watz
+#modified by:
+#
+##### /authors #####
+
+##### translated strings #####
+
+%ds left
+== %d сек.
+
+%i minute left
+== %i мин.
+
+%i minutes left
+== %i мин.
+
+%i second left
+== %i сек.
+
+%i seconds left
+==  %i сек.
+
+%s wins!
+== %s çĕнтерчĕ!
+
+-Page %d-
+== -Страница %d-
+
+Abort
+== Каялла
+
+Add
+== Хуш
+
+Add Friend
+== Юлташа хуш
+
+Address
+== Адрес
+
+All
+== Пурте
+
+Are you sure that you want to delete the demo?
+== Эсир демо парахасшăн-и?
+
+Are you sure that you want to quit?
+== Эсир тухасшăн-и?
+
+Are you sure that you want to remove the player from your friends list?
+== Юшташу списокра тĕплесшĕн-и?
+
+Automatically record demos
+== Демосене автоматикăла çыр
+
+Automatically take game over screenshot
+== Вăйăн пайта çут-ӳкерчĕк ту
+
+Blue team
+== Кăвак ушкăн
+
+Blue team wins!
+== Кăвак ушкăн çĕнтерчĕ!
+
+Body
+== Ӳт
+
+Call vote
+== Сасăла
+
+Change settings
+== Йĕркелӳсене урăхлатма
+
+Chat
+== Калаçу
+
+Clan
+== Кланĕ
+
+Client
+== Клиент
+
+Close
+== Хупма
+
+Compatible version
+== Пĕрле ĕçлекен верси
+
+Connect
+== Çых
+
+Connecting to
+== Çыхăну
+
+Connection Problems...
+== Çыхăну проблемасем
+
+Console
+== Консоль
+
+Controls
+== Пăхăнтару
+
+Count players only
+== Çынсене анчах шутлама
+
+Current
+== Хальхи
+
+Custom colors
+== Усă кураканăн тĕсĕсем
+
+Delete
+== Шăлса тасатма
+
+Delete demo
+== Демо шăлса тасатма
+
+Demo details
+== Демо тĕплĕсем
+
+Demofile: %s
+== Демо: %s
+
+Demos
+== Демосем
+
+Disconnect
+== Çыхăну чарма
+
+Disconnected
+== Çыхăну чарăнчĕ
+
+Downloading map
+== Карта илӳ
+
+Draw!
+== Никам та çĕнтермерĕ!
+
+Dynamic Camera
+== Куçакан камера
+
+Emoticon
+== Кăмăл-туйăмсем
+
+Enter
+== Кĕрӳ
+
+Error
+== Йăнăш
+
+Error loading demo
+== Демо илĕвĕн йăнăш
+
+Favorite
+== Суйланни
+
+Favorites
+== Суйланнисем
+
+Feet
+== Урасем
+
+Filter
+== Фильтр
+
+Fire
+== Пĕрӳ
+
+Folder
+== Папка
+
+Force vote
+== Вăйлăт
+
+Free-View
+== Ирĕклĕ обзор
+
+Friends
+== Юлташсем
+
+Fullscreen
+== Тулли экран
+
+Game
+== Вăйă
+
+Game info
+== Вăйă пĕлтерӳ
+
+Game over
+== Вăйа вĕçленчĕ
+
+Game type
+== Вăйăн тĕс
+
+Game types:
+== Вăйăн тĕсĕсем
+
+General
+== Тĕп
+
+Graphics
+== Ӳкерӳ
+
+Grenade
+== Гранатомёт
+
+Hammer
+== Мăлатук
+
+Has people playing
+== Вылякан пур
+
+High Detail
+== Лайăх ӳкерӳ
+
+Hook
+== Çекĕл
+
+Invalid Demo
+== Тĕрĕс мар демо
+
+Join blue
+== Кăваксемпе!
+
+Join red
+== Хĕрлĕсемпе!
+
+Jump
+== Сик
+
+Kick player
+== Вылякана бан
+
+Language
+== Чĕлхе
+
+MOTD
+== MOTD
+
+Map
+== Карта
+
+Maximum ping:
+== Чи пысăк пинг:
+
+Mouse sens.
+== Шăшин туйăмлăх
+
+Move left
+== Сулахаялла
+
+Move player to spectators
+== Пăхакансем çине куçарма
+
+Move right
+== Сылтăмалла
+
+Movement
+== Куçăм
+
+Mute when not active
+== Тивмен чух сасăна шăплантар
+
+Name
+== Ят
+
+Next weapon
+== Тепĕр хĕç-пăшал
+
+Nickname
+== Ят
+
+No
+== Çук
+
+No password
+== Вăрттăн сăмахсăр
+
+No servers found
+== Серверсем çук
+
+No servers match your filter criteria
+== Фильтр майлă серверсем çук
+
+Ok
+== Çапла
+
+Open
+== Уçма
+
+Parent Folder
+== Аслă каталог
+
+Password
+== Вăрттăн сăмах
+
+Password incorrect
+== Тĕрĕс мар вăрттăн сăмах
+
+Ping
+== Пинг
+
+Pistol
+== Пистолет
+
+[Demo browser]
+Play
+== Пăхма
+
+Play background music
+== Кĕвви
+
+Player
+== Вылякан
+
+Player country:
+== Çĕршыв:
+
+Player options
+== Опцисем
+
+Players
+== Çынсем
+
+Please balance teams!
+== Вылякан ушкăнĕсене шайлаштар!
+
+Prev. weapon
+== Малтанхи хĕç-пăшал
+
+Quit
+== Туху
+
+Reason:
+== Сăлтав:
+
+Red team
+== Хĕрлĕ ушкăн
+
+Red team wins!
+== Хĕрлĕ ушкăн çĕнтерчĕ!
+
+Refresh
+== Каллех вула
+
+Refreshing master servers
+== Мастер-серверсен каллех вулу
+
+Remote console
+== Сервер консолĕ
+
+Remove
+== Тасат
+
+Remove friend
+== Юлташа тасат
+
+Rename
+== Çĕнĕ ят
+
+Rename demo
+== Демо çĕнĕ ят
+
+Reset filter
+== Фильтрсене тасат
+
+Sample rate
+== Тăтăшлăх
+
+Score
+== Паллă
+
+Score limit
+== Паллă лимичĕ
+
+Scoreboard
+== Паллăсен хăмми
+
+Screenshot
+== Экран ӳкерӳ
+
+Server address:
+== Сервер адресĕ
+
+Server details
+== Сервер тĕплĕсем
+
+Server filter
+== Серверсен фильтр
+
+Server info
+== Пĕлтерӳ
+
+Server not full
+== Сервер тулли мар
+
+Shotgun
+== Йĕтре пăшал
+
+Show chat
+== Калаçӳ кăтартма
+
+Show friends only
+== Юлташсемпе анчах
+
+Show ingame HUD
+== Вăйă çинчи HUD кăтартма
+
+Show name plates
+== Вылякансен ят кăтартма
+
+Skins
+== Сăнсем
+
+Sound
+== Сасă
+
+Sound error
+== Сасă йăнăш
+
+Spectate
+== Пăхма
+
+Spectate next
+== Тепĕрне пăхма
+
+Spectate previous
+== Малтанхине пăхма
+
+Spectator mode
+== Пăхакан
+
+Spectators
+== Пăхакансем
+
+Stop record
+== Чарма
+
+Strict gametype filter
+== Хытă вăйă тĕс фильтрĕ
+
+Sudden Death
+== Хăвăрт вилӳ
+
+Switch weapon on pickup
+== Хĕç-пăшал илнĕ чух улăштарма
+
+Team
+== Ушкăн
+
+Team chat
+== Ушкăнри калаçу
+
+The audio device couldn't be initialised.
+== Аудио ярма пултараймасть
+
+The server is running a non-standard tuning on a pure game type.
+== Серверта стардартлă мар опцисемпе таса вăйă тĕсĕрĕ
+
+There's an unsaved map in the editor, you might want to save it before you quit the game.
+== Редакторта упраман карта пур. Туху умĕн ăна упрама пултарать
+
+Time limit
+== Вăхăт лимичĕ
+
+Time limit: %d min
+== Вăхăт лимичĕ: %d мин
+
+Try again
+== Тепĕр хут
+
+Type
+== Тĕс
+
+Unable to delete the demo
+== Демо тĕплеме пултараймасть
+
+Unable to rename the demo
+== Демо ячĕ улăштарма пулмасть
+
+Use sounds
+== Сасă уса курма
+
+Use team colors for name plates
+== Ушкăн тĕсĕсем ятсем валли
+
+V-Sync
+== Вертикаллĕ синхронизаци
+
+Version
+== Версие
+
+Vote command:
+== Суйлав хушу:
+
+Vote description:
+== Суйлав пирки:
+
+Vote no
+== Хирĕç
+
+Vote yes
+== Çинчен
+
+Voting
+== Суйлав
+
+Warmup
+== Карăну
+
+Weapon
+== Хĕç-пăшал
+
+Yes
+== Çапла
+
+You must restart the game for all settings to take effect.
+== Режим улăштарма валли вăйă сӳнтер тата каллер яр
+
+##### needs translation #####
+
+New name:
+== Çĕн ят
+
+Max demos
+== Чи пысăк демо хисепĕ
+
+Internet
+== Интернет
+
+Round
+== Раунд
+
+Quit anyway?
+== Туху?
+
+News
+== Хыпарсем
+
+Join game
+== Выляма
+
+Crc:
+== Crc:
+
+FSAA samples
+== FSAA якату
+
+Sat.
+== Контраст
+
+LAN
+== LAN
+
+Sound volume
+== Сасă янравлăш
+
+Created:
+== Хайланă:
+
+Record demo
+== Демо çыр
+
+Miscellaneous
+== Хушнисем
+
+Netversion:
+== Версия:
+
+Info
+== Пĕлтерӳ
+
+UI Color
+== Интерфейс тĕсĕ
+
+Max Screenshots
+== Ӳкерчĕксен чи пысăк хисепĕ
+
+Size:
+== Пыçăкăш:
+
+Hue
+== Тĕс сĕмĕ
+
+Your skin
+== Санăн сăн
+
+Reset to defaults
+== Йĕркелӳ тасат
+
+Laser
+== Бластер
+
+Display Modes
+== Экран режимсем
+
+Version:
+== Версие:
+
+Map:
+== Карта:
+
+Lht.
+== Çутăллăх
+
+Alpha
+== Тăрă
+
+Length:
+== Вăрăмăш
+
+Name plates size
+== Пысăкăш
+
+Type:
+== Тĕс:
+
+Successfully saved the replay!
+== 
+
+Saving ddnet-settings.cfg failed
+== 
+
+Replay feature is disabled!
+== 
+
+The width or height of texture %s is not divisible by 16, which might cause visual bugs.
+== 
+
+Warning
+== 
+
+Debug mode enabled. Press Ctrl+Shift+D to disable debug mode.
+== 
+
+Game paused
+== 
+
+Server best:
+== 
+
+Personal best:
+== 
+
+Browser
+== 
+
+Ghost
+== 
+
+Loading DDNet Client
+== 
+
+Reconnect in %d sec
+== 
+
+Render demo
+== 
+
+Replace video
+== 
+
+File already exists, do you want to overwrite it?
+== 
+
+Are you sure that you want to disconnect?
+== 
+
+Disconnect Dummy
+== 
+
+Are you sure that you want to disconnect your dummy?
+== 
+
+Welcome to DDNet
+== 
+
+DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
+== 
+
+The maps contain freeze, which temporarily make a tee unable to move. You have to work together to get through these parts.
+== 
+
+The mouse wheel changes weapons. Hammer (left mouse) can be used to hit other tees and wake them up from being frozen.
+== 
+
+Hook (right mouse) can be used to swing through the map and to hook other tees to you.
+== 
+
+Most importantly communication is key: There is no tutorial so you'll have to chat (t key) with other players to learn the basics and tricks of the game.
+== 
+
+Use k key to kill (restart), q to pause and watch other players. See settings for other key binds.
+== 
+
+It's recommended that you check the settings to adjust them to your liking before joining a server.
+== 
+
+Please enter your nickname below.
+== 
+
+Existing Player
+== 
+
+Your nickname '%s' is already used (%d points). Do you still want to use it?
+== 
+
+Checking for existing player with your name
+== 
+
+Country / Region
+== 
+
+Destination file already exist
+== 
+
+Speed
+== 
+
+Video name:
+== 
+
+Show DDNet map finishes in server browser
+== 
+
+transmits your player name to info2.ddnet.tw
+== 
+
+Theme
+== 
+
+Search
+== 
+
+Exclude
+== 
+
+%d of %d servers
+== 
+
+%d of %d server
+== 
+
+%d players
+== 
+
+%d player
+== 
+
+Filter connecting players
+== 
+
+Indicate map finish
+== 
+
+Unfinished map
+== 
+
+Countries
+== 
+
+Types
+== 
+
+Select a name
+== 
+
+Please use a different name
+== 
+
+Remove chat
+== 
+
+Markers:
+== 
+
+%.2f MiB
+== 
+
+%.2f KiB
+== 
+
+Demo
+== 
+
+Markers
+== 
+
+Length
+== 
+
+Date
+== 
+
+Fetch Info
+== 
+
+Demos directory
+== 
+
+Render
+== 
+
+Connecting dummy
+== 
+
+Connect Dummy
+== 
+
+Kill
+== 
+
+Pause
+== 
+
+Reload
+== 
+
+Deactivate
+== 
+
+Activate
+== 
+
+Save
+== 
+
+Smooth Dynamic Camera
+== 
+
+Switch weapon when out of ammo
+== 
+
+Reset wanted weapon on death
+== 
+
+Show only chat messages from friends
+== 
+
+Show clan above name plates
+== 
+
+Clan plates size
+== 
+
+Skip the main menu
+== 
+
+Refresh Rate
+== 
+
+Show console window
+== 
+
+Themes directory
+== 
+
+Automatically take statboard screenshot
+== 
+
+Automatically create statboard csv
+== 
+
+Max CSVs
+== 
+
+Dummy settings
+== 
+
+Download skins
+== 
+
+Vanilla skins only
+== 
+
+Fat skins (DDFat)
+== 
+
+Skin prefix
+== 
+
+Skin Database
+== 
+
+Skins directory
+== 
+
+Hook collisions
+== 
+
+Zoom in
+== 
+
+Zoom out
+== 
+
+Default zoom
+== 
+
+Show others
+== 
+
+Show all
+== 
+
+Toggle dyncam
+== 
+
+Toggle dummy
+== 
+
+Toggle ghost
+== 
+
+Dummy copy
+== 
+
+Hammerfly dummy
+== 
+
+Converse
+== 
+
+Statboard
+== 
+
+Lock team
+== 
+
+Show entities
+== 
+
+Show HUD
+== 
+
+UI mouse s.
+== 
+
+Borderless window
+== 
+
+may cause delay
+== 
+
+Screen
+== 
+
+Use OpenGL 3.3 (experimental)
+== 
+
+Preinit VBO (iGPUs only)
+== 
+
+Multiple texture units (disable for macOS)
+== 
+
+Use high DPI
+== 
+
+Enable game sounds
+== 
+
+Enable gun sound
+== 
+
+Enable long pain sound (used when shooting in freeze)
+== 
+
+Enable server message sound
+== 
+
+Enable regular chat sound
+== 
+
+Enable team chat sound
+== 
+
+Enable highlighted chat sound
+== 
+
+Threaded sound loading
+== 
+
+Game sound volume
+== 
+
+Chat sound volume
+== 
+
+Map sound volume
+== 
+
+Background music volume
+== 
+
+HUD
+== 
+
+DDNet
+== 
+
+Assets
+== 
+
+DDNet Client needs to be restarted to complete update!
+== 
+
+Use DDRace Scoreboard
+== 
+
+Show client IDs in Scoreboard
+== 
+
+Show score
+== 
+
+Show health + ammo
+== 
+
+Use old chat style
+== 
+
+Show names in chat in team colors
+== 
+
+Show kill messages
+== 
+
+Show votes window after voting
+== 
+
+Messages
+== 
+
+System message
+== 
+
+Reset
+== 
+
+Highlighted message
+== 
+
+Spectator
+== 
+
+Look out!
+== 
+
+Team message
+== 
+
+We will win
+== 
+
+Friend message
+== 
+
+Highlight
+== 
+
+Friend
+== 
+
+Hi o/
+== 
+
+Normal message
+== 
+
+Hello and welcome
+== 
+
+Client message
+== 
+
+Inner color
+== 
+
+Outline color
+== 
+
+Wait before try for
+== 
+
+second
+== 
+
+seconds
+== 
+
+Save the best demo of each race
+== 
+
+Default length: %d
+== 
+
+Enable replays
+== 
+
+Show ghost
+== 
+
+Save ghost
+== 
+
+Gameplay
+== 
+
+Overlay entities
+== 
+
+Size
+== 
+
+Show text entities
+== 
+
+Show others (own team only)
+== 
+
+Show quads
+== 
+
+AntiPing
+== 
+
+AntiPing: predict other players
+== 
+
+AntiPing: predict weapons
+== 
+
+AntiPing: predict grenade paths
+== 
+
+Show other players' hook collision lines
+== 
+
+Show other players' key presses
+== 
+
+Old mouse mode
+== 
+
+Background (regular)
+== 
+
+Background (entities)
+== 
+
+Use current map as background
+== 
+
+Show tiles layers from BG map
+== 
+
+Try fast HTTP map download first
+== 
+
+DDNet %s is available:
+== 
+
+Update now
+== 
+
+Updating...
+== 
+
+DDNet Client updated!
+== 
+
+No updates available
+== 
+
+Check now
+== 
+
+New random timeout code
+== 
+
+Entities
+== 
+
+Emoticons
+== 
+
+Particles
+== 
+
+Assets directory
+== 
+
+Learn
+== 
+
+https://wiki.ddnet.tw/
+== 
+
+Website
+== 
+
+Settings
+== 
+
+Stop server
+== 
+
+Run server
+== 
+
+Server executable not found, can't run server
+== 
+
+Editor
+== 
+
+[Start menu]
+Play
+== 
+
+DDNet %s is out!
+== 
+
+Downloading %s:
+== 
+
+Update failed! Check log...
+== 
+
+Restart
+== 
+
+Time
+== 
+
+Manual
+== 
+
+Race
+== 
+
+Auto
+== 
+
+Replay
+== 
+
+Follow
+== 
+
+Frags
+== 
+
+Deaths
+== 
+
+Suicides
+== 
+
+Ratio
+== 
+
+Net
+== 
+
+FPM
+== 
+
+Spree
+== 
+
+Best
+== 
+
+Grabs
+== 
+
+1 new mention
+== 
+
+%d new mentions
+== 
+
+9+ new mentions
+== 

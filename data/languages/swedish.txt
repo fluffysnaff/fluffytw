@@ -1,0 +1,1323 @@
+##### authors #####
+#originally created by:
+#	matricks
+#modified by:
+#	Martin Pola		2011-04-02 11:17:09
+#	Kottizen		2011-07-02 00:34:54
+#	3edcxzaq1		2020-06-25 00:00:00
+#	cur.ie		2020-09-28 00:00:00
+##### /authors #####
+
+##### translated strings #####
+
+%ds left
+== %d sekunder kvar
+
+%i minute left
+== %i minut kvar
+
+%i minutes left
+== %i minuter kvar
+
+%i second left
+== %i sekund kvar
+
+%i seconds left
+== %i sekunder kvar
+
+%s wins!
+== %s vinner!
+
+-Page %d-
+== -Sida %d-
+
+Abort
+== Avbryt
+
+Add
+== Lägg till
+
+Add Friend
+== Lägg till kompis
+
+Address
+== Adress
+
+All
+== Alla
+
+Are you sure that you want to delete the demo?
+== Är du säker på att du vill ta bort detta demo?
+
+Are you sure that you want to quit?
+== Är du säker på att du vill avsluta?
+
+Are you sure that you want to remove the player from your friends list?
+== Är du säker på att du vill ta bort denna spelaren från din kompislista?
+
+Automatically record demos
+== Spela in demon automatiskt
+
+Automatically take game over screenshot
+== Ta skärmdumpar vid matchslut
+
+Blue team
+== Blå laget
+
+Blue team wins!
+== Blå laget vann!
+
+Body
+== Kropp
+
+Call vote
+== Röstning
+
+Change settings
+== Ändra inställningar
+
+Chat
+== Chatt
+
+Clan
+== Klan
+
+Client
+== Klient
+
+Close
+== Stäng
+
+Compatible version
+== Kompatibel version
+
+Connect
+== Anslut
+
+Connecting to
+== Ansluter till
+
+Connection Problems...
+== Anslutningsproblem...
+
+Console
+== Konsol
+
+Controls
+== Kontroller
+
+Count players only
+== Räkna endast spelare
+
+Current
+== Nuvarande
+
+Custom colors
+== Egna färger
+
+Delete
+== Ta bort
+
+Delete demo
+== Ta bort demo
+
+Demo details
+== Demoinformation
+
+Demofile: %s
+== Demofil: %s
+
+Demos
+== Demon
+
+Disconnect
+== Avsluta
+
+Disconnected
+== Frånkopplad
+
+Downloading map
+== Laddar ner karta
+
+Draw!
+== Oavgjort!
+
+Dynamic Camera
+== Dynamisk kamera
+
+Emoticon
+== Känsloikon
+
+Enter
+== Fortsätt
+
+Error
+== Fel
+
+Error loading demo
+== Kunde inte ladda demot
+
+Favorite
+== Favorit
+
+Favorites
+== Favoriter
+
+Feet
+== Fötter
+
+Filter
+== Filter
+
+Fire
+== Skjuta
+
+Folder
+== Mapp
+
+Force vote
+== Tvinga omröstning
+
+Free-View
+== Friläge
+
+Friends
+== Kompisar
+
+Fullscreen
+== Fullskärm
+
+Game
+== Spel
+
+Game info
+== Spelinfo
+
+Game over
+== Slutspelat
+
+Game type
+== Speltyp
+
+Game types:
+== Speltyper:
+
+General
+== Generellt
+
+Graphics
+== Grafik
+
+Grenade
+== Granater
+
+Hammer
+== Hammare
+
+Has people playing
+== Inte tom
+
+High Detail
+== Extra detaljer
+
+Hook
+== Haken
+
+Invalid Demo
+== Ogiltigt deo
+
+Join blue
+== Spela i blått
+
+Join red
+== Spela i rött
+
+Jump
+== Hoppa
+
+Kick player
+== Kicka spelare
+
+Language
+== Språk
+
+MOTD
+== Meddelande
+
+Map
+== Bana
+
+Maximum ping:
+== Högsta ping:
+
+Mouse sens.
+== Muskänslighet
+
+Move left
+== Gå vänster
+
+Move player to spectators
+== Flytta till åskådarna
+
+Move right
+== Gå höger
+
+Movement
+== Förflyttning
+
+Mute when not active
+== Stäng av ljudet när spelet inte är aktivt
+
+Name
+== Namn
+
+Next weapon
+== Nästa vapen
+
+Nickname
+== Smeknamn
+
+No
+== Nej
+
+No password
+== Inget lösenord
+
+No servers found
+== Inga servrar hittade
+
+No servers match your filter criteria
+== Inga servrar matchar dina filterkriterer
+
+Ok
+== Ok
+
+Open
+== Öppna
+
+Parent Folder
+== Uppliggande mapp
+
+Password
+== Lösenord
+
+Password incorrect
+== Felaktigt lösenord
+
+Ping
+== Ping
+
+Pistol
+== Pistol
+
+[Demo browser]
+Play
+== Spela
+
+Play background music
+== Aktivera bakgrundsmusik
+
+Player
+== Spelare
+
+Player country:
+== Land
+
+Player options
+== Spelaralternativ
+
+Players
+== Spelare
+
+Please balance teams!
+== Balansera lagen!
+
+Prev. weapon
+== Föregående vapen
+
+Quit
+== Avsluta
+
+Reason:
+== Anledning:
+
+Red team
+== Röda laget
+
+Red team wins!
+== Röda laget vann!
+
+Refresh
+== Uppdatera
+
+Remote console
+== Serverkonsol
+
+Remove
+== Ta bort
+
+Remove friend
+== Ta bort kompis
+
+Rename
+== Byt namn
+
+Rename demo
+== Byt namn på demo
+
+Reset filter
+== Återställ filter
+
+Sample rate
+== Samplingsfrekvens
+
+Score
+== Poäng
+
+Score limit
+== Poängmål
+
+Scoreboard
+== Poänglista
+
+Screenshot
+== Skärmdump
+
+Server address:
+== Serveradress
+
+Server details
+== Serverdetaljer
+
+Server filter
+== Serverfilter
+
+Server info
+== Serverinfo
+
+Server not full
+== Lediga platser
+
+Shotgun
+== Hagelgevär
+
+Show chat
+== Visa chatten
+
+Show friends only
+== Visa kompisar
+
+Show ingame HUD
+== Visa HUD i spel
+
+Show name plates
+== Visa namnskyltar
+
+Skins
+== Utseende
+
+Sound
+== Ljud
+
+Sound error
+== Ljudfel
+
+Spectate
+== Åskåda
+
+Spectate next
+== Se på nästa
+
+Spectate previous
+== Se på föregående
+
+Spectator mode
+== Åskådarläge
+
+Spectators
+== Åskådare
+
+Stop record
+== Sluta spela in
+
+Strict gametype filter
+== Strikt speltypsfilter
+
+Sudden Death
+== Plötslig död
+
+Switch weapon on pickup
+== Byt vapen vid anskaffning
+
+Team
+== Lag
+
+Team chat
+== Lagchatt
+
+The audio device couldn't be initialised.
+== Ljudet kunde inte startas
+
+The server is running a non-standard tuning on a pure game type.
+== Denna server kör inte standardinställningar på en reserverad speltyp.
+
+There's an unsaved map in the editor, you might want to save it before you quit the game.
+== Det finns en osparad bana i redigeraden, du kanske vill spara den innan du avslutar.
+
+Time limit
+== Tidsbegränsning
+
+Time limit: %d min
+== Tidsgräns: %d min
+
+Try again
+== Försök igen
+
+Type
+== Typ
+
+Unable to delete the demo
+== Kunde inte ta bort demot
+
+Unable to rename the demo
+== Kunde inte byta namn på demot
+
+Use sounds
+== Aktivera ljudeffekter
+
+Use team colors for name plates
+== Använd lagfärger i namnskyltar
+
+V-Sync
+== V-Synk
+
+Version
+== Version
+
+Vote command:
+== Omröstningskommando:
+
+Vote description:
+== Beskrivning:
+
+Vote no
+== Rösta nej
+
+Vote yes
+== Rösta ja
+
+Voting
+== Röstning
+
+Warmup
+== Uppvärmning
+
+Weapon
+== Vapen
+
+Yes
+== Ja
+
+You must restart the game for all settings to take effect.
+== Du måste starta om spelet för att ändringarna skall verkställas.
+
+##### needs translation #####
+
+New name:
+== Nytt namn:
+
+Sat.
+== Mättnad
+
+Miscellaneous
+== Övrigt
+
+Internet
+== Internet
+
+Max demos
+== Max antal demon
+
+News
+== Nyheter
+
+Join game
+== Spela
+
+FSAA samples
+== FSAA-samplingar
+
+Sound volume
+== Volym
+
+Created:
+== Skapad:
+
+Max Screenshots
+== Max antal skärmdumpar
+
+Length:
+== Längd
+
+Laser
+== Gevär
+
+Netversion:
+== Nätversion:
+
+Map:
+== Bana
+
+Info
+== Info
+
+Hue
+== Nyans
+
+Record demo
+== Spela in demo
+
+Your skin
+== Ditt skin
+
+Size:
+== Storlek:
+
+Reset to defaults
+== Återställ till standard
+
+Quit anyway?
+== Avsluta i alla fall?
+
+Display Modes
+== Skärmlägen
+
+Version:
+== Version:
+
+Round
+== Runda
+
+Lht.
+== Ljusstyrka
+
+UI Color
+== Gränssnittfärg
+
+Crc:
+== Crc:
+
+Alpha
+== Alpha
+
+LAN
+== LAN
+
+Name plates size
+== Storlek på namnskyltar
+
+Type:
+== Typ:
+
+Show console window
+== Visa konsol fönster
+
+Vanilla skins only
+== Bara vanilla skins
+
+New random timeout code
+== Ny slumpad timeout kod
+
+UI mouse s.
+== UI mus s.
+
+Select a name
+== Välj ett namn
+
+Enable long pain sound (used when shooting in freeze)
+== Aktivera ett långt ont ljud (använt vid sjutning i freeze)
+
+Default zoom
+== Standard zoom
+
+Dummy copy
+== Dummy kopiering 
+
+Show tiles layers from BG map
+== Visa tiles lager från BG bana
+
+Statboard
+== Poänglista
+
+Show kill messages
+== Visa döds meddelanden
+
+Reset
+== Återställ
+
+DDNet
+== DDNet
+
+Suicides
+== Självmord
+
+Show entities
+== Visa entities
+
+Ratio
+== Förhållande
+
+Render demo
+== Rendera demo
+
+Activate
+== Aktivera
+
+Deaths
+== Döda
+
+Show all
+== Visa alla
+
+Indicate map finish
+== Indikera bana avklarning
+
+Map sound volume
+== Bana ljud Volym
+
+Reconnect in %d sec
+== Återkopplar om %d sekunder
+
+Successfully saved the replay!
+== Lyckades med att spara repris
+
+Save ghost
+== Spara spöken
+
+Browser
+== Bläddraren
+
+Default length: %d
+== Standard längd: %d
+
+Switch weapon when out of ammo
+== Byt vapen vid slut av ammunition
+
+Show clan above name plates
+== Visa klan över namnskylt
+
+HUD
+== HUD
+
+Replay feature is disabled!
+== Repris funktionen är inaktiverad!
+
+Types
+== Typer
+
+Enable server message sound
+== Aktivera server meddelande ljud
+
+Show votes window after voting
+== Visa röstnings fönster efter röstning
+
+DDNet Client needs to be restarted to complete update!
+== DDNet Klienten behöves startas om för att genomföra updateringen!
+
+Kill
+== Dö
+
+Personal best:
+== Personligs bästa:
+
+Show DDNet map finishes in server browser
+== Visa DDNet bana avklarningar i server bläddraren
+
+transmits your player name to info2.ddnet.tw
+== skickar ditt spel namn till info2.ddnet.tw
+
+9+ new mentions
+== 9+ nya nämningar
+
+DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
+== DDraceNetwork är ett kooperativ online spel där målet är för dig och en group av tees att nå banas mål. Som en nykomling så borde du starta på Novice serverna, vilket har bara de enklast banorna. Kom ihåg att använda ping till att välja en server som är nära dig.
+
+The maps contain freeze, which temporarily make a tee unable to move. You have to work together to get through these parts.
+== Banorna innehåller freeze, vilket temporärt gör att en tee inte kan röra sig. Du behöver att arbeta tillsamas för att komma igenom dessa delar.
+
+The mouse wheel changes weapons. Hammer (left mouse) can be used to hit other tees and wake them up from being frozen.
+== Med Skrollhjulet så kan du ändra vapen. Hammaren (vänster klick) kan användas till att slå andra tees och vakna up de från att bli frysta.
+
+Hook (right mouse) can be used to swing through the map and to hook other tees to you.
+== Hook (höger klick) kan användas till att svinga sig igenom banan och att dra andra tees till dig.
+
+Most importantly communication is key: There is no tutorial so you'll have to chat (t key) with other players to learn the basics and tricks of the game.
+== Mest viktiga är kommunikation: Det finns ingen tutorial så du kommer att behöva chatta (t knappen) med andra spelare för att lära dig grunderna och tricks till spelet.
+
+It's recommended that you check the settings to adjust them to your liking before joining a server.
+== Det är rekomenderad att du kollar igenom inställningarna och ändra dom så de passar dig innan du ansluter dig till en server.
+
+Please enter your nickname below.
+== Skriv ditt smeknamn nedanför.
+
+Render
+== Rendera
+
+Are you sure that you want to disconnect?
+== Är du säker att du vill koppla ifrån?
+
+Grabs
+== Grabs
+
+Ghost
+== Spöke
+
+Zoom out
+== Zooma ut
+
+Enable highlighted chat sound
+== Aktivera betonad chatt ljud
+
+Deactivate
+== Avaktivera
+
+Welcome to DDNet
+== Välkommen till DDNet
+
+Use high DPI
+== Använd hög DPI
+
+may cause delay
+== kan orsaka fördröjning
+
+Threaded sound loading
+== Threaded ljud laddning
+
+AntiPing
+== AntiPing
+
+Messages
+== Meddelanden
+
+Markers:
+== Markeringar:
+
+Time
+== Tid
+
+Filter connecting players
+== Filtrera spelare som ansluter
+
+Enable game sounds
+== Aktivera spel ljud
+
+Max CSVs
+== Max CSVs
+
+Zoom in
+== Zooma in
+
+Update failed! Check log...
+== Updatering misslyckades! Kolla logg...
+
+%d new mentions
+== %d nya nämningar
+
+Check now
+== Kolla nu
+
+Reset wanted weapon on death
+== Återställ önskade vapen vid död
+
+Search
+== Sök
+
+FPM
+== FPM
+
+System message
+== System meddelande
+
+DDNet %s is available:
+== DDNet %s har släppts:
+
+Markers
+== Markeringar
+
+Connecting dummy
+== Ansluter dummy
+
+Exclude
+== Excludera
+
+AntiPing: predict other players
+== AntiPing: predicera andra spelare
+
+Show text entities
+== Visa text entities
+
+Show ghost
+== Visa spöke
+
+1 new mention
+== 1 ny nämning
+
+Are you sure that you want to disconnect your dummy?
+== Är du säker att du vill koppla ifrån din dummy?
+
+Overlay entities
+== Overlay entities
+
+Try fast HTTP map download first
+== Pröva snabb HTTP bana nedladdning först
+
+Date
+== Datum
+
+Show other players' hook collision lines
+== Visa andra spelares hook kollision linor
+
+Fetch Info
+== Hämta Info
+
+Normal message
+== Normalt meddelande
+
+Show score
+== Visa poäng
+
+Multiple texture units (disable for macOS)
+== Multiple texture units (avaktivera för macOS)
+
+Refresh Rate
+== Uppdateringsfrekvens
+
+Learn
+== Wiki
+
+No updates available
+== Inga updateringar tillgängliga
+
+%.2f MiB
+== %.2f MiB
+
+Follow
+== Följ
+
+Restart
+== Starta om
+
+Hammerfly dummy
+== Hammerfly dummy
+
+Remove chat
+== Ta bort chatt
+
+Enable team chat sound
+== Aktivera lag chatt ljud
+
+Disconnect Dummy
+== Koppla ifrån dummy
+
+Replace video
+== Ersätt video
+
+Server best:
+== Serverens bästa:
+
+Friend message
+== Vän meddelande
+
+Toggle dummy
+== Växla dummy
+
+Fat skins (DDFat)
+== Feta skins (DDFat)
+
+Net
+== Nät
+
+Demo
+== Demo
+
+Show only chat messages from friends
+== Visa bara chatt meddelanden från vänner
+
+DDNet Client updated!
+== DDNet Klienten updaterades!
+
+Converse
+== Konversera
+
+Enable replays
+== Aktivera repris
+
+Countries
+== Länder
+
+Video name:
+== Video namn:
+
+Enable gun sound
+== Aktivera vapen ljud
+
+Downloading %s:
+== Hämtar %s:
+
+Lock team
+== Lås laget
+
+%.2f KiB
+== %.2f KiB
+
+Screen
+== Skärm
+
+Toggle dyncam
+== Växla dyncam
+
+Save
+== Spara
+
+AntiPing: predict grenade paths
+== Antiping: predicera granat väg
+
+Best
+== Bäst
+
+Updating...
+== Updaterar...
+
+Preinit VBO (iGPUs only)
+== Preinit VBO (bara iGPUs)
+
+Clan plates size
+== Klanskylt storlek
+
+Size
+== Storlek
+
+Save the best demo of each race
+== Spara the bästa demon av varje race
+
+Frags
+== Frags
+
+DDNet %s is out!
+== DDNet %s har släppts!
+
+Highlighted message
+== Betona meddelande
+
+Use DDRace Scoreboard
+== Använd DDRace poänglista
+
+AntiPing: predict weapons
+== AntiPing: predicera vapen
+
+Length
+== Längd
+
+Skin prefix
+== Skin prefix
+
+Please use a different name
+== Använd ett annat namn
+
+Destination file already exist
+== Destinations fil finns redan
+
+Game paused
+== Spel pausad
+
+Automatically take statboard screenshot
+== Automatiskt ta skärmdumpar av poänglistan
+
+Automatically create statboard csv
+== Automatiskt skapa poänglista csv
+
+Old mouse mode
+== Gammal mus metod
+
+Enable regular chat sound
+== Aktivera vanligt chatt ljud
+
+Show other players' key presses
+== Visa andra spelares tangent tryck
+
+Gameplay
+== Spelet
+
+Loading DDNet Client
+== Laddar DDNet Klienten
+
+Show HUD
+== Visa HUD
+
+Pause
+== Pausa
+
+Reload
+== Ladda om
+
+Spree
+== Spree
+
+Show others
+== Visa andra
+
+Unfinished map
+== Oavslutat bana
+
+Show health + ammo
+== Visa hälsa + ammunition
+
+Show quads
+== Visa quads
+
+Show names in chat in team colors
+== Visa namn in chatten med lag färger
+
+Update now
+== Updatera nu
+
+Toggle ghost
+== Växla spöke
+
+Dummy settings
+== Dummy inställningar
+
+Team message
+== Lag meddelande
+
+File already exists, do you want to overwrite it?
+== Filen finns redan, vill du skriv över den?
+
+Hook collisions
+== Hook kollisioner
+
+Connect Dummy
+== Anslut Dummy
+
+Show others (own team only)
+== Visa andra (eget lag endast)
+
+Warning
+== Varning
+
+Use k key to kill (restart), q to pause and watch other players. See settings for other key binds.
+== Använd knappen k för att dö (starta om), q för att pausa och se andra spelare. Se inställnignar för andra knappbindningar.
+
+Country / Region
+== Land / Region
+
+Speed
+== Hastighet
+
+%d of %d servers
+== %d av %d servrar.
+
+%d of %d server
+== %d av %d server
+
+%d players
+== %d spelare
+
+%d player
+== %d spelare
+
+Skip the main menu
+== Skippa till huvudmenyn
+
+Download skins
+== Ladda ner skins
+
+Client message
+== Klientmeddelande
+
+https://wiki.ddnet.tw/
+== https://wiki.ddnet.tw/
+
+Website
+== Hemsida
+
+Settings
+== Inställningar
+
+Stop server
+== Stoppa servern
+
+Run server
+== Kör servern
+
+Server executable not found, can't run server
+== Server exekveringsfil hittades ej, kan ej starta servern
+
+Editor
+== Editor
+
+[Start menu]
+Play
+== Spela
+
+Manual
+== Manual
+
+Race
+== Race
+
+Auto
+== Auto
+
+Replay
+== Repris
+
+Saving ddnet-settings.cfg failed
+== 
+
+The width of texture %s is not divisible by %d, or the height is not divisible by %d, which might cause visual bugs.
+== 
+
+Debug mode enabled. Press Ctrl+Shift+D to disable debug mode.
+== 
+
+Existing Player
+== 
+
+Your nickname '%s' is already used (%d points). Do you still want to use it?
+== 
+
+Checking for existing player with your name
+== 
+
+Theme
+== 
+
+AFR
+== 
+
+ASI
+== 
+
+AUS
+== 
+
+EUR
+== 
+
+NA
+== 
+
+SA
+== 
+
+CHN
+== 
+
+Getting server list from master server
+== 
+
+Leak IP
+== 
+
+Demos directory
+== 
+
+Smooth Dynamic Camera
+== 
+
+Themes directory
+== 
+
+Skin Database
+== 
+
+Skins directory
+== 
+
+Chat command
+== 
+
+Dummy
+== 
+
+Windowed
+== 
+
+Windowed borderless
+== 
+
+Desktop fullscreen
+== 
+
+Use modern OpenGL
+== 
+
+Game sound volume
+== 
+
+Chat sound volume
+== 
+
+Background music volume
+== 
+
+Assets
+== 
+
+Show client IDs
+== 
+
+Laser Outline Color
+== 
+
+Laser Inner Color
+== 
+
+Hookline
+== 
+
+No hit
+== 
+
+Hookable
+== 
+
+Tee
+== 
+
+Use old chat style
+== 
+
+Preview
+== 
+
+Background
+== 
+
+Entities Background color
+== 
+
+Use current map as background
+== 
+
+Regular Background Color
+== 
+
+Entities
+== 
+
+Emoticons
+== 
+
+Particles
+== 
+
+Assets directory
+== 
+
+Discord
+== 
+
+https://ddnet.tw/discord
+== 

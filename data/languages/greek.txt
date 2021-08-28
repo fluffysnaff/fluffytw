@@ -1,0 +1,1290 @@
+##### authors #####
+#originally created by:
+#	Evropi
+#modified by:
+#
+##### /authors #####
+
+##### translated strings #####
+
+%ds left
+== %ds ακόμα
+
+%i minute left
+== απομένει %i λεπτό
+
+%i minutes left
+== απομένουν %i λεπτά
+
+%i second left
+== απομένει %i δευτερόλεπτο
+
+%i seconds left
+== απομένουν %i δευτερόλεπτα
+
+%s wins!
+== Ο/Η %s νίκησε!
+
+-Page %d-
+== -Σελίδα %d-
+
+Abort
+== Ματαίωση
+
+Add
+== Προσθήκη
+
+Add Friend
+== Προσθήκη Φίλου
+
+Address
+== Διεύθυνση
+
+All
+== Όλοι
+
+Are you sure that you want to delete the demo?
+== Θέλετε σίγουρα να διαγράψετε αυτήν την επίδειξη;
+
+Are you sure that you want to quit?
+== Θέλετε σίγουρα να παραιτηθείτε;
+
+Are you sure that you want to remove the player from your friends list?
+== Θέλετε σίγουρα να αφερέσετε αυτόν τον παίκτη από την λίστα των φίλων σας;
+
+Automatically record demos
+== Αυτόματη καταγραφή επιδείξεων
+
+Automatically take game over screenshot
+== Αυτόμ. λήψη στιγμιότυπου στο τέλος παιχν.
+
+Blue team
+== Μπλε ομάδα
+
+Blue team wins!
+== Η μπλε ομάδα νίκησε!
+
+Body
+== Σώμα
+
+Call vote
+== Ψηφοφορία
+
+Change settings
+== Αλλαγή ρυθμίσεων
+
+Chat
+== Συνομιλία
+
+Clan
+== Φυλή
+
+Client
+== Πελάτης
+
+Close
+== Κλείσιμο
+
+Compatible version
+== Συμβατή έκδοση
+
+Connect
+== Σύνδεση
+
+Connecting to
+== Σύνδεση με
+
+Connection Problems...
+== Προβλήματα Σύνδεσης...
+
+Console
+== Κονσόλα
+
+Controls
+== Χειρισμός
+
+Count players only
+== Μέτρηση παικτών μόνο
+
+Current
+== Τρέχουσα
+
+Custom colors
+== Προσαρμοσμένα χρώματα
+
+Delete
+== Διαγραφή
+
+Delete demo
+== Διαγραφή επίδειξης
+
+Demo details
+== Λεπτομέρειες επίδειξης
+
+Demofile: %s
+== Αρχείο επίδειξης: %s
+
+Demos
+== Επιδείξεις
+
+Disconnect
+== Αποσύνδεση
+
+Disconnected
+== Αποσυνδέθηκε
+
+Downloading map
+== Λήψη χάρτη
+
+Draw!
+== Ισοπαλία!
+
+Dynamic Camera
+== Δυναμική Κάμερα
+
+Emoticon
+== Emoticon
+
+Enter
+== Είσοδος
+
+Error
+== Σφάλμα
+
+Error loading demo
+== Σφάλμα φόρτωσης επίδειξης
+
+Favorite
+== Αγαπημένος
+
+Favorites
+== Αγαπημένοι
+
+Feet
+== Πόδια
+
+Filter
+== Φίλτρο
+
+Fire
+== Πυρ
+
+Folder
+== Φάκελος
+
+Force vote
+== Αναγκαστική ψήφος
+
+Free-View
+== Ελεύθερη Όψη
+
+Friends
+== Φίλοι
+
+Fullscreen
+== Πλήρης οθόνη
+
+Game
+== Παιχνίδι
+
+Game info
+== Πληροφορίες παιχνιδιού
+
+Game over
+== Τέλος παιχνιδιού
+
+Game paused
+== Παιχνίδι εν παύση
+
+Game type
+== Τύπος παιχνιδιού
+
+Game types:
+== Τύποι παιχνιδιού:
+
+General
+== Γενικά
+
+Graphics
+== Γραφικά
+
+Grenade
+== Εκτοξευτής
+
+Hammer
+== Σφυρί
+
+Has people playing
+== Έχει παίκτες μέσα
+
+High Detail
+== Υψηλή Λεπτομέρεια
+
+Hook
+== Γάντζος
+
+Invalid Demo
+== Άκυρη Επίδειξη
+
+Join blue
+== Μπλε
+
+Join red
+== Κόκκινοι
+
+Jump
+== Άλμα
+
+Kick player
+== Αποβολή παίκτη
+
+Language
+== Γλώσσα
+
+MOTD
+== Μήνυμα της ημέρας
+
+Map
+== Χάρτης
+
+Maximum ping:
+== Μέγιστο ping:
+
+Mouse sens.
+== Ταχύτητα δείκτη
+
+Move left
+== Κίνηση αριστερά
+
+Move player to spectators
+== Μετακίνηση του παίκτη στους θεατές
+
+Move right
+== Κίνηση δεξιά
+
+Movement
+== Κίνηση
+
+Mute when not active
+== Σίγαση εν αδρανεία
+
+Name
+== Όνομα
+
+Next weapon
+== Επόμενο όπλο
+
+Nickname
+== Ψευδώνυμο
+
+No
+== Όχι
+
+No password
+== Χωρίς κωδικό
+
+No servers found
+== Δεν βρέθηκαν διακομιστές
+
+No servers match your filter criteria
+== Κανένας διακομιστής με αυτά τα κριτήρια
+
+Ok
+== Εντάξει
+
+Open
+== Άνοιγμα
+
+Parent Folder
+== Επάνω
+
+Password
+== Κωδικός
+
+Password incorrect
+== Λανθασμένος κωδικός
+
+Ping
+== Ping
+
+Pistol
+== Πιστόλι
+
+[Demo browser]
+Play
+== Παίξτε
+
+Play background music
+== Αναπαραγωγή μουσικής υπόκρουσης
+
+Player
+== Παίκτης
+
+Player country:
+== Χώρα παίκτη:
+
+Player options
+== Επιλογές παίκτη
+
+Players
+== Παίκτες
+
+Please balance teams!
+== Παρακαλούμε εξισορροπήστε τις ομάδες!
+
+Prev. weapon
+== Προηγούμενο όπλο
+
+Quit
+== Έξοδος
+
+Reason:
+== Αιτία:
+
+Red team
+== Κόκκινη ομάδα
+
+Red team wins!
+== Η κόκκινη ομάδα νίκησε!
+
+Refresh
+== Ανανέωση
+
+Refreshing master servers
+== Ανανέωση κύριων διακομιστών
+
+Remote console
+== Απομακρ. κονσόλα
+
+Remove
+== Αφαίρεση
+
+Remove friend
+== Αφαίρεση φίλου
+
+Rename
+== Μετονομασία
+
+Rename demo
+== Μετονομασία επίδειξης
+
+Reset filter
+== Αφαίρεση φίλτρου
+
+Sample rate
+== Δειγματοληψία
+
+Score
+== Βαθμ.
+
+Score limit
+== Όριο βαθμολογίας
+
+Scoreboard
+== Πίνακας βαθμ/γίας
+
+Screenshot
+== Στιγμιότυπο οθόνης
+
+Server address:
+== Διεύθ/ση διακομιστή:
+
+Server details
+== Λεπτομέριες διακομιστή
+
+Server filter
+== Φίλτρο διακομιστών
+
+Server info
+== Πληροφορίες
+
+Server not full
+== Μη πλήρης διακομιστής
+
+Shotgun
+== Καραμπίνα
+
+Show chat
+== Προβ. συνομιλίας
+
+Show friends only
+== Εμφάνιση φίλων μόνο
+
+Show ingame HUD
+== Εμφάνιση μενού εντός παιχνιδιού
+
+Show name plates
+== Προβολή ψευδωνύμων
+
+Show only chat messages from friends
+== Προβολή μηνυμάτων μόνο από φίλους
+
+Skins
+== Στολές
+
+Sound
+== Ήχος
+
+Sound error
+== Σφάλμα ήχου
+
+Spectate
+== Θέαση
+
+Spectate next
+== Επόμενος
+
+Spectate previous
+== Προηγούμενος
+
+Spectator mode
+== Λειτουργία θέασης
+
+Spectators
+== Θεατές
+
+Stop record
+== Παύση καταγραφής
+
+Strict gametype filter
+== Αυστηρό φίλτρο παιχν.
+
+Sudden Death
+== Ξαφνικός Θάνατος
+
+Switch weapon on pickup
+== Αλλαγή όπλου ανά μάζεμα
+
+Team
+== Ομάδα
+
+Team chat
+== Ομαδική συνομιλία
+
+The audio device couldn't be initialised.
+== Η συσκευή ήχου δεν μπορούσε να ενεργοποιηθεί.
+
+The server is running a non-standard tuning on a pure game type.
+== Ο διακομιστής εκτελεί μη-κανονικές ρυθμίσεις σε κανονικό τύπο παιχνιδιού.
+
+There's an unsaved map in the editor, you might want to save it before you quit the game.
+== Υπαρχεί μη αποθηκευμένος χάρτης στον επεξεργαστή. Να γίνει αποθήκευση πριν την έξοδο;
+
+Time limit
+== Όριο χρόνου
+
+Time limit: %d min
+== Όριο χρόνου: %d λ
+
+Try again
+== Προσπαθήστε ξανά
+
+Type
+== Τύπος
+
+Unable to delete the demo
+== Απέτυχε η διαγραφή της επίδειξης
+
+Unable to rename the demo
+== Απέτυχε η μετονομασία της επίδειξης
+
+Use sounds
+== Χρήση ήχων
+
+Use team colors for name plates
+== Χρήση χρώμ. ομάδας στα ψευδώνυμα
+
+V-Sync
+== Καθοδικός συγχρονισμός
+
+Version
+== Έκδοση
+
+Vote command:
+== Εντολή ψήφου:
+
+Vote description:
+== Περιγραφή ψήφου:
+
+Vote no
+== Ψηφίστε όχι
+
+Vote yes
+== Ψηφίστε ναι
+
+Voting
+== Ψηφοφορία
+
+Warmup
+== Ζέσταμα
+
+Weapon
+== Όπλο
+
+Yes
+== Ναι
+
+You must restart the game for all settings to take effect.
+== Πρέπει να επανεκκινήσετε το παιχνίδι για να εφαρμοστούν όλες οι αλλαγές.
+
+##### needs translation #####
+
+New name:
+== Νέο όνομα:
+
+Sat.
+== Κορεσμός
+
+Miscellaneous
+== Διάφορα
+
+Internet
+== Διαδίκτυο
+
+Max demos
+== Μέγιστος αριθμός επιδείξεων
+
+News
+== Νέα
+
+Join game
+== Συμμετοχή
+
+FSAA samples
+== Δείγματα FSAA
+
+Sound volume
+== Ένταση ήχου
+
+Created:
+== Δημιουργήθηκε:
+
+Max Screenshots
+== Μέγιστος αριθμός στιγμιότυπων
+
+Length:
+== Διάρκεια:
+
+Laser
+== Λέιζερ
+
+Netversion:
+== Έκδοση:
+
+Map:
+== Χάρτης:
+
+Info
+== Πληροφορίες
+
+Hue
+== Απόχρωση
+
+Record demo
+== Εγγ. επίδειξης
+
+Your skin
+== Η στολή σας
+
+Size:
+== Μέγεθος:
+
+Reset to defaults
+== Επαναφορά προεπιλογών
+
+Quit anyway?
+== Έξοδος οπωσδήποτε;
+
+Display Modes
+== Ανάλυσεις Οθόνης
+
+Version:
+== Έκδοση:
+
+Round
+== Γύρος
+
+Lht.
+== Φωτεινότ.
+
+UI Color
+== Χρώμα Μενού
+
+Crc:
+== Crc:
+
+Alpha
+== Άλφα
+
+LAN
+== Τοπικά
+
+Name plates size
+== Μήκος ψευδωνύμου
+
+Type:
+== Τύπος:
+
+Successfully saved the replay!
+== 
+
+Saving ddnet-settings.cfg failed
+== 
+
+Replay feature is disabled!
+== 
+
+The width or height of texture %s is not divisible by 16, which might cause visual bugs.
+== 
+
+Warning
+== 
+
+Debug mode enabled. Press Ctrl+Shift+D to disable debug mode.
+== 
+
+Server best:
+== 
+
+Personal best:
+== 
+
+Browser
+== 
+
+Ghost
+== 
+
+Loading DDNet Client
+== 
+
+Reconnect in %d sec
+== 
+
+Render demo
+== 
+
+Replace video
+== 
+
+File already exists, do you want to overwrite it?
+== 
+
+Are you sure that you want to disconnect?
+== 
+
+Disconnect Dummy
+== 
+
+Are you sure that you want to disconnect your dummy?
+== 
+
+Welcome to DDNet
+== 
+
+DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
+== 
+
+The maps contain freeze, which temporarily make a tee unable to move. You have to work together to get through these parts.
+== 
+
+The mouse wheel changes weapons. Hammer (left mouse) can be used to hit other tees and wake them up from being frozen.
+== 
+
+Hook (right mouse) can be used to swing through the map and to hook other tees to you.
+== 
+
+Most importantly communication is key: There is no tutorial so you'll have to chat (t key) with other players to learn the basics and tricks of the game.
+== 
+
+Use k key to kill (restart), q to pause and watch other players. See settings for other key binds.
+== 
+
+It's recommended that you check the settings to adjust them to your liking before joining a server.
+== 
+
+Please enter your nickname below.
+== 
+
+Existing Player
+== 
+
+Your nickname '%s' is already used (%d points). Do you still want to use it?
+== 
+
+Checking for existing player with your name
+== 
+
+Country / Region
+== 
+
+Destination file already exist
+== 
+
+Speed
+== 
+
+Video name:
+== 
+
+Show DDNet map finishes in server browser
+== 
+
+transmits your player name to info2.ddnet.tw
+== 
+
+Theme
+== 
+
+Search
+== 
+
+Exclude
+== 
+
+%d of %d servers
+== 
+
+%d of %d server
+== 
+
+%d players
+== 
+
+%d player
+== 
+
+Filter connecting players
+== 
+
+Indicate map finish
+== 
+
+Unfinished map
+== 
+
+Countries
+== 
+
+Types
+== 
+
+Select a name
+== 
+
+Please use a different name
+== 
+
+Remove chat
+== 
+
+Markers:
+== 
+
+%.2f MiB
+== 
+
+%.2f KiB
+== 
+
+Demo
+== 
+
+Markers
+== 
+
+Length
+== 
+
+Date
+== 
+
+Fetch Info
+== 
+
+Demos directory
+== 
+
+Render
+== 
+
+Connecting dummy
+== 
+
+Connect Dummy
+== 
+
+Kill
+== 
+
+Pause
+== 
+
+Reload
+== 
+
+Deactivate
+== 
+
+Activate
+== 
+
+Save
+== 
+
+Smooth Dynamic Camera
+== 
+
+Switch weapon when out of ammo
+== 
+
+Reset wanted weapon on death
+== 
+
+Show clan above name plates
+== 
+
+Clan plates size
+== 
+
+Skip the main menu
+== 
+
+Refresh Rate
+== 
+
+Show console window
+== 
+
+Themes directory
+== 
+
+Automatically take statboard screenshot
+== 
+
+Automatically create statboard csv
+== 
+
+Max CSVs
+== 
+
+Dummy settings
+== 
+
+Download skins
+== 
+
+Vanilla skins only
+== 
+
+Fat skins (DDFat)
+== 
+
+Skin prefix
+== 
+
+Skin Database
+== 
+
+Skins directory
+== 
+
+Hook collisions
+== 
+
+Zoom in
+== 
+
+Zoom out
+== 
+
+Default zoom
+== 
+
+Show others
+== 
+
+Show all
+== 
+
+Toggle dyncam
+== 
+
+Toggle dummy
+== 
+
+Toggle ghost
+== 
+
+Dummy copy
+== 
+
+Hammerfly dummy
+== 
+
+Converse
+== 
+
+Statboard
+== 
+
+Lock team
+== 
+
+Show entities
+== 
+
+Show HUD
+== 
+
+UI mouse s.
+== 
+
+Borderless window
+== 
+
+may cause delay
+== 
+
+Screen
+== 
+
+Use OpenGL 3.3 (experimental)
+== 
+
+Preinit VBO (iGPUs only)
+== 
+
+Multiple texture units (disable for macOS)
+== 
+
+Use high DPI
+== 
+
+Enable game sounds
+== 
+
+Enable gun sound
+== 
+
+Enable long pain sound (used when shooting in freeze)
+== 
+
+Enable server message sound
+== 
+
+Enable regular chat sound
+== 
+
+Enable team chat sound
+== 
+
+Enable highlighted chat sound
+== 
+
+Threaded sound loading
+== 
+
+Game sound volume
+== 
+
+Chat sound volume
+== 
+
+Map sound volume
+== 
+
+Background music volume
+== 
+
+HUD
+== 
+
+DDNet
+== 
+
+Assets
+== 
+
+DDNet Client needs to be restarted to complete update!
+== 
+
+Use DDRace Scoreboard
+== 
+
+Show client IDs in Scoreboard
+== 
+
+Show score
+== 
+
+Show health + ammo
+== 
+
+Use old chat style
+== 
+
+Show names in chat in team colors
+== 
+
+Show kill messages
+== 
+
+Show votes window after voting
+== 
+
+Messages
+== 
+
+System message
+== 
+
+Reset
+== 
+
+Highlighted message
+== 
+
+Spectator
+== 
+
+Look out!
+== 
+
+Team message
+== 
+
+We will win
+== 
+
+Friend message
+== 
+
+Highlight
+== 
+
+Friend
+== 
+
+Hi o/
+== 
+
+Normal message
+== 
+
+Hello and welcome
+== 
+
+Client message
+== 
+
+Inner color
+== 
+
+Outline color
+== 
+
+Wait before try for
+== 
+
+second
+== 
+
+seconds
+== 
+
+Save the best demo of each race
+== 
+
+Default length: %d
+== 
+
+Enable replays
+== 
+
+Show ghost
+== 
+
+Save ghost
+== 
+
+Gameplay
+== 
+
+Overlay entities
+== 
+
+Size
+== 
+
+Show text entities
+== 
+
+Show others (own team only)
+== 
+
+Show quads
+== 
+
+AntiPing
+== 
+
+AntiPing: predict other players
+== 
+
+AntiPing: predict weapons
+== 
+
+AntiPing: predict grenade paths
+== 
+
+Show other players' hook collision lines
+== 
+
+Show other players' key presses
+== 
+
+Old mouse mode
+== 
+
+Background (regular)
+== 
+
+Background (entities)
+== 
+
+Use current map as background
+== 
+
+Show tiles layers from BG map
+== 
+
+Try fast HTTP map download first
+== 
+
+DDNet %s is available:
+== 
+
+Update now
+== 
+
+Updating...
+== 
+
+DDNet Client updated!
+== 
+
+No updates available
+== 
+
+Check now
+== 
+
+New random timeout code
+== 
+
+Entities
+== 
+
+Emoticons
+== 
+
+Particles
+== 
+
+Assets directory
+== 
+
+Learn
+== 
+
+https://wiki.ddnet.tw/
+== 
+
+Website
+== 
+
+Settings
+== 
+
+Stop server
+== 
+
+Run server
+== 
+
+Server executable not found, can't run server
+== 
+
+Editor
+== 
+
+[Start menu]
+Play
+== 
+
+DDNet %s is out!
+== 
+
+Downloading %s:
+== 
+
+Update failed! Check log...
+== 
+
+Restart
+== 
+
+Time
+== 
+
+Manual
+== 
+
+Race
+== 
+
+Auto
+== 
+
+Replay
+== 
+
+Follow
+== 
+
+Frags
+== 
+
+Deaths
+== 
+
+Suicides
+== 
+
+Ratio
+== 
+
+Net
+== 
+
+FPM
+== 
+
+Spree
+== 
+
+Best
+== 
+
+Grabs
+== 
+
+1 new mention
+== 
+
+%d new mentions
+== 
+
+9+ new mentions
+== 

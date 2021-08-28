@@ -1,0 +1,1311 @@
+##### translated strings #####
+
+%ds left
+== %d сек. калды
+
+%i minute left
+== %i минута калды!
+
+%i minutes left
+== %i минута калды!
+
+%i second left
+== %i секунда калды!
+
+%i seconds left
+== %i секунда калды!
+
+%s wins!
+== %s утту!
+
+-Page %d-
+== -Барак %d-
+
+Abort
+== Жокко чыгаруу
+
+Add
+== Кошуу
+
+Add Friend
+== Досту кошуу
+
+Address
+== Дареги
+
+All
+== Баары
+
+Alpha
+== Тунук.
+
+Are you sure that you want to delete the demo?
+== Сиз чын эле демонун өчүрүлүшүн каалайсызбы?
+
+Are you sure that you want to quit?
+== Сиз чын эле оюндан чыгууну каалайсызбы?
+
+Are you sure that you want to remove the player from your friends list?
+== Сиз чын эле бул оюнчуну достор тизмеңизден өчүргүңүз келеби?
+
+Automatically record demos
+== Демону автоматтуу түрдө жаздыруу
+
+Automatically take game over screenshot
+== Оюн натыйжаларын сүрөткө тартуу
+
+Blue team
+== Көктөр
+
+Blue team wins!
+== Көктөр утту!
+
+Body
+== Дене
+
+Call vote
+== Добуш берүү
+
+Change settings
+== Ырастоолорду өзгөртүү
+
+Chat
+== Маек
+
+Clan
+== Кланы
+
+Client
+== Клиент
+
+Close
+== Чыгуу
+
+Compatible version
+== Батышуучу версия
+
+Connect
+== Туташуу
+
+Connecting to
+== Туташтырылууда
+
+Connection Problems...
+== Байланыш көйгөйлөрү...
+
+Console
+== Консоль
+
+Controls
+== Башкаруу
+
+Count players only
+== Оюнчуларды гана саноо
+
+Crc:
+== Crc:
+
+Created:
+== Жаратылганы:
+
+Current
+== Кезектегиси
+
+Custom colors
+== Өз түстөрүңүз
+
+Delete
+== Өчүрүү
+
+Delete demo
+== Демону өчүрүү
+
+Demo details
+== Демо деталдары
+
+Demofile: %s
+== Демофайлы: %s
+
+Demos
+== Демолор
+
+Disconnect
+== Өчүрүү
+
+Disconnected
+== Өчүрүлдү
+
+Display Modes
+== Көрсөтүү режимдери
+
+Downloading map
+== Карта жүктөөлүүдө
+
+Draw!
+== Тең!
+
+Dynamic Camera
+== Динамикалык камера
+
+Emoticon
+== Эмоциялар
+
+Enter
+== Кирүү
+
+Error
+== Ката
+
+Error loading demo
+== Демону жүктөө учурундагы ката
+
+FSAA samples
+== FSAA сэмплдери
+
+Favorite
+== Тандалма
+
+Favorites
+== Тандалмалар
+
+Feet
+== Бут
+
+Filter
+== Фильтр
+
+Fire
+== Атуу
+
+Folder
+== Папка
+
+Force vote
+== Тездетүү
+
+Free-View
+== Эркин сереп
+
+Friends
+== Достор
+
+Fullscreen
+== Толук экран
+
+Game
+== Оюн
+
+Game info
+== Оюн жөнүндө
+
+Game over
+== Оюн бүттү
+
+Game type
+== Оюн түрү
+
+Game types:
+== Оюн түрү:
+
+General
+== Негизги
+
+Graphics
+== Графика
+
+Grenade
+== Гранатомёт
+
+Hammer
+== Барскан
+
+Has people playing
+== Бош эмес сервер
+
+High Detail
+== Жогорку деталдаштыруу
+
+Hook
+== Илмек
+
+Hue
+== Түсү
+
+Info
+== Маалымат
+
+Internet
+== Интернет
+
+Invalid Demo
+== Жарабаган демо
+
+Join blue
+== Көктөргө
+
+Join game
+== Ойноо
+
+Join red
+== Кызылдарга
+
+Jump
+== Секирүү
+
+Kick player
+== Оюнчуну чыгаруу
+
+LAN
+== LAN
+
+Language
+== Тил
+
+Length:
+== Узундугу:
+
+Lht.
+== Ач. түс.
+
+MOTD
+== Күндүн билдирүүсү
+
+Map
+== Картасы
+
+Map:
+== Картасы:
+
+Max Screenshots
+== Сүрөттөрдүн жогорку чеги
+
+Max demos
+== Демолордун жогорку чеги
+
+Maximum ping:
+== Пингдин ж. чеги:
+
+Miscellaneous
+== Кошумча
+
+Mouse sens.
+== Чычкан сезгич.
+
+Move left
+== Солго басуу
+
+Move player to spectators
+== Оюнчуну байкоочуларга ташуу
+
+Move right
+== Оңго басуу
+
+Movement
+== Аракет
+
+Mute when not active
+== Активдүү эмес кезде үндү өчүрүү
+
+Name
+== Аты
+
+Name plates size
+== Ат көрнөкчөлөрдүн өлчөмү
+
+Netversion:
+== Версиясы:
+
+New name:
+== Жаңы аты:
+
+News
+== Жаңылыктар
+
+Next weapon
+== Кийин. курал
+
+Nickname
+== Такма атыңыз
+
+No
+== Жок
+
+No password
+== Сырсөзсүз
+
+No servers found
+== Серверлер табылган жок
+
+No servers match your filter criteria
+== Сиздин фильтриңизге жарай турган серверлер жок
+
+Ok
+== ОК
+
+Open
+== Ачуу
+
+Parent Folder
+== Ата-энелик каталог
+
+Password
+== Сырсөзү
+
+Password incorrect
+== Сырсөз
+
+Ping
+== Пинги
+
+Pistol
+== Тапанча
+
+[Demo browser]
+Play
+== Көрүү
+
+Play background music
+== Фон музыкасын ойнотуу
+
+Player
+== Оюнчу
+
+Player country:
+== Өлкөсү:
+
+Player options
+== Оюнчу опциялары
+
+Players
+== Оюнчулар
+
+Please balance teams!
+== Команадаларды баланстаңыз!
+
+Prev. weapon
+== Мурун. курал
+
+Quit
+== Чыгуу
+
+Quit anyway?
+== Чыгуу?
+
+Reason:
+== Себеби:
+
+Record demo
+== Демо жаздыруу
+
+Red team
+== Кызылдар
+
+Red team wins!
+== Кызылдар утту!
+
+Refresh
+== Жаңылоо
+
+Remote console
+== Алыскы консоль
+
+Remove
+== Өчүрүү
+
+Remove friend
+== Досту өчүрүү
+
+Rename
+== Атын өзгөртүү
+
+Rename demo
+== Демо атын өзгөртүү
+
+Reset filter
+== Фильтрлерди түшүрүү
+
+Reset to defaults
+== Жарыяланбаска түшүрүү
+
+Laser
+== Бластер
+
+Round
+== Раунду
+
+Sample rate
+== Жыштыгы
+
+Sat.
+== Канык.
+
+Score
+== Упайы
+
+Score limit
+== Упай чеги
+
+Scoreboard
+== Табло
+
+Screenshot
+== Сүрөт
+
+Server address:
+== Сервер дареги:
+
+Server details
+== Сервер деталдары
+
+Server filter
+== Сервер фильтри
+
+Server info
+== Маалымат
+
+Server not full
+== Сервер толук эмес
+
+Shotgun
+== Мылтык
+
+Show chat
+== Маекти көрсөтүү
+
+Show friends only
+== Достор менен гана
+
+Show ingame HUD
+== Оюн ичиндеги HUD'ни көрсөтүү
+
+Show name plates
+== Оюнчулардын аттарын көрсөтүү
+
+Size:
+== Өлчөмү:
+
+Skins
+== Терилер
+
+Sound
+== Үн
+
+Sound error
+== Үн катасы
+
+Sound volume
+== Үн көлөмү
+
+Spectate
+== Байкоо
+
+Spectate next
+== Кийин. байкоо
+
+Spectate previous
+== Мурун. байкоо
+
+Spectator mode
+== Байкоочу
+
+Spectators
+== Байкоочулар
+
+Stop record
+== Токтотуу
+
+Strict gametype filter
+== Оюн түрүнүн так фильтри
+
+Sudden Death
+== Тез өлүм
+
+Switch weapon on pickup
+== Көтөрүлгөн куралга которуу
+
+Team
+== Команда
+
+Team chat
+== Команда маеги
+
+The audio device couldn't be initialised.
+== Аудио түзмөгүн инициализациялап алууга мүмкүн эмес.
+
+The server is running a non-standard tuning on a pure game type.
+== Бул сервер стандартту эмес ырастоолор менен таза оюн түрүндө иштеп жатат.
+
+There's an unsaved map in the editor, you might want to save it before you quit the game.
+== Редактордо сакталбаган карта бар, аны оюндан чыгаар алдында сактасаңыз болот.
+
+Time limit
+== Убакыт чеги
+
+Time limit: %d min
+== Убакыт чеги: %d мин.
+
+Try again
+== ОК
+
+Type
+== Түрү
+
+Type:
+== Түрү:
+
+UI Color
+== Интерфейс түсү
+
+Unable to delete the demo
+== Демону өчүрүү мүмкүн эмес
+
+Unable to rename the demo
+== Демо атын өзгөртүү мүмкүн эмес
+
+Use sounds
+== Үндөрдү колдонуу
+
+Use team colors for name plates
+== Аттар үчүн команданын түсүн колдонуу
+
+V-Sync
+== Тик синхрондоштуруусу
+
+Version
+== Версиясы
+
+Version:
+== Версиясы:
+
+Vote command:
+== Добуш коммандасы:
+
+Vote description:
+== Добуш баяндамасы:
+
+Vote no
+== Каршы
+
+Vote yes
+== Макул
+
+Voting
+== Добуш берүү
+
+Warmup
+== Даярдануу
+
+Weapon
+== Курал
+
+Yes
+== Ооба
+
+You must restart the game for all settings to take effect.
+== Өзгөртүүлөрдү колдонуу үчүн оюнду кайта жүргүзүңүз.
+
+Your skin
+== Териңиз
+
+Game paused
+== Оюн бир азга токтотулду
+
+Show only chat messages from friends
+== Достордун гана маек билдирүүлөрүн көрсөтүү
+
+Successfully saved the replay!
+== 
+
+Saving ddnet-settings.cfg failed
+== 
+
+Replay feature is disabled!
+== 
+
+The width of texture %s is not divisible by %d, or the height is not divisible by %d, which might cause visual bugs.
+== 
+
+Warning
+== 
+
+Debug mode enabled. Press Ctrl+Shift+D to disable debug mode.
+== 
+
+Server best:
+== 
+
+Personal best:
+== 
+
+Reset
+== 
+
+Browser
+== 
+
+Ghost
+== 
+
+Loading DDNet Client
+== 
+
+Reconnect in %d sec
+== 
+
+Render demo
+== 
+
+Replace video
+== 
+
+File already exists, do you want to overwrite it?
+== 
+
+Are you sure that you want to disconnect?
+== 
+
+Disconnect Dummy
+== 
+
+Are you sure that you want to disconnect your dummy?
+== 
+
+Welcome to DDNet
+== 
+
+DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
+== 
+
+The maps contain freeze, which temporarily make a tee unable to move. You have to work together to get through these parts.
+== 
+
+The mouse wheel changes weapons. Hammer (left mouse) can be used to hit other tees and wake them up from being frozen.
+== 
+
+Hook (right mouse) can be used to swing through the map and to hook other tees to you.
+== 
+
+Most importantly communication is key: There is no tutorial so you'll have to chat (t key) with other players to learn the basics and tricks of the game.
+== 
+
+Use k key to kill (restart), q to pause and watch other players. See settings for other key binds.
+== 
+
+It's recommended that you check the settings to adjust them to your liking before joining a server.
+== 
+
+Please enter your nickname below.
+== 
+
+Existing Player
+== 
+
+Your nickname '%s' is already used (%d points). Do you still want to use it?
+== 
+
+Checking for existing player with your name
+== 
+
+Country / Region
+== 
+
+Destination file already exist
+== 
+
+Speed
+== 
+
+Video name:
+== 
+
+Show DDNet map finishes in server browser
+== 
+
+transmits your player name to info2.ddnet.tw
+== 
+
+Theme
+== 
+
+AFR
+== 
+
+ASI
+== 
+
+AUS
+== 
+
+EUR
+== 
+
+NA
+== 
+
+SA
+== 
+
+CHN
+== 
+
+Getting server list from master server
+== 
+
+Search
+== 
+
+Exclude
+== 
+
+%d of %d servers
+== 
+
+%d of %d server
+== 
+
+%d players
+== 
+
+%d player
+== 
+
+Filter connecting players
+== 
+
+Indicate map finish
+== 
+
+Unfinished map
+== 
+
+Countries
+== 
+
+Types
+== 
+
+Leak IP
+== 
+
+Select a name
+== 
+
+Please use a different name
+== 
+
+Remove chat
+== 
+
+Markers:
+== 
+
+%.2f MiB
+== 
+
+%.2f KiB
+== 
+
+Demo
+== 
+
+Markers
+== 
+
+Length
+== 
+
+Date
+== 
+
+Fetch Info
+== 
+
+Demos directory
+== 
+
+Render
+== 
+
+Connecting dummy
+== 
+
+Connect Dummy
+== 
+
+Kill
+== 
+
+Pause
+== 
+
+Reload
+== 
+
+Deactivate
+== 
+
+Activate
+== 
+
+Save
+== 
+
+Smooth Dynamic Camera
+== 
+
+Switch weapon when out of ammo
+== 
+
+Reset wanted weapon on death
+== 
+
+Show clan above name plates
+== 
+
+Clan plates size
+== 
+
+Skip the main menu
+== 
+
+Refresh Rate
+== 
+
+Show console window
+== 
+
+Themes directory
+== 
+
+Automatically take statboard screenshot
+== 
+
+Automatically create statboard csv
+== 
+
+Max CSVs
+== 
+
+Dummy settings
+== 
+
+Download skins
+== 
+
+Vanilla skins only
+== 
+
+Fat skins (DDFat)
+== 
+
+Skin prefix
+== 
+
+Skin Database
+== 
+
+Skins directory
+== 
+
+Hook collisions
+== 
+
+Zoom in
+== 
+
+Zoom out
+== 
+
+Default zoom
+== 
+
+Show others
+== 
+
+Show all
+== 
+
+Toggle dyncam
+== 
+
+Toggle dummy
+== 
+
+Toggle ghost
+== 
+
+Dummy copy
+== 
+
+Hammerfly dummy
+== 
+
+Converse
+== 
+
+Statboard
+== 
+
+Lock team
+== 
+
+Show entities
+== 
+
+Show HUD
+== 
+
+Chat command
+== 
+
+UI mouse s.
+== 
+
+Dummy
+== 
+
+Windowed
+== 
+
+Windowed borderless
+== 
+
+Desktop fullscreen
+== 
+
+may cause delay
+== 
+
+Screen
+== 
+
+Use modern OpenGL
+== 
+
+Preinit VBO (iGPUs only)
+== 
+
+Multiple texture units (disable for macOS)
+== 
+
+Use high DPI
+== 
+
+Enable game sounds
+== 
+
+Enable gun sound
+== 
+
+Enable long pain sound (used when shooting in freeze)
+== 
+
+Enable server message sound
+== 
+
+Enable regular chat sound
+== 
+
+Enable team chat sound
+== 
+
+Enable highlighted chat sound
+== 
+
+Threaded sound loading
+== 
+
+Game sound volume
+== 
+
+Chat sound volume
+== 
+
+Map sound volume
+== 
+
+Background music volume
+== 
+
+HUD
+== 
+
+DDNet
+== 
+
+Assets
+== 
+
+DDNet Client needs to be restarted to complete update!
+== 
+
+Use DDRace Scoreboard
+== 
+
+Show client IDs
+== 
+
+Show score
+== 
+
+Show health + ammo
+== 
+
+Show names in chat in team colors
+== 
+
+Show kill messages
+== 
+
+Show votes window after voting
+== 
+
+Laser Outline Color
+== 
+
+Laser Inner Color
+== 
+
+Hookline
+== 
+
+No hit
+== 
+
+Hookable
+== 
+
+Tee
+== 
+
+Use old chat style
+== 
+
+Messages
+== 
+
+System message
+== 
+
+Highlighted message
+== 
+
+Team message
+== 
+
+Friend message
+== 
+
+Normal message
+== 
+
+Client message
+== 
+
+Preview
+== 
+
+Save the best demo of each race
+== 
+
+Default length: %d
+== 
+
+Enable replays
+== 
+
+Show ghost
+== 
+
+Save ghost
+== 
+
+Gameplay
+== 
+
+Overlay entities
+== 
+
+Size
+== 
+
+Show text entities
+== 
+
+Show others (own team only)
+== 
+
+Show quads
+== 
+
+AntiPing
+== 
+
+AntiPing: predict other players
+== 
+
+AntiPing: predict weapons
+== 
+
+AntiPing: predict grenade paths
+== 
+
+Show other players' hook collision lines
+== 
+
+Show other players' key presses
+== 
+
+Old mouse mode
+== 
+
+Background
+== 
+
+Entities Background color
+== 
+
+Use current map as background
+== 
+
+Show tiles layers from BG map
+== 
+
+Regular Background Color
+== 
+
+Try fast HTTP map download first
+== 
+
+New random timeout code
+== 
+
+DDNet %s is available:
+== 
+
+Update now
+== 
+
+Updating...
+== 
+
+DDNet Client updated!
+== 
+
+No updates available
+== 
+
+Check now
+== 
+
+Entities
+== 
+
+Emoticons
+== 
+
+Particles
+== 
+
+Assets directory
+== 
+
+Discord
+== 
+
+https://ddnet.tw/discord
+== 
+
+Learn
+== 
+
+https://wiki.ddnet.tw/
+== 
+
+Website
+== 
+
+Settings
+== 
+
+Stop server
+== 
+
+Run server
+== 
+
+Server executable not found, can't run server
+== 
+
+Editor
+== 
+
+[Start menu]
+Play
+== 
+
+DDNet %s is out!
+== 
+
+Downloading %s:
+== 
+
+Update failed! Check log...
+== 
+
+Restart
+== 
+
+Time
+== 
+
+Manual
+== 
+
+Race
+== 
+
+Auto
+== 
+
+Replay
+== 
+
+Follow
+== 
+
+Frags
+== 
+
+Deaths
+== 
+
+Suicides
+== 
+
+Ratio
+== 
+
+Net
+== 
+
+FPM
+== 
+
+Spree
+== 
+
+Best
+== 
+
+Grabs
+== 
+
+1 new mention
+== 
+
+%d new mentions
+== 
+
+9+ new mentions
+== 

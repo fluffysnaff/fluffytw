@@ -1,0 +1,7 @@
+2.0.12 on Linux (Steam only)
+
+NOTE: 2.0.8 causes unicode characters to stop working on ArchLinux: https://github.com/ddnet/ddnet/issues/2679
+
+2.0.8 on Windows and OSX
+
+NOTE: 2.0.12 causes mouse to disappear when switching from editor to desktop, see https://bugzilla.libsdl.org/show_bug.cgi?id=5218
