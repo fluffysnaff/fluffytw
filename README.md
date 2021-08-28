@@ -1,4 +1,5 @@
-*Fluffy Teeworlds* 
+**Fluffy Teeworlds**  
+
 This client uses a custom base class that you can use to make hacks. 
 
 **What functions can you use**
