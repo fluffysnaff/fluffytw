@@ -74,10 +74,10 @@ The hack.h file:
 class HHack : public SnaffHack
 {
 public:
-	HHack(CGameClient *pClient);
+  HHack(CGameClient *pClient);
   ~HHack(){};
   
-	void Hack();
+  void Hack();
   void OnSnapInput(); // virtual function
 };
 
@@ -91,7 +91,7 @@ The cpp file:
 
 HHack::HHack(CGameClient *pClient) : SnaffHack(pClient)
 {
-	return;
+  return;
 }
 
 void HHack::OnSnapInput()
