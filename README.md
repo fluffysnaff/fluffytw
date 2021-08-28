@@ -5,7 +5,7 @@ This client uses a custom base class that you can use to make hacks.
 **What functions can you use**
 ------
 You can use these hooks for executing your hacks:
-```
+```cpp
 virtual void OnInit(){};
 virtual void OnRender(){};
 virtual void OnSnapInput(){};
@@ -31,7 +31,7 @@ virtual void OnFlagGrab(int TeamID){};
 ```
 
 You can use these functions for making hacks:
-```
+```cpp
 void BotMove(int direction, int dummy);
 void BotJump(int stroke, int dummy);
 void BotHook(int stroke, int dummy);
@@ -66,7 +66,7 @@ set_src(GAME_CLIENT GLOB_RECURSE src/game/client
 ```
 
 The hack.h file:
-```
+```cpp
 #ifndef GAME_CLIENT_COMPONENTS_SNAFFBOTV2_SNAFFHACKS_HACK_H
 #define GAME_CLIENT_COMPONENTS_SNAFFBOTV2_SNAFFHACKS_HACK_H
 
@@ -87,7 +87,7 @@ public:
 ```
 
 The cpp file:
-```
+```cpp
 #include "hack.h"
 
 HHack::HHack(CGameClient *pClient) : SnaffHack(pClient)
@@ -108,7 +108,7 @@ void HHack::Hack()
 ```
 
 Then you need to reference this in gameclient.cpp
-```
+```cpp
 #include "components/snaffhacks/hack.h"
 ...
 void CGameClient::OnConsoleInit()
