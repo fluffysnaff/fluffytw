@@ -39,9 +39,11 @@ void BotFire(int stroke, int dummy);
 
 void BotAim(vec2 pos, int dummy, int type);
 void BotAim(float posx, float posy, int dummy, int type);
-
 void BotSetWeapon(int weapon, int dummy);
 void BotDie(int dummy);
+
+vec2 GetClosestPlayer(int ownId, int range, int type);
+vec2 NormalizeAim(vec2 Pos, int dummy);
 
 bool TicksPassed(int ticks);
 bool IsGrounded(int dummy);
@@ -58,8 +60,8 @@ CMakeLists.txt file:
 ```
 ...
 set_src(GAME_CLIENT GLOB_RECURSE src/game/client
-  components/snaffhacks/hack.cpp
-  components/snaffhacks/hack.h
+  components/hacks/myhack.cpp
+  components/hacks/myhack.h
   # cmakelists.txt
 ...
 )
@@ -67,54 +69,49 @@ set_src(GAME_CLIENT GLOB_RECURSE src/game/client
 
 The hack.h file:
 ```cpp
-#ifndef GAME_CLIENT_COMPONENTS_SNAFFBOTV2_SNAFFHACKS_HACK_H
-#define GAME_CLIENT_COMPONENTS_SNAFFBOTV2_SNAFFHACKS_HACK_H
+#ifndef GAME_CLIENT_COMPONENTS_HACKS_MYHACK_H
+#define GAME_CLIENT_COMPONENTS_HACKS_MYHACK_H
 
-#include "../snaffbase/snaffbase.h"
+#include "../hackbase/hackbase.h"
 
-class HHack : public SnaffHack
+class HMyhack : public Hack
 {
 public:
-  HHack(CGameClient *pClient);
-  ~HHack(){};
+  HMyhack(CGameClient *pClient)  : Hack(pClient){};
+  ~HMyhack(){};
   
   void Hack();
   void OnSnapInput(); // virtual function
 };
 
 #endif
-// hack.h file
+// myhack.h file
 ```
 
 The cpp file:
 ```cpp
-#include "hack.h"
+#include "myhack.h"
 
-HHack::HHack(CGameClient *pClient) : SnaffHack(pClient)
-{
-  return;
-}
-
-void HHack::OnSnapInput()
+void HMyhack::OnSnapInput()
 {
   Hack();
 }
 
-void HHack::Hack()
+void HMyhack::Hack()
 {
   The hack...
 }
-// hack.cpp file
+// myhack.cpp file
 ```
 
 Then you need to reference this in gameclient.cpp
 ```cpp
-#include "components/snaffhacks/hack.h"
+#include "components/hacks/myhack.h"
 ...
 void CGameClient::OnConsoleInit()
 {
   ...
-  m_Hacks.push_back(new HHack(this));
+  m_Hacks.push_back(new HMyhack(this));
 }
 ```
 
