@@ -1,18 +1,18 @@
-#ifndef GAME_CLIENT_COMPONENTS_SNAFFBOTV2_SNAFFBASE_H
-#define GAME_CLIENT_COMPONENTS_SNAFFBOTV2_SNAFFBASE_H
+#ifndef GAME_CLIENT_COMPONENTS_HACKBASE_H
+#define GAME_CLIENT_COMPONENTS_HACKBASE_H
 
 #include "game/client/gameclient.h"
 
 class CGameClient;
 
-class SnaffHack
+class Hack
 {
 public:
-	SnaffHack(CGameClient *pClient)
+	Hack(CGameClient *pClient)
 	{
 		m_pClient = pClient;
 	}
-	virtual ~SnaffHack(){};
+	virtual ~Hack(){};
 
 	virtual void OnInit(){};
 	virtual void OnRender(){};
@@ -37,15 +37,17 @@ public:
 	virtual void OnStartGame(){};
 	virtual void OnFlagGrab(int TeamID){};
 
-private:
-	CGameClient *m_pClient;
-
 protected:
 	CGameClient *GameClient() const { return m_pClient; }
+	CGameClient *m_pClient;
 
-	#define TYPE_TARGET 0
-	#define TYPE_MOUSE 1
-	// base input
+	#define AIM_TYPE_TARGET 0
+	#define AIM_TYPE_MOUSE 1
+
+	#define CLOSEST_TYPE_NORMAL 0
+	#define CLOSEST_TYPE_AIMBOT 1
+
+	// input
 	void BotMove(int direction, int dummy);
 	void BotJump(int stroke, int dummy);
 	void BotHook(int stroke, int dummy);
@@ -57,13 +59,15 @@ protected:
 	void BotSetWeapon(int weapon, int dummy);
 	void BotDie(int dummy);
 
-	// base get/checks
+	// gets
+	vec2 GetClosestPlayer(int ownId, int range, int type);
+	vec2 NormalizeAim(vec2 Pos, int dummy);
+
 	bool TicksPassed(int ticks);
 	bool IsGrounded(int dummy);
 	bool IsFrozen(int dummy);
 	int Jumps(int dummy);
 	int Jumped(int dummy);
-
 };
 
 #endif

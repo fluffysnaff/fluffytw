@@ -50,3 +50,4 @@ SpaceBeforeParens: Never
 SpaceAfterTemplateKeyword: false
 TabWidth: 8
 UseTab: ForContinuationAndIndentation
+...

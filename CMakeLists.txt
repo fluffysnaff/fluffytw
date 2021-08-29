@@ -1787,13 +1787,13 @@ if(CLIENT)
     animstate.h
     component.cpp
     component.h
-    components/snaffbase/snaffbase.cpp
-    components/snaffbase/snaffbase.h
+    components/hackbase/hackbase.cpp
+    components/hackbase/hackbase.h
 
-    components/snaffhacks/aimbot.cpp
-    components/snaffhacks/aimbot.h
-    components/snaffhacks/balance.cpp
-    components/snaffhacks/balance.h
+    components/hacks/aimbot.cpp
+    components/hacks/aimbot.h
+    components/hacks/balance.cpp
+    components/hacks/balance.h
 
     components/background.cpp
     components/background.h

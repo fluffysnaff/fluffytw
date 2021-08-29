@@ -55,8 +55,8 @@
 #include "components/statboard.h"
 #include "components/voting.h"
 
-class SnaffHack;
-#include "game/client/components/snaffbase/snaffbase.h"
+class Hack;
+#include "game/client/components/hackbase/hackbase.h"
 
 class CGameInfo
 {
@@ -81,8 +81,6 @@ public:
 	bool m_PredictDDRaceTiles;
 	bool m_PredictVanilla;
 
-	bool m_PredictFluff;
-
 	bool m_EntitiesDDNet;
 	bool m_EntitiesDDRace;
 	bool m_EntitiesRace;
@@ -100,7 +98,7 @@ public:
 class CGameClient : public IGameClient
 {
 public:
-	std::vector<SnaffHack *> m_Hacks;
+	std::vector<Hack *> m_Hacks;
 
 	// all components
 	CKillMessages m_KillMessages;

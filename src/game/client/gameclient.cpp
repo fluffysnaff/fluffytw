@@ -68,8 +68,8 @@
 #include <base/system.h>
 
 // Include your hacks here 
-#include "components/snaffhacks/balance.h"
-#include "components/snaffhacks/aimbot.h"
+#include "components/hacks/balance.h"
+#include "components/hacks/aimbot.h"
 
 CGameClient::CStack::CStack() { m_Num = 0; }
 void CGameClient::CStack::Add(class CComponent *pComponent) { m_paComponents[m_Num++] = pComponent; }
