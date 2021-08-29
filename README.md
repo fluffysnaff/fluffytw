@@ -77,7 +77,7 @@ The hack.h file:
 class HMyhack : public Hack
 {
 public:
-  HMyhack(CGameClient *pClient)  : Hack(pClient){};
+  HMyhack(CGameClient *pClient) : Hack(pClient){};
   ~HMyhack(){};
   
   void Hack();
