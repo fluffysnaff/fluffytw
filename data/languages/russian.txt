@@ -711,8 +711,8 @@ Select a name
 Show other players' hook collision lines
 == Показывать коллизии крюка других игроков
 
-DDNet Client needs to be restarted to complete update!
-== Перезапустите DDNet Client для завершения обновления!
+Fluffytw Client needs to be restarted to complete update!
+== Перезапустите Fluffytw Client для завершения обновления!
 
 Please use a different name
 == Пожалуйста, используйте другое имя
@@ -751,7 +751,7 @@ New random timeout code
 == Новый тайм-аут код
 
 Loading Fluffytw Client
-== Загрузка DDNet Client
+== Загрузка Fluffytw Client
 
 Normal message
 == Обычное сообщение
@@ -765,8 +765,8 @@ Update now
 Save ghost
 == Сохранять тень
 
-DDNet Client updated!
-== DDNet Client обновлён!
+Fluffytw Client updated!
+== Fluffytw Client обновлён!
 
 Highlighted message
 == Выделенное сообщение
@@ -807,8 +807,8 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == Вы уверены, что хотите отключить вашего дамми?
 
-Welcome to DDNet
-== Добро пожаловать в DDNet
+Welcome to Fluffytw
+== Добро пожаловать в Fluffytw
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
 == DDraceNetwork - кооперативная онлайн-игра, где Вашей главной целью и целью вашей команды является достижение конца карты. Как новенький, Вы должны начать свой путь на Novice, на которых есть лёгкие карты. Также учитывайте пинг и выбирайте ближайший к вам сервер.
@@ -837,11 +837,11 @@ Destination file already exist
 Video name:
 == Название видео:
 
-Show DDNet map finishes in server browser
+Show Fluffytw map finishes in server browser
 == Показывать в браузере статус завершения карты
 
-transmits your player name to info2.ddnet.tw
-== передает ваш псевдоним на info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== передает ваш псевдоним на info2.Fluffytw.tw
 
 Exclude
 == Исключить
@@ -855,8 +855,8 @@ Indicate map finish
 Unfinished map
 == Нефинишированная карта
 
-DDNet %s is out!
-== Вышел DDNet %s!
+Fluffytw %s is out!
+== Вышел Fluffytw %s!
 
 Downloading %s:
 == Скачивание %s:
@@ -996,8 +996,8 @@ Enable long pain sound (used when shooting in freeze)
 HUD
 == HUD
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Friend message
 == Сообщение от друга
@@ -1050,8 +1050,8 @@ Show tiles layers from BG map
 Try fast HTTP map download first
 == Быстро загружать карты по HTTP
 
-DDNet %s is available:
-== Доступен DDNet %s:
+Fluffytw %s is available:
+== Доступен Fluffytw %s:
 
 Check now
 == Проверить
@@ -1119,8 +1119,8 @@ Markers
 Skip the main menu
 == Пропускать главное меню
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == Сайт
@@ -1165,8 +1165,8 @@ Learn
 Play
 == Играть
 
-Saving ddnet-settings.cfg failed
-== Неудачное сохранение ddnet-settings.cfg
+Saving Fluffytw-settings.cfg failed
+== Неудачное сохранение Fluffytw-settings.cfg
 
 Debug mode enabled. Press Ctrl+Shift+D to disable debug mode.
 == Отладка включена. Нажмите Ctrl+Shift+D, чтобы выйти.
@@ -1273,8 +1273,8 @@ Chat command
 Discord
 == Дискорд
 
-https://ddnet.tw/discord
-== https://ddnet.tw/discord
+https://Fluffytw.tw/discord
+== https://Fluffytw.tw/discord
 
 AFR
 == AFR

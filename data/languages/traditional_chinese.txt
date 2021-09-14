@@ -244,8 +244,8 @@ Kick player
 Language
 == 語言
 
-DDNet Client needs to be restarted to complete update!
-== DDNet客戶端需要重新啟動才能完成更新！
+Fluffytw Client needs to be restarted to complete update!
+== Fluffytw客戶端需要重新啟動才能完成更新！
 
 MOTD
 == 公告
@@ -767,8 +767,8 @@ Show tiles layers from BG map
 Try fast HTTP map download first
 == 優先嚐試用HTTP高速下載地圖
 
-DDNet %s is available:
-== DDNet %s 現已可用：
+Fluffytw %s is available:
+== Fluffytw %s 現已可用：
 
 Update now
 == 現在更新
@@ -776,8 +776,8 @@ Update now
 Updating...
 == 更新中...
 
-DDNet Client updated!
-== DDNet 客戶端更新成功！
+Fluffytw Client updated!
+== Fluffytw 客戶端更新成功！
 
 No updates available
 == 沒有可用的更新
@@ -786,7 +786,7 @@ Check now
 == 檢查更新
 
 Loading Fluffytw Client
-== 載入 DDNet 客戶端中...
+== 載入 Fluffytw 客戶端中...
 
 Browser
 == 瀏覽
@@ -823,8 +823,8 @@ Reconnect in %d sec
 Grabs
 == 得旗數
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Select a name
 == 另存為
@@ -908,8 +908,8 @@ Unfinished map
 Deactivate
 == 停用
 
-Welcome to DDNet
-== 歡迎來到 DDNet
+Welcome to Fluffytw
+== 歡迎來到 Fluffytw
 
 Preinit VBO (iGPUs only)
 == 預初始化頂點緩衝物件 (僅限整合顯示卡)
@@ -932,11 +932,11 @@ Save
 Date
 == 日期
 
-Show DDNet map finishes in server browser
-== 在伺服器瀏覽器中顯示已完成的 DDNet 地圖
+Show Fluffytw map finishes in server browser
+== 在伺服器瀏覽器中顯示已完成的 Fluffytw 地圖
 
-transmits your player name to info2.ddnet.tw
-== 將會發送您的玩家名稱到 info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== 將會發送您的玩家名稱到 info2.Fluffytw.tw
 
 Reload
 == 重新整理
@@ -971,8 +971,8 @@ Are you sure that you want to disconnect your dummy?
 Hook collisions
 == 鉤索輔助線
 
-DDNet %s is out!
-== DDNet %s 已經更新了！
+Fluffytw %s is out!
+== Fluffytw %s 已經更新了！
 
 Markers
 == 標記
@@ -1115,7 +1115,7 @@ Use k key to kill (restart), q to pause and watch other players. See settings fo
 Country / Region
 == 國家/地區
 
-https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
 == https://docs.qq.com/doc/DWGFrV0xPRmVWVkla
 
 Warning
@@ -1161,8 +1161,8 @@ Auto
 Replay
 == 回放
 
-Saving ddnet-settings.cfg failed
-== 配置檔案 ddnet-settings.cfg 儲存失敗
+Saving Fluffytw-settings.cfg failed
+== 配置檔案 Fluffytw-settings.cfg 儲存失敗
 
 Debug mode enabled. Press Ctrl+Shift+D to disable debug mode.
 == 偵錯模式已啟用。按 Ctrl+Shift+D 禁用偵錯模式。
@@ -1171,10 +1171,10 @@ Existing Player
 == 玩家已存在
 
 Your nickname '%s' is already used (%d points). Do you still want to use it?
-== 你使用的暱稱"%s"在DDNet中有%d分的記錄，這可能代表這個暱稱已經被其他人使用過。確認要使用這個名字嗎？
+== 你使用的暱稱"%s"在Fluffytw中有%d分的記錄，這可能代表這個暱稱已經被其他人使用過。確認要使用這個名字嗎？
 
 Checking for existing player with your name
-== 正在查詢該暱稱的DDNet記錄
+== 正在查詢該暱稱的Fluffytw記錄
 
 Theme
 == 主題
@@ -1323,5 +1323,5 @@ Regular Background Color
 Discord
 == Discord
 
-https://ddnet.tw/discord
-== https://ddnet.tw/discord
+https://Fluffytw.tw/discord
+== https://Fluffytw.tw/discord

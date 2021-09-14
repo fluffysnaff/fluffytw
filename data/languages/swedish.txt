@@ -655,8 +655,8 @@ Show kill messages
 Reset
 == Återställ
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Suicides
 == Självmord
@@ -721,8 +721,8 @@ Enable server message sound
 Show votes window after voting
 == Visa röstnings fönster efter röstning
 
-DDNet Client needs to be restarted to complete update!
-== DDNet Klienten behöves startas om för att genomföra updateringen!
+Fluffytw Client needs to be restarted to complete update!
+== Fluffytw Klienten behöves startas om för att genomföra updateringen!
 
 Kill
 == Dö
@@ -730,11 +730,11 @@ Kill
 Personal best:
 == Personligs bästa:
 
-Show DDNet map finishes in server browser
-== Visa DDNet bana avklarningar i server bläddraren
+Show Fluffytw map finishes in server browser
+== Visa Fluffytw bana avklarningar i server bläddraren
 
-transmits your player name to info2.ddnet.tw
-== skickar ditt spel namn till info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== skickar ditt spel namn till info2.Fluffytw.tw
 
 9+ new mentions
 == 9+ nya nämningar
@@ -781,8 +781,8 @@ Enable highlighted chat sound
 Deactivate
 == Avaktivera
 
-Welcome to DDNet
-== Välkommen till DDNet
+Welcome to Fluffytw
+== Välkommen till Fluffytw
 
 Use high DPI
 == Använd hög DPI
@@ -838,8 +838,8 @@ FPM
 System message
 == System meddelande
 
-DDNet %s is available:
-== DDNet %s har släppts:
+Fluffytw %s is available:
+== Fluffytw %s har släppts:
 
 Markers
 == Markeringar
@@ -943,8 +943,8 @@ Demo
 Show only chat messages from friends
 == Visa bara chatt meddelanden från vänner
 
-DDNet Client updated!
-== DDNet Klienten updaterades!
+Fluffytw Client updated!
+== Fluffytw Klienten updaterades!
 
 Converse
 == Konversera
@@ -1003,8 +1003,8 @@ Save the best demo of each race
 Frags
 == Frags
 
-DDNet %s is out!
-== DDNet %s har släppts!
+Fluffytw %s is out!
+== Fluffytw %s har släppts!
 
 Highlighted message
 == Betona meddelande
@@ -1049,7 +1049,7 @@ Gameplay
 == Spelet
 
 Loading Fluffytw Client
-== Laddar DDNet Klienten
+== Laddar Fluffytw Klienten
 
 Show HUD
 == Visa HUD
@@ -1135,8 +1135,8 @@ Download skins
 Client message
 == Klientmeddelande
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == Hemsida
@@ -1172,7 +1172,7 @@ Auto
 Replay
 == Repris
 
-Saving ddnet-settings.cfg failed
+Saving Fluffytw-settings.cfg failed
 == 
 
 The width of texture %s is not divisible by %d, or the height is not divisible by %d, which might cause visual bugs.
@@ -1319,5 +1319,5 @@ Assets directory
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 

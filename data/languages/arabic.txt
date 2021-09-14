@@ -666,8 +666,8 @@ Deaths
 Enable game sounds
 == ﺔﺒﻌﻟﻻﺍ ﺕﻮﺻ ﻞﻴﻌﻔﺗ
 
-DDNet Client needs to be restarted to complete update!
-== DDNet-Client !ﺚﻳﺪﺤﺘﻟﺍ ﻝﺎﻤﻛﻻ ﻞﻴﻐﺸﺘﻟﺍ ﺓﺩﺎﻋﻻ ﺝﺎﺘﺤﺗ
+Fluffytw Client needs to be restarted to complete update!
+== Fluffytw-Client !ﺚﻳﺪﺤﺘﻟﺍ ﻝﺎﻤﻛﻻ ﻞﻴﻐﺸﺘﻟﺍ ﺓﺩﺎﻋﻻ ﺝﺎﺘﺤﺗ
 
 Show others
 == ﻦﻳﺮﺧﻻﺍ ﺭﺎﻬﻇﺍ
@@ -699,8 +699,8 @@ Ghost
 Check now
 == ﻥﻻﺍ ﺪﻛﺄﺗ
 
-DDNet Client updated!
-== DDNet-Client تحدثت!
+Fluffytw Client updated!
+== Fluffytw-Client تحدثت!
 
 AntiPing: predict other players
 == AntiPing: ﻦﻳﺮﺧﻵﺍ ﻦﻴﺒﻋﻼﻟ ﻖﺒﺴﻣ ﺏﺎﺴﺣ
@@ -727,7 +727,7 @@ Use DDRace Scoreboard
 == ﻝﺎﻤﻌﺘﺳﺃ DDRace ﺩﺭﻮﺑ ﺭﻮﻜﺳ
 
 Loading Fluffytw Client
-== ﻞﻴﻤﺤﺘﻟﺍ ﺭﺎﺟ DDNet Client
+== ﻞﻴﻤﺤﺘﻟﺍ ﺭﺎﺟ Fluffytw Client
 
 Default zoom
 == ﻲﻌﻴﺒﻄﻟﺍ ﺮﻴﺒﻜﺘﻟﺍ
@@ -744,7 +744,7 @@ Try fast HTTP map download first
 Enable regular chat sound
 == ﺔﻳﺩﺎﻌﻟﺍ ﺔﺷﺩﺭﺩ ﺕﻮﺻ ﻞﻴﻌﻔﺗ
 
-DDNet
+Fluffytw
 == ﺖﻴﻧﺩﺩ
 
 Normal message
@@ -870,14 +870,14 @@ Demo
 Fat skins (DDFat)
 == ﺔﻨﻴﻤﺳ ﺕﺎﻨﻜﺳ
 
-Show DDNet map finishes in server browser
-== ﺭﺎﻬﻇﺍ DDNet ﺕﺍﺮﻓﺮﻴﺴﻟﺍ ﺢﻔﺼﺘﻣ ﻲﻓ ﺔﻴﻬﺘﻨﻤﻟﺍ ﺕﺎﺑﺎﻤﻟﺍ
+Show Fluffytw map finishes in server browser
+== ﺭﺎﻬﻇﺍ Fluffytw ﺕﺍﺮﻓﺮﻴﺴﻟﺍ ﺢﻔﺼﺘﻣ ﻲﻓ ﺔﻴﻬﺘﻨﻤﻟﺍ ﺕﺎﺑﺎﻤﻟﺍ
 
 Unfinished map
 == ﺔﻴﻬﺘﻨﻣ ﺮﻴﻐﻟﺍ ﺕﺎﺑﺎﻤﻟﺍ
 
-Welcome to DDNet
-== ﻲﻓ ﻚﺑ ﺎﺒﺣﺮﻣ DDNet
+Welcome to Fluffytw
+== ﻲﻓ ﻚﺑ ﺎﺒﺣﺮﻣ Fluffytw
 
 may cause delay
 == ﺮﻴﺧﺄﺗ ﺐﺒﺴﻳ
@@ -948,8 +948,8 @@ Hook collisions
 Fetch Info
 == ﺕﺎﻣﻮﻠﻌﻤﻟﺍ ﺭﺎﻀﺣﺍ
 
-DDNet %s is out!
-== DDNet %s ﺪﻳﺪﺟ ﺭﺍﺪﺻﺍ!
+Fluffytw %s is out!
+== Fluffytw %s ﺪﻳﺪﺟ ﺭﺍﺪﺻﺍ!
 
 Save
 == ﻆﻔﺣ
@@ -1020,8 +1020,8 @@ Default length: %d
 Pause
 == ﺔﺒﻗﺍﺮﻣ
 
-transmits your player name to info2.ddnet.tw
-== ﻰﻟﺇ ﻚﺑ ﺹﺎﺨﻟﺍ ﺐﻋﻼﻟﺍ ﻢﺳﺍ ﻞﻘﻨﻳ info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== ﻰﻟﺇ ﻚﺑ ﺹﺎﺨﻟﺍ ﺐﻋﻼﻟﺍ ﻢﺳﺍ ﻞﻘﻨﻳ info2.Fluffytw.tw
 
 The mouse wheel changes weapons. Hammer (left mouse) can be used to hit other tees and wake them up from being frozen.
 == .ﺰﻳﺮﻔﻟﺍ ﻦﻣ ﺎﻬﻇﺎﻘﻳﺇﻭ ﻯﺮﺧﻷﺍ ﺕﻼﻤﺤﻤﻟﺍ ﺏﺮﻀﻟ (ﺮﺴﻳﻷﺍ ﺱﻭﺎﻤﻟﺍ) ﺔﻗﺮﻄﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ ﻦﻜﻤﻳ .ﺔﺤﻠﺳﻷﺍ ﺮﻴﻐﺗ ﺱﻭﺎﻤﻟﺍ ﺔﻠﺠﻋ
@@ -1177,11 +1177,11 @@ Particles
 Assets directory
 == ﻝﺎﻜﺷﻻﺍ ﻒﻠﻣ ﺢﺘﻓ
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
-Saving ddnet-settings.cfg failed
-== ﻆﻔﺤﻟﺍ ﻞﺸﻓ ddnet-settings.cfg
+Saving Fluffytw-settings.cfg failed
+== ﻆﻔﺤﻟﺍ ﻞﺸﻓ Fluffytw-settings.cfg
 
 Use current map as background
 == ﺔﻴﻔﻠﺨﻛ ﻲﻟﺎﺤﻟﺍ ﺏﺎﻤﻟﺍ ﻡﺍﺪﺨﺘﺳﺍ
@@ -1306,11 +1306,11 @@ Entities Background color
 Regular Background Color
 == 
 
-DDNet %s is available:
+Fluffytw %s is available:
 == 
 
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 

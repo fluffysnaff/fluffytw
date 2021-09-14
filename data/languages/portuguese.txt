@@ -650,8 +650,8 @@ Show kill messages
 Show ghost
 == Mostrar ghost
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 No updates available
 == Sem atualizações disponíveis
@@ -680,8 +680,8 @@ Deaths
 Enable game sounds
 == Ativar os sons do jogo
 
-DDNet Client needs to be restarted to complete update!
-== O cliente DDNet precisa de ser reiniciado para completar a atualização!
+Fluffytw Client needs to be restarted to complete update!
+== O cliente Fluffytw precisa de ser reiniciado para completar a atualização!
 
 Please use a different name
 == Por favor usa um nome diferente
@@ -746,8 +746,8 @@ Automatically take statboard screenshot
 System message
 == Mensagem do sistema
 
-DDNet %s is available:
-== DDNet %s está disponível:
+Fluffytw %s is available:
+== Fluffytw %s está disponível:
 
 Updating...
 == A atualizar...
@@ -765,7 +765,7 @@ Suicides
 == Suicídios
 
 Loading Fluffytw Client
-== A carregar o cliente DDNet
+== A carregar o cliente Fluffytw
 
 Default zoom
 == Zoom predefinido
@@ -815,8 +815,8 @@ Enable highlighted chat sound
 AntiPing: predict weapons
 == AntiPing: prever as armas
 
-DDNet Client updated!
-== O cliente DDNet foi atualizado!
+Fluffytw Client updated!
+== O cliente Fluffytw foi atualizado!
 
 Highlighted message
 == Mensagem em destaque
@@ -830,7 +830,7 @@ AntiPing: predict grenade paths
 Successfully saved the replay!
 == 
 
-Saving ddnet-settings.cfg failed
+Saving Fluffytw-settings.cfg failed
 == 
 
 Replay feature is disabled!
@@ -869,7 +869,7 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == 
 
-Welcome to DDNet
+Welcome to Fluffytw
 == 
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
@@ -917,10 +917,10 @@ Speed
 Video name:
 == 
 
-Show DDNet map finishes in server browser
+Show Fluffytw map finishes in server browser
 == 
 
-transmits your player name to info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
 == 
 
 Theme
@@ -1238,13 +1238,13 @@ Assets directory
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 
 
 Learn
 == 
 
-https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
 == 
 
 Website
@@ -1269,7 +1269,7 @@ Editor
 Play
 == 
 
-DDNet %s is out!
+Fluffytw %s is out!
 == 
 
 Downloading %s:

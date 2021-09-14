@@ -652,7 +652,7 @@ Ghost
 == Fantasma
 
 Loading Fluffytw Client
-== Cargando el cliente DDNet
+== Cargando el cliente Fluffytw
 
 Reconnect in %d sec
 == Reconectando en %d seg
@@ -675,8 +675,8 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == ¿Estás seguro de que quieres desconectar tu dummy?
 
-Welcome to DDNet
-== Bienvenido a DDNet
+Welcome to Fluffytw
+== Bienvenido a Fluffytw
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
 == DDraceNetwork es un juego cooperativo en línea donde el objetivo es que tú y vuestro grupo de tees lleguen a la meta del mapa. Como recién llegado, deberías comenzar en los servidores Novice, que alojan los mapas más fáciles. Considera el ping para elegir un servidor cercano.
@@ -705,11 +705,11 @@ Destination file already exist
 Video name:
 == Nombre del video:
 
-Show DDNet map finishes in server browser
-== Marcar los mapas DDNet acabados en el navegador de servidores
+Show Fluffytw map finishes in server browser
+== Marcar los mapas Fluffytw acabados en el navegador de servidores
 
-transmits your player name to info2.ddnet.tw
-== transmite tu nombre de jugador a info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== transmite tu nombre de jugador a info2.Fluffytw.tw
 
 Search
 == Buscar
@@ -732,8 +732,8 @@ Countries
 Types
 == Tipos
 
-DDNet %s is out!
-== ¡DDNet %s ya esta disponible!
+Fluffytw %s is out!
+== ¡Fluffytw %s ya esta disponible!
 
 Downloading %s:
 == Descargando %s:
@@ -741,8 +741,8 @@ Downloading %s:
 Update failed! Check log...
 == ¡Actualización fallida! Comprueba el registro...
 
-DDNet Client updated!
-== ¡Cliente DDNet actualizado!
+Fluffytw Client updated!
+== ¡Cliente Fluffytw actualizado!
 
 Update now
 == Actualizar ahora
@@ -945,11 +945,11 @@ Map sound volume
 HUD
 == Apariencia
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
-DDNet Client needs to be restarted to complete update!
-== ¡El Cliente DDNet debe reiniciarse para completar la actualización!
+Fluffytw Client needs to be restarted to complete update!
+== ¡El Cliente Fluffytw debe reiniciarse para completar la actualización!
 
 Use DDRace Scoreboard
 == Utiliza el marcador DDRace
@@ -1050,8 +1050,8 @@ Show tiles layers from BG map
 Try fast HTTP map download first
 == Prueba primero la descarga rápida del mapa HTTP
 
-DDNet %s is available:
-== DDNet %s está disponible:
+Fluffytw %s is available:
+== Fluffytw %s está disponible:
 
 Updating...
 == Actualizando...
@@ -1107,8 +1107,8 @@ Grabs
 9+ new mentions
 == 9+ nuevas menciones
 
-Saving ddnet-settings.cfg failed
-== Error al guardar ddnet-settings.cfg
+Saving Fluffytw-settings.cfg failed
+== Error al guardar Fluffytw-settings.cfg
 
 Warning
 == Advertencia
@@ -1203,8 +1203,8 @@ Particles
 Assets directory
 == Directorio de recursos
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == Página web
@@ -1324,5 +1324,5 @@ Regular Background Color
 Discord
 == Discord
 
-https://ddnet.tw/discord
-== https://ddnet.tw/discord
+https://Fluffytw.tw/discord
+== https://Fluffytw.tw/discord

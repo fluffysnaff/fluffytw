@@ -630,7 +630,7 @@ Learn
 == Nauči
 
 Loading Fluffytw Client
-== Učitavanje DDNet Klijenta
+== Učitavanje Fluffytw Klijenta
 
 Render demo
 == Renderuj demo
@@ -644,7 +644,7 @@ Video name:
 Use k key to kill (restart), q to pause and watch other players. See settings for other key binds.
 == Tipka K da se ubijes (restart), tipka q da pauziras i gledas druge igrače.
 
-Saving ddnet-settings.cfg failed
+Saving Fluffytw-settings.cfg failed
 == 
 
 The width of texture %s is not divisible by %d, or the height is not divisible by %d, which might cause visual bugs.
@@ -686,7 +686,7 @@ Are you sure that you want to disconnect?
 Are you sure that you want to disconnect your dummy?
 == 
 
-Welcome to DDNet
+Welcome to Fluffytw
 == 
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
@@ -728,10 +728,10 @@ Destination file already exist
 Speed
 == 
 
-Show DDNet map finishes in server browser
+Show Fluffytw map finishes in server browser
 == 
 
-transmits your player name to info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
 == 
 
 Theme
@@ -1043,13 +1043,13 @@ Background music volume
 HUD
 == 
 
-DDNet
+Fluffytw
 == 
 
 Assets
 == 
 
-DDNet Client needs to be restarted to complete update!
+Fluffytw Client needs to be restarted to complete update!
 == 
 
 Use DDRace Scoreboard
@@ -1193,7 +1193,7 @@ Try fast HTTP map download first
 New random timeout code
 == 
 
-DDNet %s is available:
+Fluffytw %s is available:
 == 
 
 Update now
@@ -1202,7 +1202,7 @@ Update now
 Updating...
 == 
 
-DDNet Client updated!
+Fluffytw Client updated!
 == 
 
 No updates available
@@ -1226,10 +1226,10 @@ Assets directory
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 
 
-https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
 == 
 
 Website
@@ -1254,7 +1254,7 @@ Editor
 Play
 == 
 
-DDNet %s is out!
+Fluffytw %s is out!
 == 
 
 Downloading %s:

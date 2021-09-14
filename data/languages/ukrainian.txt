@@ -470,7 +470,7 @@ Ghost
 == Тінь
 
 Loading Fluffytw Client
-== Завантаження DDNet Client
+== Завантаження Fluffytw Client
 
 Reconnect in %d sec
 == Перепідключення через %d сек.
@@ -511,8 +511,8 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == Ви впевнені, що хочете відключити свого Dummy?
 
-Welcome to DDNet
-== Ласкаво просимо в DDNet
+Welcome to Fluffytw
+== Ласкаво просимо в Fluffytw
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
 == DDraceNetwork кооперативна онлайн гра, де Вашою головною метою і метою вашої команди є досягненням фінішу карти. Новачкам рекомендовано починати свій шлях на Novice серверах, на яких стоять легкі карти. Також враховуйте пінг щоб вибрати найближчий до вас сервер.
@@ -571,11 +571,11 @@ Show ingame HUD
 Video name:
 == Назва відео
 
-Show DDNet map finishes in server browser
-== Показувати статус завершення карти DDNet в браузері сервера
+Show Fluffytw map finishes in server browser
+== Показувати статус завершення карти Fluffytw в браузері сервера
 
-transmits your player name to info2.ddnet.tw
-== передає Ваш нікнейм на info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== передає Ваш нікнейм на info2.Fluffytw.tw
 
 Search
 == Поиск
@@ -628,8 +628,8 @@ Clan
 Add Friend
 == Додати друга
 
-DDNet %s is out!
-== Вийшов DDNet %s!
+Fluffytw %s is out!
+== Вийшов Fluffytw %s!
 
 Downloading %s:
 == Завантаження %s:
@@ -637,8 +637,8 @@ Downloading %s:
 Update failed! Check log...
 == Помилка оновлення! Перевірте логи...
 
-DDNet Client updated!
-== Клієнт DDNet оновлено!
+Fluffytw Client updated!
+== Клієнт Fluffytw оновлено!
 
 Update now
 == Оновити зараз
@@ -931,11 +931,11 @@ Map sound volume
 HUD
 == HUD
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
-DDNet Client needs to be restarted to complete update!
-== Перезапустіть DDNet Client для завершення поновлення!
+Fluffytw Client needs to be restarted to complete update!
+== Перезапустіть Fluffytw Client для завершення поновлення!
 
 Use DDRace Scoreboard
 == Використовувати DDRace табло
@@ -1039,8 +1039,8 @@ Show tiles layers from BG map
 Try fast HTTP map download first
 == Намагатися закачати карту швидко по HTTP
 
-DDNet %s is available:
-== Доступний DDNet %s:
+Fluffytw %s is available:
+== Доступний Fluffytw %s:
 
 Updating...
 == Оновлення ...
@@ -1111,7 +1111,7 @@ Auto
 Replay
 == Повтор
 
-Saving ddnet-settings.cfg failed
+Saving Fluffytw-settings.cfg failed
 == 
 
 The width of texture %s is not divisible by %d, or the height is not divisible by %d, which might cause visual bugs.
@@ -1291,10 +1291,10 @@ Assets directory
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 
 
-https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
 == 
 
 Website

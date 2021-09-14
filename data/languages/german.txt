@@ -688,8 +688,8 @@ Deaths
 Enable game sounds
 == Ton im Spiel aktivieren
 
-DDNet Client needs to be restarted to complete update!
-== Der DDNet-Client muss neu gestartet werden, um das Update abzuschließen!
+Fluffytw Client needs to be restarted to complete update!
+== Der Fluffytw-Client muss neu gestartet werden, um das Update abzuschließen!
 
 Show others
 == Andere zeigen
@@ -721,8 +721,8 @@ Ghost
 Check now
 == Aktualisieren
 
-DDNet Client updated!
-== Der DDNet-Client wurde aktualisiert!
+Fluffytw Client updated!
+== Der Fluffytw-Client wurde aktualisiert!
 
 AntiPing: predict other players
 == AntiPing: Andere Spieler vorberechnen
@@ -733,8 +733,8 @@ Show other players' key presses
 System message
 == Server-Nachricht
 
-DDNet %s is available:
-== DDNet %s ist verfügbar:
+Fluffytw %s is available:
+== Fluffytw %s ist verfügbar:
 
 Updating...
 == Aktualisieren...
@@ -752,7 +752,7 @@ Use DDRace Scoreboard
 == DDRace-Punktetafel benutzen
 
 Loading Fluffytw Client
-== DDNet-Client laden
+== Fluffytw-Client laden
 
 Default zoom
 == Normaler Zoom
@@ -769,8 +769,8 @@ Try fast HTTP map download first
 Enable regular chat sound
 == Ton für normale Nachrichten aktivieren
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Normal message
 == Normale Nachricht
@@ -895,14 +895,14 @@ Demo
 Fat skins (DDFat)
 == Fette Skins (DDFat)
 
-Show DDNet map finishes in server browser
-== DDNet-Kartenabschlüsse im Serverbrowser anzeigen
+Show Fluffytw map finishes in server browser
+== Fluffytw-Kartenabschlüsse im Serverbrowser anzeigen
 
 Unfinished map
 == Nicht gewonnene Karte
 
-Welcome to DDNet
-== Willkommen bei DDNet
+Welcome to Fluffytw
+== Willkommen bei Fluffytw
 
 may cause delay
 == kann verlangsamen
@@ -973,8 +973,8 @@ Hook collisions
 Fetch Info
 == Neu laden
 
-DDNet %s is out!
-== DDNet %s ist da!
+Fluffytw %s is out!
+== Fluffytw %s ist da!
 
 Save
 == Speichern
@@ -1045,8 +1045,8 @@ Default length: %d
 Pause
 == Pause
 
-transmits your player name to info2.ddnet.tw
-== überträgt deinen Spielernamen an info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== überträgt deinen Spielernamen an info2.Fluffytw.tw
 
 The mouse wheel changes weapons. Hammer (left mouse) can be used to hit other tees and wake them up from being frozen.
 == Das Mausrad wechselt Waffen. Hammer (linke Maustaste) kann benutzt werden um andere Tees zu schlagen und vom Freeze aufzuwecken.
@@ -1202,11 +1202,11 @@ Particles
 Assets directory
 == Assets-Ordner
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
-Saving ddnet-settings.cfg failed
-== ddnet-settings.cfg zu speichern ist fehlgeschlagen
+Saving Fluffytw-settings.cfg failed
+== Fluffytw-settings.cfg zu speichern ist fehlgeschlagen
 
 Use current map as background
 == Aktuelle Karte als Hintergrund benutzen
@@ -1280,8 +1280,8 @@ Chat command
 Discord
 == Discord
 
-https://ddnet.tw/discord
-== https://ddnet.tw/discord
+https://Fluffytw.tw/discord
+== https://Fluffytw.tw/discord
 
 AFR
 == AFR

@@ -647,8 +647,8 @@ Type:
 Enable game sounds
 == Activer les sons du jeu
 
-DDNet Client needs to be restarted to complete update!
-== Le client DDNet a besoin d'être redémarré pour finir la MAJ !
+Fluffytw Client needs to be restarted to complete update!
+== Le client Fluffytw a besoin d'être redémarré pour finir la MAJ !
 
 Toggle dummy
 == Basculer vers le dummy
@@ -698,8 +698,8 @@ Enable team chat sound
 Browser
 == Navigateur
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Show all
 == Montrer tout le monde
@@ -710,8 +710,8 @@ Preinit VBO (iGPUs only)
 Vanilla skins only
 == Skins par défaut
 
-DDNet %s is out!
-== DDNet %s est disponible!
+Fluffytw %s is out!
+== Fluffytw %s est disponible!
 
 Show ghost
 == Afficher le fantôme
@@ -758,8 +758,8 @@ Enable server message sound
 Enable gun sound
 == Activer le son du pistolet
 
-Welcome to DDNet
-== Bienvenue sur DDNet
+Welcome to Fluffytw
+== Bienvenue sur Fluffytw
 
 Max CSVs
 == CSV maximum
@@ -785,8 +785,8 @@ Game paused
 Team message
 == Message d'équipe
 
-DDNet Client updated!
-== Le client DDNet est à jour!
+Fluffytw Client updated!
+== Le client Fluffytw est à jour!
 
 Show entities
 == Afficher les entités
@@ -929,8 +929,8 @@ Net
 Show HUD
 == Afficher l'interface
 
-DDNet %s is available:
-== DDNet %s est disponible:
+Fluffytw %s is available:
+== Fluffytw %s est disponible:
 
 Please use a different name
 == Veuillez changer de pseudonyme
@@ -984,7 +984,7 @@ Enable replays
 == Activer les replays
 
 Loading Fluffytw Client
-== Chargement du client DDNet
+== Chargement du client Fluffytw
 
 Zoom in
 == Zoomer
@@ -1118,14 +1118,14 @@ It's recommended that you check the settings to adjust them to your liking befor
 Please enter your nickname below.
 == Veuillez entrer votre pseudonyme ci-dessous.
 
-Show DDNet map finishes in server browser
-== Afficher les cartes de DDNet terminées dans le navigateur
+Show Fluffytw map finishes in server browser
+== Afficher les cartes de Fluffytw terminées dans le navigateur
 
-transmits your player name to info2.ddnet.tw
-== transmet votre pseudonyme à info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== transmet votre pseudonyme à info2.Fluffytw.tw
 
-Saving ddnet-settings.cfg failed
-== L'enregistrement de ddnet-settings.cfg a échoué
+Saving Fluffytw-settings.cfg failed
+== L'enregistrement de Fluffytw-settings.cfg a échoué
 
 Warning
 == Alerte
@@ -1199,8 +1199,8 @@ Particles
 Assets directory
 == Répertoire des assets
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == Site web
@@ -1344,5 +1344,5 @@ Regular Background Color
 Discord
 == Discord
 
-https://ddnet.tw/discord
-== https://ddnet.tw/discord
+https://Fluffytw.tw/discord
+== https://Fluffytw.tw/discord

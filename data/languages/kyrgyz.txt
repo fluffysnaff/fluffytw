@@ -616,7 +616,7 @@ Show only chat messages from friends
 Successfully saved the replay!
 == 
 
-Saving ddnet-settings.cfg failed
+Saving Fluffytw-settings.cfg failed
 == 
 
 Replay feature is disabled!
@@ -670,7 +670,7 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == 
 
-Welcome to DDNet
+Welcome to Fluffytw
 == 
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
@@ -718,10 +718,10 @@ Speed
 Video name:
 == 
 
-Show DDNet map finishes in server browser
+Show Fluffytw map finishes in server browser
 == 
 
-transmits your player name to info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
 == 
 
 Theme
@@ -1030,13 +1030,13 @@ Background music volume
 HUD
 == 
 
-DDNet
+Fluffytw
 == 
 
 Assets
 == 
 
-DDNet Client needs to be restarted to complete update!
+Fluffytw Client needs to be restarted to complete update!
 == 
 
 Use DDRace Scoreboard
@@ -1180,7 +1180,7 @@ Try fast HTTP map download first
 New random timeout code
 == 
 
-DDNet %s is available:
+Fluffytw %s is available:
 == 
 
 Update now
@@ -1189,7 +1189,7 @@ Update now
 Updating...
 == 
 
-DDNet Client updated!
+Fluffytw Client updated!
 == 
 
 No updates available
@@ -1213,13 +1213,13 @@ Assets directory
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 
 
 Learn
 == 
 
-https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
 == 
 
 Website
@@ -1244,7 +1244,7 @@ Editor
 Play
 == 
 
-DDNet %s is out!
+Fluffytw %s is out!
 == 
 
 Downloading %s:

@@ -630,8 +630,8 @@ Show kill messages
 Show ghost
 == Szellem mutatása
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 No updates available
 == Nincs elérhető frissítés
@@ -669,8 +669,8 @@ Deaths
 Enable game sounds
 == Játék hangok engedélyezése
 
-DDNet Client needs to be restarted to complete update!
-== Újra kell indítani a DDNet Klienst a frissítés befejezéséhez!
+Fluffytw Client needs to be restarted to complete update!
+== Újra kell indítani a Fluffytw Klienst a frissítés befejezéséhez!
 
 Please use a different name
 == Kérlek, válassz másik nevet
@@ -759,8 +759,8 @@ System message
 Enable long pain sound (used when shooting in freeze)
 == Hosszú fájdalom hang lejátszása (mikor a játékos lő,ha lefagyott)
 
-DDNet %s is available:
-== DDNet %s verzió elérhető
+Fluffytw %s is available:
+== Fluffytw %s verzió elérhető
 
 Updating...
 == Frissítés...
@@ -790,7 +790,7 @@ Net
 == Net
 
 Loading Fluffytw Client
-== DDNet Kliens betöltése
+== Fluffytw Kliens betöltése
 
 FPM
 == FPM
@@ -861,8 +861,8 @@ Enable highlighted chat sound
 AntiPing: predict weapons
 == Antiping: fegyvereknél
 
-DDNet Client updated!
-== DDNet Kliens frissítve van!
+Fluffytw Client updated!
+== Fluffytw Kliens frissítve van!
 
 Highlighted message
 == Kiemelt üzenet
@@ -894,8 +894,8 @@ Unfinished map
 Deactivate
 == Deaktiválás
 
-Welcome to DDNet
-== Üdvözlet a DDNet-en
+Welcome to Fluffytw
+== Üdvözlet a Fluffytw-en
 
 Preinit VBO (iGPUs only)
 == VBO használata (csak iGPU)
@@ -927,11 +927,11 @@ Vanilla skins only
 Date
 == Idő
 
-Show DDNet map finishes in server browser
+Show Fluffytw map finishes in server browser
 == Mutassa a befejezett pályákat a keresőben
 
-transmits your player name to info2.ddnet.tw
-== Keress rá a játékosnevedre az info2.ddnet.tw oldalon
+transmits your player name to info2.Fluffytw.tw
+== Keress rá a játékosnevedre az info2.Fluffytw.tw oldalon
 
 Reload
 == újratöltés
@@ -1005,8 +1005,8 @@ Successfully saved the replay!
 Zoom out
 == Kicsinyítés
 
-DDNet %s is out!
-== DDNet %s elérhető!
+Fluffytw %s is out!
+== Fluffytw %s elérhető!
 
 Statboard
 == Státusztábla
@@ -1095,8 +1095,8 @@ Length
 Are you sure that you want to disconnect your dummy?
 == Biztos, hogy kiakarod léptetni a dummy-d?
 
-Saving ddnet-settings.cfg failed
-== nem sikerült elmenteni ddnet-settings.cfg fájlt
+Saving Fluffytw-settings.cfg failed
+== nem sikerült elmenteni Fluffytw-settings.cfg fájlt
 
 Warning
 == Figyelmeztetés
@@ -1315,8 +1315,8 @@ Regular Background Color
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 
 
-https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
 == 

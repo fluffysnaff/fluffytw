@@ -664,7 +664,7 @@ Ghost
 == Дух
 
 Loading Fluffytw Client
-== Учитавам DDNet клијент
+== Учитавам Fluffytw клијент
 
 Reconnect in %d sec
 == Поново повезивање за %d секунди
@@ -687,8 +687,8 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == Да ли сте сигурни да желите да прекинете копију?
 
-Welcome to DDNet
-== Добро дошли у DDNet
+Welcome to Fluffytw
+== Добро дошли у Fluffytw
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
 == DDraceNetwork је кооперативна онлајн игра у којој је циљ да ви и ваша група teeova дођете до циља на мапи. Као новајлија требали бисте започети на Novice серверима, на којима се налазе најједноставније мапе. Размислите о пингу да бисте изабрали сервер који вам је близу.
@@ -726,11 +726,11 @@ Speed
 Video name:
 == Назив видеа:
 
-Show DDNet map finishes in server browser
-== Прикажи завршетка DDNet мапе у прегледачу сервера
+Show Fluffytw map finishes in server browser
+== Прикажи завршетка Fluffytw мапе у прегледачу сервера
 
-transmits your player name to info2.ddnet.tw
-== преноси име вашег играча на info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== преноси име вашег играча на info2.Fluffytw.tw
 
 Theme
 == Тема
@@ -973,14 +973,14 @@ Map sound volume
 HUD
 == HUD
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Assets
 == Средства
 
-DDNet Client needs to be restarted to complete update!
-== Потребно је поново покренути DDNet клијент да бисте довршили ажурирање!
+Fluffytw Client needs to be restarted to complete update!
+== Потребно је поново покренути Fluffytw клијент да бисте довршили ажурирање!
 
 Use DDRace Scoreboard
 == Користи DDRace табелу резултата
@@ -1078,8 +1078,8 @@ Show tiles layers from BG map
 Try fast HTTP map download first
 == Пробај брзи HTTP преузимач мапа прво
 
-DDNet %s is available:
-== DDNet %s је доступан:
+Fluffytw %s is available:
+== Fluffytw %s је доступан:
 
 Update now
 == Унапреди сада
@@ -1087,8 +1087,8 @@ Update now
 Updating...
 == Унапређујем...
 
-DDNet Client updated!
-== DDNet клијент је унапређен!
+Fluffytw Client updated!
+== Fluffytw клијент је унапређен!
 
 No updates available
 == Нема доступних унапређења
@@ -1114,8 +1114,8 @@ Assets directory
 Learn
 == Упутство
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == Веб сајт
@@ -1133,8 +1133,8 @@ Server executable not found, can't run server
 Play
 == Играј
 
-DDNet %s is out!
-== DDNet %s је изашао!
+Fluffytw %s is out!
+== Fluffytw %s је изашао!
 
 Downloading %s:
 == Преузимање %s:
@@ -1199,7 +1199,7 @@ Auto
 Replay
 == Помнови
 
-Saving ddnet-settings.cfg failed
+Saving Fluffytw-settings.cfg failed
 == 
 
 The width of texture %s is not divisible by %d, or the height is not divisible by %d, which might cause visual bugs.
@@ -1316,5 +1316,5 @@ Regular Background Color
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 

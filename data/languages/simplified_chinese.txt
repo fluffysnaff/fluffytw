@@ -251,8 +251,8 @@ Kick player
 Language
 == 语言
 
-DDNet Client needs to be restarted to complete update!
-== DDNet客户端需要重新启动才能完成更新！
+Fluffytw Client needs to be restarted to complete update!
+== Fluffytw客户端需要重新启动才能完成更新！
 
 MOTD
 == 公告
@@ -774,8 +774,8 @@ Show tiles layers from BG map
 Try fast HTTP map download first
 == 优先尝试用HTTP快速下载地图
 
-DDNet %s is available:
-== DDNet %s 现已可用：
+Fluffytw %s is available:
+== Fluffytw %s 现已可用：
 
 Update now
 == 现在更新
@@ -783,8 +783,8 @@ Update now
 Updating...
 == 更新中...
 
-DDNet Client updated!
-== DDNet 客户端更新成功！
+Fluffytw Client updated!
+== Fluffytw 客户端更新成功！
 
 No updates available
 == 没有可用的更新
@@ -793,7 +793,7 @@ Check now
 == 检查更新
 
 Loading Fluffytw Client
-== 加载 DDNet 客户端中...
+== 加载 Fluffytw 客户端中...
 
 Browser
 == 浏览
@@ -830,8 +830,8 @@ Reconnect in %d sec
 Grabs
 == 得旗数
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Select a name
 == 另存为
@@ -915,8 +915,8 @@ Unfinished map
 Deactivate
 == 停用
 
-Welcome to DDNet
-== 欢迎来到 DDNet
+Welcome to Fluffytw
+== 欢迎来到 Fluffytw
 
 Preinit VBO (iGPUs only)
 == 预初始化顶点缓冲对象 (仅限集成显卡)
@@ -939,11 +939,11 @@ Save
 Date
 == 日期
 
-Show DDNet map finishes in server browser
-== 在服务器浏览器中显示已完成的 DDNet 地图
+Show Fluffytw map finishes in server browser
+== 在服务器浏览器中显示已完成的 Fluffytw 地图
 
-transmits your player name to info2.ddnet.tw
-== 将会发送您的玩家名称到 info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== 将会发送您的玩家名称到 info2.Fluffytw.tw
 
 Reload
 == 刷新
@@ -978,8 +978,8 @@ Are you sure that you want to disconnect your dummy?
 Hook collisions
 == 钩索辅助线
 
-DDNet %s is out!
-== DDNet %s 已经更新了！
+Fluffytw %s is out!
+== Fluffytw %s 已经更新了！
 
 Markers
 == 书签
@@ -1122,7 +1122,7 @@ Use k key to kill (restart), q to pause and watch other players. See settings fo
 Country / Region
 == 国家 / 地区
 
-https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
 == https://docs.qq.com/doc/DWGFrV0xPRmVWVkla
 
 Warning
@@ -1168,8 +1168,8 @@ Auto
 Replay
 == 回放
 
-Saving ddnet-settings.cfg failed
-== 配置文件 ddnet-settings.cfg 保存失败
+Saving Fluffytw-settings.cfg failed
+== 配置文件 Fluffytw-settings.cfg 保存失败
 
 Debug mode enabled. Press Ctrl+Shift+D to disable debug mode.
 == 调试模式已启用。按 Ctrl+Shift+D 禁用调试模式。
@@ -1178,10 +1178,10 @@ Existing Player
 == 玩家已存在
 
 Your nickname '%s' is already used (%d points). Do you still want to use it?
-== 你使用的昵称"%s"在DDNet中有%d分的记录，这可能代表该昵称已经被其他人使用过。确认要使用这个名字吗？
+== 你使用的昵称"%s"在Fluffytw中有%d分的记录，这可能代表该昵称已经被其他人使用过。确认要使用这个名字吗？
 
 Checking for existing player with your name
-== 正在查找该昵称的DDNet记录
+== 正在查找该昵称的Fluffytw记录
 
 Theme
 == 主题
@@ -1246,7 +1246,7 @@ Particles
 Assets directory
 == 材质目录
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == http://chat.teeworlds.cn/
 
 Discord

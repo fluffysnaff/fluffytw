@@ -619,8 +619,8 @@ Type:
 Successfully saved the replay!
 == Uudelleentoisto tallentui onnistuneesti!
 
-Saving ddnet-settings.cfg failed
-== ddnet-settings.cfg:n tallentaminen epäonnistui
+Saving Fluffytw-settings.cfg failed
+== Fluffytw-settings.cfg:n tallentaminen epäonnistui
 
 Replay feature is disabled!
 == Uudelleentoisto-ominaisuus on pois käytöstä!
@@ -653,7 +653,7 @@ Ghost
 == Haamu
 
 Loading Fluffytw Client
-== Ladataan DDNet-asiakasta
+== Ladataan Fluffytw-asiakasta
 
 Reconnect in %d sec
 == Yhdistää uudelleen %d sekunnissa
@@ -676,8 +676,8 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == Oletko varma, että haluat katkaista dummysi yhteyden?
 
-Welcome to DDNet
-== Tervetuloa DDNet:iin
+Welcome to Fluffytw
+== Tervetuloa Fluffytw:iin
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
 == DDraceNetwork on yhteistoiminnallinen verkkopeli, jossa tavoitteena on, että sinä ja teeryhmäsi saavuttavat kentän maaliviivan. Alokkaana sinun kannattaisi aloittaa Novice-palvelimilla, jotka isännöivät helpoimiä kenttiä. Huomioi viive valitaksesi lähellä olevan palvelimen.
@@ -724,11 +724,11 @@ Speed
 Video name:
 == Videon nimi:
 
-Show DDNet map finishes in server browser
-== Näytä DDNet kenttäläpäisyt palvelinselaimessa
+Show Fluffytw map finishes in server browser
+== Näytä Fluffytw kenttäläpäisyt palvelinselaimessa
 
-transmits your player name to info2.ddnet.tw
-== lähettää nimimerkkisi osoitteeseen info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== lähettää nimimerkkisi osoitteeseen info2.Fluffytw.tw
 
 Theme
 == Teema
@@ -1039,14 +1039,14 @@ Background music volume
 HUD
 == HUD
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Assets
 == 
 
-DDNet Client needs to be restarted to complete update!
-== DDNet-asiakas täytyy käynnistää uudelleen latauksen viimeistelemiseksi
+Fluffytw Client needs to be restarted to complete update!
+== Fluffytw-asiakas täytyy käynnistää uudelleen latauksen viimeistelemiseksi
 
 Use DDRace Scoreboard
 == Käytä DDRacen tuloslistaa
@@ -1189,8 +1189,8 @@ Try fast HTTP map download first
 New random timeout code
 == 
 
-DDNet %s is available:
-== DDNet %s on saatavilla:
+Fluffytw %s is available:
+== Fluffytw %s on saatavilla:
 
 Update now
 == Päivitä nyt
@@ -1198,8 +1198,8 @@ Update now
 Updating...
 == Päivitetään...
 
-DDNet Client updated!
-== DDNet-asiakas on päivitetty!
+Fluffytw Client updated!
+== Fluffytw-asiakas on päivitetty!
 
 No updates available
 == Ei päivityksiä saatavilla
@@ -1222,14 +1222,14 @@ Assets directory
 Discord
 == Discord
 
-https://ddnet.tw/discord
-== https://ddnet.tw/discord
+https://Fluffytw.tw/discord
+== https://Fluffytw.tw/discord
 
 Learn
 == Opi
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == Verkkosivu
@@ -1253,8 +1253,8 @@ Editor
 Play
 == Pelaa
 
-DDNet %s is out!
-== DDNet %s on julkaistu!
+Fluffytw %s is out!
+== Fluffytw %s on julkaistu!
 
 Downloading %s:
 == Päivitetään %s:

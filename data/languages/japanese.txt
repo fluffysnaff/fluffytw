@@ -616,8 +616,8 @@ Type:
 Successfully saved the replay!
 == リプレイ保存完了しました!
 
-Saving ddnet-settings.cfg failed
-== ddnet-settings.cfg 保存失敗
+Saving Fluffytw-settings.cfg failed
+== Fluffytw-settings.cfg 保存失敗
 
 Replay feature is disabled!
 == リプレイ機能はオフにしました!
@@ -650,7 +650,7 @@ Ghost
 == ゴースト
 
 Loading Fluffytw Client
-== DDNet Client 読み込み中
+== Fluffytw Client 読み込み中
 
 Reconnect in %d sec
 == 再接続まであと %d 秒
@@ -673,8 +673,8 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == ダミーへの接続を切断しますか？
 
-Welcome to DDNet
-== DDNet へようこそ
+Welcome to Fluffytw
+== Fluffytw へようこそ
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
 == DDraceNetwork は、協力型のオンラインゲームです。チーム中の Tee と協力して、マップ上のゴールを目指しましょう！初心者の方は、最も簡単なマップを使っている Novice サーバーから始めることをおすすめします。サーバー選ぶ時は ping を考慮して、近くのサーバーを選んでください。
@@ -704,7 +704,7 @@ Existing Player
 == 既存のプレーヤー
 
 Your nickname '%s' is already used (%d points). Do you still want to use it?
-== ハンドルネーム「%s」は DDNet で %d ポイントに記録があります。それでも使いたいですか？
+== ハンドルネーム「%s」は Fluffytw で %d ポイントに記録があります。それでも使いたいですか？
 
 Checking for existing player with your name
 == 既存のプレーヤーの中でハンドルネームを検索しています。
@@ -721,11 +721,11 @@ Speed
 Video name:
 == 動画の名前
 
-Show DDNet map finishes in server browser
-== サーバー・ブラウザーで完成した DDNet マップを表示する
+Show Fluffytw map finishes in server browser
+== サーバー・ブラウザーで完成した Fluffytw マップを表示する
 
-transmits your player name to info2.ddnet.tw
-== ハンドルネームを info2.ddnet.tw に送信します
+transmits your player name to info2.Fluffytw.tw
+== ハンドルネームを info2.Fluffytw.tw に送信します
 
 Theme
 == テーマ
@@ -1039,14 +1039,14 @@ Background music volume
 HUD
 == HUD
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Assets
 == 素材
 
-DDNet Client needs to be restarted to complete update!
-== アップデートを完了するには、DDNet クライアントの再起動が必要です。
+Fluffytw Client needs to be restarted to complete update!
+== アップデートを完了するには、Fluffytw クライアントの再起動が必要です。
 
 Use DDRace Scoreboard
 == DDRace スゴアボードを使用
@@ -1189,8 +1189,8 @@ Try fast HTTP map download first
 New random timeout code
 == ランダムにタイムアウト・コードを生成
 
-DDNet %s is available:
-== DDNet %s がリリースされました。
+Fluffytw %s is available:
+== Fluffytw %s がリリースされました。
 
 Update now
 == 今すぐ更新
@@ -1198,8 +1198,8 @@ Update now
 Updating...
 == 更新中…
 
-DDNet Client updated!
-== DDNet Client が更新しました!
+Fluffytw Client updated!
+== Fluffytw Client が更新しました!
 
 No updates available
 == 新しいバージョンはありません
@@ -1222,14 +1222,14 @@ Assets directory
 Discord
 == Discord
 
-https://ddnet.tw/discord
-== https://ddnet.tw/discord
+https://Fluffytw.tw/discord
+== https://Fluffytw.tw/discord
 
 Learn
 == チュートリアル
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == ウェブ
@@ -1253,8 +1253,8 @@ Editor
 Play
 == スタート
 
-DDNet %s is out!
-== DDNet %s がリリースされました！
+Fluffytw %s is out!
+== Fluffytw %s がリリースされました！
 
 Downloading %s:
 == %s をダウンロード中:

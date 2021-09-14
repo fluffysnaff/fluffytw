@@ -644,7 +644,7 @@ Ghost
 == Duh
 
 Loading Fluffytw Client
-== Učitavanje DDNet Klijenta
+== Učitavanje Fluffytw Klijenta
 
 Reconnect in %d sec
 == Rekonetovanje za %d sekundi
@@ -667,8 +667,8 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == Da li ste sigurni da želite diskonektovati dummy-a?
 
-Welcome to DDNet
-== Dobrodošli na DDNet
+Welcome to Fluffytw
+== Dobrodošli na Fluffytw
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
 == DDraceNetwork je kooperativna online igra gdje je cilj da ti i tvoja grupa igrača dođete do finiša na mapi. Kao početnik trebalo bi da počneš igrati na Novice serverima, gdje se nalaze najlakše mape. U zavisnosti od ping-a izaberite server najbliži vama.
@@ -700,11 +700,11 @@ Destination file already exist
 Video name:
 == Ime videa:
 
-Show DDNet map finishes in server browser
-== Prikaži završene DDNet mape u pretraživaču za servere
+Show Fluffytw map finishes in server browser
+== Prikaži završene Fluffytw mape u pretraživaču za servere
 
-transmits your player name to info2.ddnet.tw
-== prenosi tvoje ime na info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== prenosi tvoje ime na info2.Fluffytw.tw
 
 Search
 == Pretraži
@@ -727,8 +727,8 @@ Countries
 Types
 == Tipovi
 
-DDNet %s is out!
-== DDNet %s je dostupan!
+Fluffytw %s is out!
+== Fluffytw %s je dostupan!
 
 Downloading %s:
 == Preuzimanje %s:
@@ -736,8 +736,8 @@ Downloading %s:
 Update failed! Check log...
 == Ažuriranje neuspješno! Provjeri log...
 
-DDNet Client updated!
-== DDNet Klijent ažuriran!
+Fluffytw Client updated!
+== Fluffytw Klijent ažuriran!
 
 Update now
 == Ažuriraj sad
@@ -931,8 +931,8 @@ Threaded sound loading
 Map sound volume
 == Glasnoća zvuka mape
 
-DDNet Client needs to be restarted to complete update!
-== DDNet Klijent mora da se restartuje da bi završio ažuriranje!
+Fluffytw Client needs to be restarted to complete update!
+== Fluffytw Klijent mora da se restartuje da bi završio ažuriranje!
 
 Use DDRace Scoreboard
 == Koristi DDRace tablicu bodova
@@ -1030,8 +1030,8 @@ Show tiles layers from BG map
 Try fast HTTP map download first
 == Pokušaj prvo brzo HTTP skidanje mape
 
-DDNet %s is available:
-== DDNet %s je dostupan:
+Fluffytw %s is available:
+== Fluffytw %s je dostupan:
 
 Updating...
 == Ažuriranje...
@@ -1081,7 +1081,7 @@ Best
 Country / Region
 == Zemlja / Regija
 
-Saving ddnet-settings.cfg failed
+Saving Fluffytw-settings.cfg failed
 == 
 
 The width of texture %s is not divisible by %d, or the height is not divisible by %d, which might cause visual bugs.
@@ -1207,7 +1207,7 @@ Background music volume
 HUD
 == 
 
-DDNet
+Fluffytw
 == 
 
 Assets
@@ -1273,10 +1273,10 @@ Assets directory
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 
 
-https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
 == 
 
 Website

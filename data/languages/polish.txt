@@ -763,8 +763,8 @@ Map sound volume
 No updates available
 == Brak dostępnych aktualizacji
 
-DDNet %s is available:
-== DDNet %s jest dostępny:
+Fluffytw %s is available:
+== Fluffytw %s jest dostępny:
 
 Update now
 == Aktualizuj
@@ -772,14 +772,14 @@ Update now
 Updating...
 == Aktualizuje...
 
-DDNet Client updated!
-== DDNet Client został zaktualizowany!
+Fluffytw Client updated!
+== Fluffytw Client został zaktualizowany!
 
 Check now
 == Sprawdź
 
-DDNet Client needs to be restarted to complete update!
-== DDNet Client wymaga ponownego uruchomienia, aby zakończyć aktualizację!
+Fluffytw Client needs to be restarted to complete update!
+== Fluffytw Client wymaga ponownego uruchomienia, aby zakończyć aktualizację!
 
 Connect Dummy
 == Przyślij kukłę
@@ -844,8 +844,8 @@ Pause
 1 new mention
 == 1 raz wspomniano o tobie
 
-Welcome to DDNet
-== Witaj w DDNet
+Welcome to Fluffytw
+== Witaj w Fluffytw
 
 New random timeout code
 == Nowy losowy kod timeout
@@ -853,8 +853,8 @@ New random timeout code
 Enable long pain sound (used when shooting in freeze)
 == Włącz dźwięk długiego jęku (używany, gdy strzelasz we freezie)
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
 Show HUD
 == Pokazuj HUD
@@ -875,7 +875,7 @@ Show clan above name plates
 == Pokazuj klan nad nazwą gracza
 
 Loading Fluffytw Client
-== Ładowanie klienta DDNet
+== Ładowanie klienta Fluffytw
 
 Please use a different name
 == Użyj innej nazwy
@@ -1033,8 +1033,8 @@ Length
 Are you sure that you want to disconnect your dummy?
 == Czy jesteś pewien, że chcesz odesłać kukłę?
 
-DDNet %s is out!
-== DDNet %s już jest!
+Fluffytw %s is out!
+== Fluffytw %s już jest!
 
 Converse
 == Chat prywatny
@@ -1090,11 +1090,11 @@ It's recommended that you check the settings to adjust them to your liking befor
 Please enter your nickname below.
 == Proszę wpisać swój nick poniżej.
 
-Show DDNet map finishes in server browser
-== Pokazuj ukończone mapy DDNet w wyszukiwarce
+Show Fluffytw map finishes in server browser
+== Pokazuj ukończone mapy Fluffytw w wyszukiwarce
 
-transmits your player name to info2.ddnet.tw
-== przenosi twój nick do info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== przenosi twój nick do info2.Fluffytw.tw
 
 Indicate map finish
 == Pokazuj ukończone mapy
@@ -1114,8 +1114,8 @@ Auto
 Replay
 == Powtórka
 
-Saving ddnet-settings.cfg failed
-== Zapisywanie ddnet-settings.cfg nie powiodło się
+Saving Fluffytw-settings.cfg failed
+== Zapisywanie Fluffytw-settings.cfg nie powiodło się
 
 Warning
 == Ostrzeżenie
@@ -1210,8 +1210,8 @@ Particles
 Assets directory
 == Katalog zasobów
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == Strona
@@ -1319,5 +1319,5 @@ Regular Background Color
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 

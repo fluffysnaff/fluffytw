@@ -640,7 +640,7 @@ Ghost
 == Duch
 
 Loading Fluffytw Client
-== Načítání DDNet klienta
+== Načítání Fluffytw klienta
 
 Reconnect in %d sec
 == Opětovné připojení za %d sekund
@@ -663,8 +663,8 @@ Disconnect Dummy
 Are you sure that you want to disconnect your dummy?
 == Jste si jisti, že chcete odpojit svého dummyho?
 
-Welcome to DDNet
-== Vítejte na DDNetu
+Welcome to Fluffytw
+== Vítejte na Fluffytwu
 
 DDraceNetwork is a cooperative online game where the goal is for you and your group of tees to reach the finish line of the map. As a newcomer you should start on Novice servers, which host the easiest maps. Consider the ping to choose a server close to you.
 == DDraceNetwork je kooperativní online hra, kde je cílem pro vás a vaši skupinu dosáhnout cílové čáry mapy. Jako nováček byste měli začít na začínajících serverech, které hostují nejjednodušší mapy. Zvažte ping a vyberte si server, který je vám nejblíž.
@@ -690,8 +690,8 @@ Destination file already exist
 Video name:
 == Název videa:
 
-Show DDNet map finishes in server browser
-== Zobrazit dokončení DDNet map v prohlížeči serveru
+Show Fluffytw map finishes in server browser
+== Zobrazit dokončení Fluffytw map v prohlížeči serveru
 
 Search
 == Hledat
@@ -714,13 +714,13 @@ Countries
 Types
 == Typy 
 
-DDNet %s is out!
-== DDNet %s je venku!
+Fluffytw %s is out!
+== Fluffytw %s je venku!
 
 Downloading %s:
 == Stahování %s:
 
-DDNet Client updated!
+Fluffytw Client updated!
 == Aktualizace selhala! Zkontrolujte log...
 
 Update now
@@ -927,11 +927,11 @@ Map sound volume
 HUD
 == HUD
 
-DDNet
-== DDNet
+Fluffytw
+== Fluffytw
 
-DDNet Client needs to be restarted to complete update!
-== K dokončení aktualizace je nutné restartovat klienta DDNet!
+Fluffytw Client needs to be restarted to complete update!
+== K dokončení aktualizace je nutné restartovat klienta Fluffytw!
 
 Use DDRace Scoreboard
 == Použijte hodnotící tabuli DDRace
@@ -1032,8 +1032,8 @@ Show tiles layers from BG map
 Try fast HTTP map download first
 == Zkusit rychlé HTTP stáhnutí map jako první
 
-DDNet %s is available:
-== DDNet %s je k dispozici:
+Fluffytw %s is available:
+== Fluffytw %s je k dispozici:
 
 Updating...
 == Aktualizace...
@@ -1101,8 +1101,8 @@ Grabs
 9+ new mentions
 == 9+ nových zmínek
 
-Saving ddnet-settings.cfg failed
-== Uložení souboru ddnet-settings.cfg se nezdařilo
+Saving Fluffytw-settings.cfg failed
+== Uložení souboru Fluffytw-settings.cfg se nezdařilo
 
 Warning
 == Varování
@@ -1131,8 +1131,8 @@ Country / Region
 Speed
 == Rychlost
 
-transmits your player name to info2.ddnet.tw
-== přenese vaše jméno hráče na info2.ddnet.tw
+transmits your player name to info2.Fluffytw.tw
+== přenese vaše jméno hráče na info2.Fluffytw.tw
 
 Theme
 == Téma
@@ -1207,8 +1207,8 @@ Particles
 Assets directory
 == Adresář aktiv
 
-https://wiki.ddnet.tw/
-== https://wiki.ddnet.tw/
+https://wiki.Fluffytw.tw/
+== https://wiki.Fluffytw.tw/
 
 Website
 == webová stránka
@@ -1319,5 +1319,5 @@ Regular Background Color
 Discord
 == 
 
-https://ddnet.tw/discord
+https://Fluffytw.tw/discord
 == 
