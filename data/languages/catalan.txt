@@ -795,7 +795,7 @@ Suicides
 Net
 == Net
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Carregant el client DDNet
 
 FPM

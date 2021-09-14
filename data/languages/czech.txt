@@ -639,7 +639,7 @@ Browser
 Ghost
 == Duch
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Načítání DDNet klienta
 
 Reconnect in %d sec

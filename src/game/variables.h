@@ -8,7 +8,12 @@
 MACRO_CONFIG_INT(ClBalancePrecision, cl_balanceprecision, 1, 1, 15, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Balance precision 1/15")
 
 MACRO_CONFIG_INT(ClAimbot, cl_aimbot, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Aimbot on/off")
+MACRO_CONFIG_INT(ClAimbotAngle, cl_aimbotangle, 30, 1, 360, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Aimbot angle 30/360")
 MACRO_CONFIG_INT(ClAimbotSilent, cl_aimbotsilent, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Aimbot aims with cursor on/off")
+
+MACRO_CONFIG_INT(ClVisualsGlow, cl_visualsglow, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Show glow")
+MACRO_CONFIG_INT(ClVisualsNames, cl_visualsname, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Show name")
+MACRO_CONFIG_INT(ClVisualsDebug, cl_visualsdebug, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Visuals for debugging")
 
 // client
 MACRO_CONFIG_INT(ClPredict, cl_predict, 1, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Predict client movements")

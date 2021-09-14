@@ -1865,6 +1865,8 @@ if(CLIENT)
     components/spectator.h
     components/statboard.cpp
     components/statboard.h
+    components/visuals.cpp
+    components/visuals.h
     components/voting.cpp
     components/voting.h
     gameclient.cpp

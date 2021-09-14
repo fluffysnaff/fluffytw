@@ -751,7 +751,7 @@ Messages
 Use DDRace Scoreboard
 == DDRace-Punktetafel benutzen
 
-Loading DDNet Client
+Loading Fluffytw Client
 == DDNet-Client laden
 
 Default zoom

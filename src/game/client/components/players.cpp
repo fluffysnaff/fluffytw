@@ -356,7 +356,52 @@ void CPlayers::RenderPlayer(
 			Graphics()->LinesDraw(&LineItem, 1);
 			Graphics()->LinesEnd();
 		}
+		Fluffhelper &m_pFluffhelper = Fluffhelper::getInstance();
+		if(m_pFluffhelper.ActiveID != -1 && ClientID == m_pFluffhelper.ActiveID && ClientID != localid)
+		{
+			if(g_Config.m_ClVisualsNames)
+			{
+				float workx = 30.f;
+				float worky = 30.f;
+				Position.x += workx;
+				Position.y -= worky;
+				TextRender()->Text(0, Position.x, Position.y, 15.f, m_pClient->m_aClients[ClientID].m_aName, -1);
+				TextRender()->Text(0, Position.x, Position.y - 10, 15.f, m_pClient->m_aClients[ClientID].m_aClan, -1);
+				Position.x -= workx;
+				Position.y += worky;
+			}
 
+			if(g_Config.m_ClVisualsDebug)
+			{
+				g_Config.m_ClVisualsNames = 0;
+				float workx = 30.f;
+				float worky = 0.f;
+				Position.x += workx;
+				Position.y -= worky;
+
+				char posxbuf[32];
+				char posybuf[32];
+				str_format(posxbuf, sizeof(posxbuf), "Pos X: %f", m_pClient->m_aClients[ClientID].m_Predicted.m_Pos.x);
+				str_format(posybuf, sizeof(posybuf), "Pos Y: %f", m_pClient->m_aClients[ClientID].m_Predicted.m_Pos.y);
+				TextRender()->Text(0, Position.x, Position.y + 5, 10.f, posxbuf, -1);
+				TextRender()->Text(0, Position.x, Position.y - 5, 10.f, posybuf, -1);
+
+				char velxbuf[32];
+				char velybuf[32];
+				str_format(velxbuf, sizeof(velxbuf), "Vel X: %f", m_pClient->m_aClients[ClientID].m_Predicted.m_Vel.x);
+				str_format(velybuf, sizeof(velybuf), "Vel Y: %f", m_pClient->m_aClients[ClientID].m_Predicted.m_Vel.y);
+				TextRender()->Text(0, Position.x, Position.y - 15, 10.f, velxbuf, -1);
+				TextRender()->Text(0, Position.x, Position.y - 25, 10.f, velybuf, -1);
+
+				Position.x -= workx;
+				Position.y += worky;
+			}
+
+			if(g_Config.m_ClVisualsGlow)
+			{
+				m_pClient->m_Visuals.DrawBox(vec2(Position.x, Position.y - 1.9f), 24.f, 255.f, 0.f, 0.f);
+			}
+		}
 		Graphics()->SetColor(1.0f, 1.0f, 1.0f, 1.0f);
 		Graphics()->QuadsSetRotation(State.GetAttach()->m_Angle * pi * 2 + Angle);
 

@@ -663,7 +663,7 @@ Browser
 Ghost
 == Дух
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Учитавам DDNet клијент
 
 Reconnect in %d sec

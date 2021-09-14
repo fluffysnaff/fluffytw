@@ -652,7 +652,7 @@ Browser
 Ghost
 == Haamu
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Ladataan DDNet-asiakasta
 
 Reconnect in %d sec

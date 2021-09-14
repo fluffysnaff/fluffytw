@@ -643,7 +643,7 @@ Browser
 Ghost
 == Duh
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Učitavanje DDNet Klijenta
 
 Reconnect in %d sec

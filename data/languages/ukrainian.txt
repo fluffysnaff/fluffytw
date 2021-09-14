@@ -469,7 +469,7 @@ Browser
 Ghost
 == Тінь
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Завантаження DDNet Client
 
 Reconnect in %d sec

@@ -874,7 +874,7 @@ Suicides
 Show clan above name plates
 == Pokazuj klan nad nazwą gracza
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Ładowanie klienta DDNet
 
 Please use a different name

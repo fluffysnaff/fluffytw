@@ -704,7 +704,7 @@ Browser
 Ghost
 == Ghost
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Caricando Client DDNet
 
 Reconnect in %d sec

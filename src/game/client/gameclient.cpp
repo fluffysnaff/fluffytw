@@ -61,6 +61,7 @@
 #include "components/sounds.h"
 #include "components/spectator.h"
 #include "components/statboard.h"
+#include "components/visuals.h"
 #include "components/voting.h"
 
 #include "components/ghost.h"
@@ -79,6 +80,16 @@ const char *CGameClient::NetVersion() const { return GAME_NETVERSION; }
 int CGameClient::DDNetVersion() const { return CLIENT_VERSIONNR; }
 const char *CGameClient::DDNetVersionStr() const { return m_aDDNetVersionStr; }
 const char *CGameClient::GetItemName(int Type) const { return m_NetObjHandler.GetObjName(Type); }
+
+CGameClient::~CGameClient()
+{
+	while(!m_Hacks.empty())
+	{
+		delete m_Hacks.back();
+		m_Hacks.pop_back();
+	}
+	m_Hacks.clear();
+}
 
 void CGameClient::OnConsoleInit()
 {
@@ -143,6 +154,8 @@ void CGameClient::OnConsoleInit()
 	m_All.Add(&m_GameConsole);
 
 	m_All.Add(&m_MenuBackground);
+
+	m_All.Add(&m_Visuals);
 
 	// build the input stack
 	m_Input.Add(&m_Menus.m_Binder); // this will take over all input when we want to bind a key
@@ -225,6 +238,9 @@ void CGameClient::OnConsoleInit()
 
 void CGameClient::OnInit()
 {
+	Fluffhelper &m_pFluffhelper = Fluffhelper::getInstance();
+	m_pFluffhelper.m_pClient = this;
+
 	// init the hacks
 	for(int i = 0; i < m_Hacks.size(); i++)
 		m_Hacks[i]->OnInit();

@@ -649,7 +649,7 @@ Browser
 Ghost
 == ゴースト
 
-Loading DDNet Client
+Loading Fluffytw Client
 == DDNet Client 読み込み中
 
 Reconnect in %d sec

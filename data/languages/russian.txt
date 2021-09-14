@@ -750,7 +750,7 @@ Messages
 New random timeout code
 == Новый тайм-аут код
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Загрузка DDNet Client
 
 Normal message

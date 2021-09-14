@@ -53,7 +53,10 @@
 #include "components/sounds.h"
 #include "components/spectator.h"
 #include "components/statboard.h"
+#include "components/visuals.h"
 #include "components/voting.h"
+
+#include "components/fluffhelper/fluffhelper.h"
 
 class Hack;
 #include "game/client/components/hackbase/hackbase.h"
@@ -122,6 +125,7 @@ public:
 	CSounds m_Sounds;
 	CEmoticon m_Emoticon;
 	CDamageInd m_DamageInd;
+	CVisuals m_Visuals;
 	CVoting m_Voting;
 	CSpectator m_Spectator;
 
@@ -141,6 +145,8 @@ public:
 	CGhost m_Ghost;
 
 private:
+	~CGameClient();
+
 	class CStack
 	{
 	public:

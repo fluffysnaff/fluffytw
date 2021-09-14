@@ -642,7 +642,7 @@ Browser
 Ghost
 == Hayalet
 
-Loading DDNet Client
+Loading Fluffytw Client
 == DDNet Client yükleniyor
 
 Reconnect in %d sec

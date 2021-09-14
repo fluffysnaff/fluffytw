@@ -7,10 +7,8 @@ class HBalance : public Hack
 {
 public:
 	HBalance(CGameClient *pClient) : Hack(pClient){};
-	~HBalance(){};
 
 	void Balance();
-
 	void OnSnapInput();
 };
 

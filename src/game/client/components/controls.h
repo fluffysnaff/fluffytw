@@ -14,7 +14,6 @@ class CControls : public CComponent
 public:
 	// hacks
 	int balanceonoff;
-	int aimbotonoff;
 
 	vec2 m_MousePos[NUM_DUMMIES];
 	vec2 m_TargetPos[NUM_DUMMIES];

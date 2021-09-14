@@ -642,7 +642,7 @@ Browser
 Ghost
 == Skygge
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Laster DDNet-klient
 
 Reconnect in %d sec

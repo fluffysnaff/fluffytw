@@ -652,7 +652,7 @@ Browser
 Ghost
 == 
 
-Loading DDNet Client
+Loading Fluffytw Client
 == 
 
 Reconnect in %d sec

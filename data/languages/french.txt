@@ -983,7 +983,7 @@ FPM
 Enable replays
 == Activer les replays
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Chargement du client DDNet
 
 Zoom in

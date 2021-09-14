@@ -726,7 +726,7 @@ Messages
 Use DDRace Scoreboard
 == ﻝﺎﻤﻌﺘﺳﺃ DDRace ﺩﺭﻮﺑ ﺭﻮﻜﺳ
 
-Loading DDNet Client
+Loading Fluffytw Client
 == ﻞﻴﻤﺤﺘﻟﺍ ﺭﺎﺟ DDNet Client
 
 Default zoom

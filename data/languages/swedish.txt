@@ -1048,7 +1048,7 @@ Show other players' key presses
 Gameplay
 == Spelet
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Laddar DDNet Klienten
 
 Show HUD

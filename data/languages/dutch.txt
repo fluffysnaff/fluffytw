@@ -652,7 +652,7 @@ Browser
 Ghost
 == Spook
 
-Loading DDNet Client
+Loading Fluffytw Client
 == DDNet Client laden
 
 Reconnect in %d sec

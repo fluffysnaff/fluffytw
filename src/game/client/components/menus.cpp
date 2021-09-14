@@ -1131,14 +1131,19 @@ void CMenus::RenderLoading()
 	RenderTools()->DrawRoundRect(x, y, w, h, 40.0f);
 	Graphics()->QuadsEnd();
 
-	const char *pCaption = Localize("Loading DDNet Client");
-
+	const char *pCaption = Localize("Loading Fluffytw Client");
+	const char *apMsg[] = {
+		"This client is 100 percent fluffy!"};
+	static int len = sizeof(apMsg) / sizeof(*apMsg);
+	static int index = rand() % len;
 	CUIRect r;
 	r.x = x;
 	r.y = y + 20;
 	r.w = w;
 	r.h = h - 130;
 	UI()->DoLabel(&r, pCaption, 48.0f, 0, -1);
+	r.y += 42;
+	UI()->DoLabel(&r, apMsg[index], 20.0f, 0, -1);
 
 	Graphics()->TextureClear();
 	Graphics()->QuadsBegin();

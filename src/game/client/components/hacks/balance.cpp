@@ -26,7 +26,7 @@ void HBalance::Balance()
 		return; // don't execute if we stopped holding (see controls.cpp)
  	vec2 OwnVel = m_pClient->m_PredictedChar.m_Vel; // we use predicted char for more precise prediction
 	vec2 OwnPos = m_pClient->m_PredictedChar.m_Pos + OwnVel; // + vel for velocity prediction
-	vec2 closestPlayer = GetClosestPlayer(m_pClient->m_LocalIDs[g_Config.m_ClDummy], 401, CLOSEST_TYPE_NORMAL); 
+	vec2 closestPlayer = GetClosestPlayer(localid, 401, 360, CLOSEST_TYPE_NORMAL); 
 	// g_Config.m_ClDummy returns 1 if you play with main and 0 if u play with dummy
 	// if you always want dummy id for example you would do m_pClient->m_LocalIDs[!g_Config.m_ClDummy]
 	if(closestPlayer == vec2(0, 0))
@@ -36,11 +36,11 @@ void HBalance::Balance()
 		// see variables.h to see balance precision defined
 		if((OwnPos.x - closestPlayer.x) - g_Config.m_ClBalancePrecision > 1)
 		{
-			BotMove(-1, g_Config.m_ClDummy); // BotMove(direction, dummy), -1 is left 1 is right, (see snaffbase.cpp)
+			BotInput(-1, local, INPUT_DIRECTION);
 		}
 		if((OwnPos.x - closestPlayer.x) + g_Config.m_ClBalancePrecision < 1)
 		{
-			BotMove(1, g_Config.m_ClDummy);
+			BotInput(1, local, INPUT_DIRECTION);
 		}
 	}
 }

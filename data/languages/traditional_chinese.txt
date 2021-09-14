@@ -785,7 +785,7 @@ No updates available
 Check now
 == 檢查更新
 
-Loading DDNet Client
+Loading Fluffytw Client
 == 載入 DDNet 客戶端中...
 
 Browser

@@ -647,7 +647,7 @@ Browser
 Ghost
 == Spøgelse
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Indlæser DDNet Klient
 
 Reconnect in %d sec

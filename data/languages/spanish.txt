@@ -651,7 +651,7 @@ Browser
 Ghost
 == Fantasma
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Cargando el cliente DDNet
 
 Reconnect in %d sec

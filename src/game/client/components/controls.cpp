@@ -180,10 +180,6 @@ void CControls::OnConsoleInit()
 		static CInputState s_State = {this, &balanceonoff, &balanceonoff};
 		Console()->Register("+balance", "", CFGFLAG_CLIENT, ConKeyInputState, (void *)&s_State, "Balance");
 	} // we use this for input, so when we hold the binded button it executes
-	{
-		static CInputState s_State = {this, &aimbotonoff, &aimbotonoff};
-		Console()->Register("+aimbot", "", CFGFLAG_CLIENT, ConKeyInputState, (void *)&s_State, "Aimbot");
-	} // just like balance
 
 	// game commands
 	{

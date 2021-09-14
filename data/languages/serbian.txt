@@ -629,7 +629,7 @@ Game paused
 Learn
 == Nauči
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Učitavanje DDNet Klijenta
 
 Render demo

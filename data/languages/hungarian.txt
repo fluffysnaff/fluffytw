@@ -789,7 +789,7 @@ Player country:
 Net
 == Net
 
-Loading DDNet Client
+Loading Fluffytw Client
 == DDNet Kliens betöltése
 
 FPM

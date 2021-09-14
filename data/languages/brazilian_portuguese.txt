@@ -797,7 +797,7 @@ Net
 Miscellaneous
 == Diversos
 
-Loading DDNet Client
+Loading Fluffytw Client
 == Carregando DDNet Client
 
 FPM

@@ -764,7 +764,7 @@ New random timeout code
 Suicides
 == Suicídios
 
-Loading DDNet Client
+Loading Fluffytw Client
 == A carregar o cliente DDNet
 
 Default zoom
