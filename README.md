@@ -1,10 +1,14 @@
 **Fluffy Teeworlds**  
 ------
-This client uses a custom base class that you can use to make hacks. 
+Hack base for ddracenetwork.
+
+**Disclaimer**
+------
+This is not for complete begginers!
 
 **What functions can you use**
 ------
-You can use these hooks for executing your hacks:
+You can use these hooks:
 ```cpp
 virtual void OnInit(){};
 virtual void OnRender(){};
