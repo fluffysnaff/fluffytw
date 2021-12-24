@@ -50,7 +50,7 @@ void CGameClient::OnConsoleInit()
 	// ...
 	```
 
-2. Helper
+2. Helper  
 	Make this public:
 	```cpp
 		// inside collision.h
@@ -60,7 +60,7 @@ void CGameClient::OnConsoleInit()
 		class CLayers *m_pLayers;
 	```
 
-3. Bots
+3. Bots  
 	Inside `controls.cpp` include:
 	```cpp
 	#include "game/client/fluffytw/f_helper.h"
