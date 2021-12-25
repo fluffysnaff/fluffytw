@@ -102,15 +102,20 @@ int FHelper::GetClosestId(int fov)
 float FHelper::GetPing() const
 {
 	const auto realPing = static_cast<float>(Client()->GetPredictionTime());
-	const float ping = (realPing / 100) + 1.f;
+	const float ping = (realPing / 1000) + 1.f;
 	return ping;
 }
 
-bool FHelper::PredictHook(vec2 myPos, vec2 &targetPos, vec2 targetVel)
+bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVel)
 {
-	const float TTL = distance(myPos, targetPos) / (Tuning()->m_HookFireSpeed);
-	const float fDelay = TTL * fHelper->GetPing();
-	targetPos += (targetVel * fDelay);
+	const vec2 targetDistance = targetPos - myPos;
+	const vec2 velDiff = targetVel - myVel / length(myVel);
+
+	const float time = (length(targetDistance) / Tuning()->m_HookFireSpeed) + fHelper->GetPing();
+	const vec2 acc = targetDistance / (0.5f * pow(time, 2));
+
+	targetPos.x = 0.5f * acc.x * pow(time, 2) + velDiff.x * time + targetDistance.x;
+	targetPos.y = 0.5f * acc.y * pow(time, 2) + velDiff.x * time + targetDistance.y;
 	return true;
 }
 

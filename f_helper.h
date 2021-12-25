@@ -30,7 +30,7 @@ public:
 	bool HitScanHook(vec2 InitPos, vec2 scanDir, float radius);
 
 	int GetClosestId(int fov = 360);
-	bool PredictHook(vec2 myPos, vec2 &targetPos, vec2 targetVel);
+	bool PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVel);
 	float GetPing() const;
 
 	bool IsLocalActive();
