@@ -1,13 +1,14 @@
 #include "game/client/fluffytw/f_helper.h"
 #include "aimbot.h"
 
+// TODO: Proper weapon aimbot
 
 void FAimbot::Aimbot(FConfig::AimbotConfig cfg)
 {
 	if(!cfg.enabled)
 		return;
 	m_StartTick = Client()->GameTick(LOCAL_ID);
-	const vec2 EnemyPos = GetClosestHitpoint(cfg.fov / 1.5f);
+	const vec2 EnemyPos = GetClosestHitpoint(cfg.fov / (pi * 0.5f));
 	if(EnemyPos == vec2(0, 0))
 		return;
 	if(Controls()->m_InputData[LOCAL].m_Hook == 1 || cfg.hammer && Controls()->m_InputData[LOCAL].m_Fire & 1)

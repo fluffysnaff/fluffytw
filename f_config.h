@@ -1,5 +1,7 @@
 #pragma once
 
+// TODO: Better configs
+
 namespace FConfig
 {
 	struct EspConfig
