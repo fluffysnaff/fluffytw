@@ -112,7 +112,7 @@ bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVe
 	const vec2 velDiff = targetVel - myVel / length(myVel);
 
 	const float time = (length(targetDistance) / Tuning()->m_HookFireSpeed) + fHelper->GetPing();
-	const vec2 acc = targetDistance / (0.5f * pow(time, 2));
+	const vec2 acc = velDiff / time;
 
 	targetPos.x = 0.5f * acc.x * pow(time, 2) + velDiff.x * time + targetDistance.x;
 	targetPos.y = 0.5f * acc.y * pow(time, 2) + velDiff.x * time + targetDistance.y;
