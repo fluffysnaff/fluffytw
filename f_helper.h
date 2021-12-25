@@ -27,7 +27,8 @@ public:
 	FAimbot *m_pAimbot = nullptr;
 	FVisuals *m_pVisuals = nullptr;
 
-	bool HitScanHook(vec2 InitPos, vec2 scanDir, float radius);
+	bool HitScanHook(vec2 InitPos, vec2 targetPos, vec2 scanDir, float radius);
+	bool IntersectCharacter(vec2 hookPos, vec2 targetPos, vec2 &newPos);
 
 	int GetClosestId(int fov = 360);
 	bool PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVel);

@@ -16,12 +16,12 @@ FHelper::~FHelper()
 } 
 
 
-bool FHelper::HitScanHook(vec2 InitPos, vec2 scanDir, float radius)
+bool FHelper::HitScanHook(vec2 initPos, vec2 targetPos, vec2 scanDir, float radius)
 {
 	vec2 ExDirection = normalize(scanDir);
-	vec2 FinishPos = InitPos + ExDirection * (Tuning()->m_HookLength - 42.f);
+	vec2 FinishPos = initPos + ExDirection * (Tuning()->m_HookLength - 42.f);
 
-	vec2 OldPos = InitPos + ExDirection * radius * 1.5f;
+	vec2 OldPos = initPos + ExDirection * radius * 1.5f;
 	vec2 NewPos = OldPos;
 
 	bool DoBreak = false;
@@ -31,16 +31,16 @@ bool FHelper::HitScanHook(vec2 InitPos, vec2 scanDir, float radius)
 		OldPos = NewPos;
 		NewPos = OldPos + ExDirection * Tuning()->m_HookFireSpeed;
 
-		if(distance(InitPos, NewPos) > Tuning()->m_HookLength)
+		if(distance(initPos, NewPos) > Tuning()->m_HookLength)
 		{
-			NewPos = InitPos + normalize(NewPos - InitPos) * Tuning()->m_HookLength;
+			NewPos = initPos + normalize(NewPos - initPos) * Tuning()->m_HookLength;
 			DoBreak = true;
 		}
 
 		int TeleNr = 0;
 		const int Hit = Collision()->IntersectLineTeleHook(OldPos, NewPos, &FinishPos, nullptr, &TeleNr);
 
-		if(m_pClient->IntersectCharacter(OldPos, FinishPos, FinishPos, LOCAL_ID) != -1)
+		if(IntersectCharacter(OldPos, targetPos, FinishPos))
 			return true;
 
 		if(Hit)
@@ -106,16 +106,30 @@ float FHelper::GetPing() const
 	return ping;
 }
 
+bool FHelper::IntersectCharacter(vec2 hookPos, vec2 targetPos, vec2 &newPos)
+{
+	vec2 ClosestPoint;
+	if(closest_point_on_line(hookPos, newPos, targetPos, ClosestPoint))
+	{
+		if(distance(targetPos, ClosestPoint) < PHYS_SIZE + 2.0f)
+		{
+			newPos = ClosestPoint;
+			return true;
+		}
+	}
+	return false;
+}
+
 bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVel)
 {
 	const vec2 targetDistance = targetPos - myPos;
-	const vec2 velDiff = targetVel - myVel / length(myVel);
+	const float velDiff = abs(length(vec2(targetVel.x - myVel.x, targetVel.y - myVel.y))) / 10;
 
 	const float time = (length(targetDistance) / Tuning()->m_HookFireSpeed) + fHelper->GetPing();
-	const vec2 acc = velDiff / time;
+	const float acc = velDiff / time;
 
-	targetPos.x = 0.5f * acc.x * pow(time, 2) + velDiff.x * time + targetDistance.x;
-	targetPos.y = 0.5f * acc.y * pow(time, 2) + velDiff.x * time + targetDistance.y;
+	targetPos.x = static_cast<int>(0.5f * acc * pow(time, 2) + velDiff * time + targetDistance.x);
+	targetPos.y = static_cast<int>(0.5f * acc * pow(time, 2) + velDiff * time + targetDistance.y);
 	return true;
 }
 
