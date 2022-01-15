@@ -1,32 +1,62 @@
 #include "game/client/fluffytw/f_helper.h"
 #include "aimbot.h"
 
-// TODO: Proper weapon aimbot
-
-void FAimbot::Aimbot(FConfig::AimbotConfig cfg)
+void FAimbot::Aimbot(FConfig::AimbotConfig *cfg)
 {
-	if(!cfg.enabled)
+	if(!cfg->enabled)
 		return;
-	m_StartTick = Client()->GameTick(LOCAL_ID);
-	const vec2 EnemyPos = GetClosestHitpoint(cfg.fov / (pi * 0.5f));
-	if(EnemyPos == vec2(0, 0))
+
+	const vec2 EnemyPos = GetClosestHitpoint(cfg);
+	m_TargetVisible = EnemyPos == vec2(0, 0) ? false : true;
+	HookVisible(cfg->hookVisible, cfg->silent, EnemyPos);
+	if(Controls()->m_InputData[LOCAL].m_Hook == 0)
+	{
+		m_CanAim = true;
+	}
+	if(m_TargetVisible && Controls()->m_InputData[LOCAL].m_Hook == 1)
+	{
+		Aim(NormalizeAim(EnemyPos), cfg->silent);
+	}
+}
+
+void FAimbot::HookVisible(bool cfgVar, bool cfgSilent, vec2 targetPos)
+{
+	static bool hasHooked = false;
+	if(!cfgVar)
+	{
+		if(hasHooked)
+		{
+			Controls()->m_LastData[LOCAL].m_Hook = 0;
+			Controls()->m_InputData[LOCAL].m_Hook = Controls()->m_LastData[LOCAL].m_Hook;
+			hasHooked = false;
+		}
 		return;
-	if(Controls()->m_InputData[LOCAL].m_Hook == 1 || cfg.hammer && Controls()->m_InputData[LOCAL].m_Fire & 1)
-		Aim(NormalizeAim(EnemyPos), cfg.silent);
-	else
-		m_CanAim = true; // reset bool
+	}
+	if(cfgVar && m_TargetVisible)
+	{
+		if(hasHooked == true)
+			m_CanAim = false;
+		else
+			m_CanAim = true;
+		Aim(NormalizeAim(targetPos), cfgSilent);
+		Controls()->m_InputData[LOCAL].m_Hook = 1;
+		hasHooked = true;
+	}
+
 }
 
 
 // Gets
 
-vec2 FAimbot::GetClosestHitpoint(int fov)
+vec2 FAimbot::GetClosestHitpoint(FConfig::AimbotConfig *cfg)
 {
-	const int closestId = fHelper->GetClosestId(fov);
+	if(cfg == nullptr)
+		return vec2(0, 0);
+	const int closestId = fHelper->GetClosestId(cfg->fov / (pi * 0.5f));
 	if(fHelper->IsValidId(closestId))
 	{
-		const vec2 hitpoint = HitpointScan(closestId);
-		return hitpoint;
+		if(cfg->hook)
+			return HitpointScan(closestId, cfg->edge, cfg->accuracy);
 	}
 	return vec2(0, 0);
 }
@@ -51,6 +81,7 @@ void FAimbot::Aim(vec2 Pos, int silent)
 {
 	if(!m_CanAim)
 		return;
+	m_CanAim = false;
 	Controls()->m_InputData[LOCAL].m_TargetX = static_cast<int>(Pos.x);
 	Controls()->m_InputData[LOCAL].m_TargetY = static_cast<int>(Pos.y);
 	if(!silent)
@@ -58,8 +89,6 @@ void FAimbot::Aim(vec2 Pos, int silent)
 		Controls()->m_MousePos[LOCAL].x = Controls()->m_InputData[LOCAL].m_TargetX;
 		Controls()->m_MousePos[LOCAL].y = Controls()->m_InputData[LOCAL].m_TargetY;
 	}
-	if(Client()->GameTick(LOCAL_ID) - m_StartTick < SERVER_TICK_SPEED * 2)
-		m_CanAim = false;
 }
 
 

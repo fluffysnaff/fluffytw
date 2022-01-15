@@ -5,5 +5,5 @@ void FBots::Run(FConfig::AimbotConfig aimbotConfig)
 {
 	if(!fHelper->IsLocalActive())
 		return;
-	fHelper->m_pAimbot->Aimbot(aimbotConfig);
+	fHelper->m_pAimbot->Aimbot(&aimbotConfig);
 }

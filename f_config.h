@@ -12,8 +12,15 @@ namespace FConfig
 	struct AimbotConfig
 	{
 		bool enabled;
-		bool hammer;
 		bool silent;
 		int fov;
+		bool edge;
+		bool accuracy;
+		bool hookVisible;
+		bool hook;
+		bool hammer;
+		bool grenade;
+		bool laser;
+		bool shotgun;
 	};
 }
