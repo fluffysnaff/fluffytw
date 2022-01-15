@@ -10,6 +10,9 @@ set(FLUFFYTW
 	${CMAKE_CURRENT_SOURCE_DIR}/aimbot/aimbot_scans.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/aimbot/aimbot.h
 
+	${CMAKE_CURRENT_SOURCE_DIR}/f_timer.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/f_timer.h
+
 	${CMAKE_CURRENT_SOURCE_DIR}/f_visuals.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/f_visuals-base.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/f_visuals.h
