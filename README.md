@@ -22,6 +22,7 @@ set(CLIENT_SRC ${ENGINE_CLIENT} ${PLATFORM_CLIENT} ${GAME_CLIENT} ${GAME_EDITOR}
 ## Initialization
 Inside `gameclient.cpp` add this:
 ```cpp
+#include <memory.h>
 #include "fluffytw/f_helper.h"
 std::unique_ptr<FHelper> fHelper;
 ```
@@ -31,7 +32,7 @@ Now add this code to `void CGameClient::OnConsoleInit()`:
 void CGameClient::OnConsoleInit()
 {
 	// ...
-	FHelper = std::make_unique<FHelper>(this);
+	fHelper = std::make_unique<FHelper>(this);
 }
 ```
 
@@ -39,6 +40,7 @@ void CGameClient::OnConsoleInit()
 1. Visuals  
 	Inside `players.cpp` include:
 	```cpp
+	#include "game/client/fluffytw/f_config.h"
 	#include "game/client/fluffytw/f_helper.h"
 	```
 	
@@ -46,14 +48,21 @@ void CGameClient::OnConsoleInit()
 	```cpp
 	// ...
 	FConfig::EspConfig espCfg = { 0 }; // replace 0 with your g_Config variables
-	fHelper->m_pVisuals->Run(ClientID, Angle, Position, espCfg);
-	// ...
+	fHelper->m_pVisuals->Run(ClientID, Angle, Position, espCfg); // Call this at the end
 	```
 
 2. Helper  
 	Make this public:
 	```cpp
 		// inside collision.h
+		// from: 
+		class CTile *m_pTiles;
+		int m_Width;
+		int m_Height;
+		class CLayers *m_pLayers;
+		
+	// to: 
+	public:
 		class CTile *m_pTiles;
 		int m_Width;
 		int m_Height;
@@ -71,7 +80,7 @@ void CGameClient::OnConsoleInit()
 	if(!m_InputDirectionLeft[g_Config.m_ClDummy] && m_InputDirectionRight[g_Config.m_ClDummy])
 		m_InputData[g_Config.m_ClDummy].m_Direction = 1;
 
-	FConfig::AimbotConfig cfg = { 0, 0, 0, 0}; // replace 0s with your g_Config variables
+	FConfig::AimbotConfig cfg = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // replace 0s with your g_Config variables
 	fHelper->m_pBots->Run(cfg);
 	// ...
 	```
