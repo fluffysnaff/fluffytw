@@ -4,18 +4,18 @@
 void FVisuals::Run(int ClientID, float Angle, vec2 Position, FConfig::EspConfig cfg)
 {
 	Graphics()->TextureClear();
-	RenderFov(cfg.fovEnabled);
+	RenderFov(cfg.fovEnabled, cfg.aimbotFov);
 }
 
 
 // Fov
 
-void FVisuals::RenderFov(int config)
+void FVisuals::RenderFov(bool config, int fov)
 {
 	if(!config)
 		return;
-	DrawFovLine(static_cast<float>(g_Config.m_ClAimbotFov * 0.01));
-	DrawFovLine(static_cast<float>(g_Config.m_ClAimbotFov * -0.01));
+	DrawFovLine(static_cast<float>(fov * 0.01));
+	DrawFovLine(static_cast<float>(fov * -0.01));
 }
 
 void FVisuals::DrawFovLine(float offset)

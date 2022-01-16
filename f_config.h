@@ -7,6 +7,7 @@ namespace FConfig
 	struct EspConfig
 	{
 		bool fovEnabled;
+		int aimbotFov;
 	};
 
 	struct AimbotConfig

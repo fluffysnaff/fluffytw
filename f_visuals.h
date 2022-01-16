@@ -18,6 +18,6 @@ public:
 	void DrawBox(vec2 center, float size, ColorRGBA color = {1, 1, 1, 1});
 
 	// Fov
-	void RenderFov(int config);
+	void RenderFov(bool config, int fov);
 	void DrawFovLine(float offset);
 };
