@@ -78,9 +78,10 @@ bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVe
 {
 	PredictHookOut(myPos, myVel, targetPos, targetVel);
 	const vec2 delta = targetPos - myPos;
-	const vec2 deltaVel = targetVel - myVel;
+	const float aproxTime = (length(delta) / Tuning()->m_HookFireSpeed);
+	const vec2 deltaVel = normalize(targetVel - myVel) * (Tuning()->m_HookFireSpeed * aproxTime);
 
-	const float hookSpeed = length(delta + deltaVel * (length(delta) / Tuning()->m_HookLength));
+	const float hookSpeed = length(delta) + (Tuning()->m_HookFireSpeed * aproxTime);
 	const float a = dot(deltaVel, deltaVel) - powf(hookSpeed, 2);
 	const float b = 2.f * dot(deltaVel, delta);
 	const float c = dot(delta, delta);
@@ -208,7 +209,7 @@ int FHelper::GetClosestId(int fov, float range)
 
 		if(!m_pAimbot->InFov(fov, Position - Pos))
 			continue;
-		if(ClosestID != -1 && GameWorld()->m_GameTick % 200 == 0)
+		if(ClosestID != -1 && GameWorld()->m_GameTick % 100 != 0)
 			return ClosestID;
 		if(ClosestID == -1 && distance(Pos, Position) < Distance)
 		{
