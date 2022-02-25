@@ -84,3 +84,10 @@ void CGameClient::OnConsoleInit()
 	fHelper->m_pBots->Run(cfg);
 	// ...
 	```
+  
+## Possible problems
+1. If something isn't working, make sure that configs are setup right and everything is executing.  
+2. Aimbot isn't working - Debug it. For example set `m_CanAim` always to true and see if it works.  
+  
+## Showcase
+Aimbot: https://streamable.com/s81xls  

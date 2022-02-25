@@ -80,7 +80,14 @@ bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVe
 	const vec2 delta = targetPos - myPos;
 	const vec2 deltaVel = targetVel - myVel;
 
-	const float hookSpeed = length(delta + deltaVel * (length(delta) / Tuning()->m_HookLength));
+	// 1.
+	// Tuning()->m_HookFireSpeed is basically acceleration
+	// v = v0 + a*t
+	// t = s/v; This is just a prediction though
+	// v = v0 + a*s/v
+	// Therefore v = (v0 + sqrt(v0^2 + 4as)) / 2
+
+	const float hookSpeed = (length(targetVel) + sqrtf(powf(length(targetVel), 2.f) + 4.f * Tuning()->m_HookFireSpeed * length(delta))) / 2.f;
 	const float a = dot(deltaVel, deltaVel) - powf(hookSpeed, 2);
 	const float b = 2.f * dot(deltaVel, delta);
 	const float c = dot(delta, delta);
@@ -208,7 +215,7 @@ int FHelper::GetClosestId(int fov, float range)
 
 		if(!m_pAimbot->InFov(fov, Position - Pos))
 			continue;
-		if(ClosestID != -1 && GameWorld()->m_GameTick % 200 == 0)
+		if(ClosestID != -1 && GameWorld()->m_GameTick % 100 != 0)
 			return ClosestID;
 		if(ClosestID == -1 && distance(Pos, Position) < Distance)
 		{
@@ -222,7 +229,7 @@ int FHelper::GetClosestId(int fov, float range)
 float FHelper::GetPing() const
 {
 	const auto realPing = static_cast<float>(Client()->GetPredictionTime());
-	const float ping = (realPing / 1000.f);
+	const float ping = (realPing / 100.f);
 	return ping;
 }
 
