@@ -80,20 +80,16 @@ bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVe
 	const vec2 delta = targetPos - myPos;
 	const vec2 deltaVel = targetVel - myVel;
 
-	// 1.
-	// Tuning()->m_HookFireSpeed is basically acceleration
-	// v = v0 + a*t
-	// t = s/v; This is just a prediction though
-	// v = v0 + a*s/v
-	// Therefore v = (v0 + sqrt(v0^2 + 4as)) / 2
+	// Tuning()->m_HookFireSpeed isn't acceleration, but
+	// it's a bit weird in TW for some reason
 
-	const float hookSpeed = (length(targetVel) + sqrtf(powf(length(targetVel), 2.f) + 4.f * Tuning()->m_HookFireSpeed * length(delta))) / 2.f;
+	const float hookSpeed = length(deltaVel) + Tuning()->m_HookFireSpeed;
 	const float a = dot(deltaVel, deltaVel) - powf(hookSpeed, 2);
 	const float b = 2.f * dot(deltaVel, delta);
 	const float c = dot(delta, delta);
 	
 	const float sol = powf(b, 2) - 4.f * a * c;
-	if(sol > 0.f)
+	if(sol >= 0.f)
 	{
 		const float time = (2.f * c / (sqrtf(sol) - b)) + GetPing();
 		targetPos = delta + targetVel * time;
