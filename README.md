@@ -94,8 +94,8 @@ void CGameClient::OnConsoleInit()
 2. Aimbot isn't working - Debug it. For example set `m_CanAim` always to true and see if it works.  
   
 ## Showcase
+[Hook prediction](https://streamable.com/j51ilg)  
+
 Aimbot:  
-1. Hitpoint scan: https://streamable.com/s81xls  
-2. Bruteforce scan: https://streamable.com/rq31xk  
-  
-Hook prediction: https://streamable.com/
+1. [Hitpoint scan](https://streamable.com/s81xls)  
+2. [Bruteforce scan](https://streamable.com/rq31xk)  
