@@ -92,6 +92,7 @@ void CGameClient::OnConsoleInit()
 ## Possible problems
 1. If something isn't working, make sure that configs are setup right and everything is executing.  
 2. Aimbot isn't working - Debug it. For example set `m_CanAim` always to true and see if it works.  
+3. If there are problems with the execution of your build, it's most likely the aimbot thread.
   
 ## Showcase
 [Hook prediction](https://streamable.com/j51ilg)  
