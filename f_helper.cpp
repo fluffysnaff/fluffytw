@@ -2,13 +2,10 @@
 #include "f_helper.h"
 
 FHelper::FHelper(CGameClient *client) :
-	m_pClient(client)
-{
-	m_pTimer = new FTimer(m_pClient);
-	m_pBots = new FBots(m_pClient);
-	m_pAimbot = new FAimbot(m_pClient);
-	m_pVisuals = new FVisuals(m_pClient);
-}
+	m_pClient(client),
+	m_pBots(new FBots(client)),
+	m_pAimbot(new FAimbot(client)),
+	m_pVisuals(new FVisuals(client)) {}
 
 FHelper::~FHelper()
 {
@@ -74,7 +71,7 @@ bool FHelper::IntersectCharacter(vec2 hookPos, vec2 targetPos, vec2 &newPos)
 	return false;
 }
 
-bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVel)
+bool FHelper::PredictHook(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targetVel, float speed)
 {
 	PredictHookOut(myPos, myVel, targetPos, targetVel);
 	const vec2 delta = targetPos - myPos;
@@ -83,7 +80,7 @@ bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVe
 	// Tuning()->m_HookFireSpeed isn't acceleration, but
 	// it's a bit weird in TW for some reason
 
-	const float hookSpeed = length(deltaVel) + Tuning()->m_HookFireSpeed;
+	const float hookSpeed = length(deltaVel) + speed;
 	const float a = dot(deltaVel, deltaVel) - powf(hookSpeed, 2);
 	const float b = 2.f * dot(deltaVel, delta);
 	const float c = dot(delta, delta);
@@ -92,7 +89,7 @@ bool FHelper::PredictHook(vec2 myPos, vec2 myVel, vec2 &targetPos, vec2 targetVe
 	if(sol >= 0.f)
 	{
 		const float time = (2.f * c / (sqrtf(sol) - b)) + GetPing();
-		targetPos = delta + targetVel * time;
+		targetPos += targetVel * time;
 		return true;
 	}
 	return false;
