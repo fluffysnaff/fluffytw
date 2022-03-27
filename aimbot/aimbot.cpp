@@ -1,28 +1,27 @@
 #include "game/client/fluffytw/f_helper.h"
 #include "aimbot.h"
 
-void FAimbot::Aimbot(FConfig::AimbotConfig *cfg)
+void FAimbot::Aimbot()
 {
-	if(!cfg->enabled)
+	if(!fConfig->aimbotCfg.enabled)
 		return;
-
-	const vec2 EnemyPos = GetClosestHitpoint(cfg);
-	m_TargetVisible = EnemyPos == vec2(0, 0) ? false : true;
-	HookVisible(cfg->hookVisible, cfg->silent, EnemyPos);
+	RunThread();
+	m_TargetVisible = m_TargetPos == vec2(0, 0) ? false : true;
+	HookVisible(m_TargetPos);
 	if(Controls()->m_InputData[LOCAL].m_Hook == 0)
 	{
 		m_CanAim = true;
 	}
-	if(m_TargetVisible && Controls()->m_InputData[LOCAL].m_Hook == 1)
+	if(Controls()->m_InputData[LOCAL].m_Hook == 1)
 	{
-		Aim(NormalizeAim(EnemyPos), cfg->silent);
+		Aim(NormalizeAim(m_TargetPos));
 	}
 }
 
-void FAimbot::HookVisible(bool cfgVar, bool cfgSilent, vec2 targetPos)
+void FAimbot::HookVisible(vec2 targetPos)
 {
 	static bool hasHooked = false;
-	if(!cfgVar)
+	if(!fConfig->aimbotCfg.hookVisible)
 	{
 		if(hasHooked)
 		{
@@ -32,13 +31,13 @@ void FAimbot::HookVisible(bool cfgVar, bool cfgSilent, vec2 targetPos)
 		}
 		return;
 	}
-	if(cfgVar && m_TargetVisible)
+	if(fConfig->aimbotCfg.hookVisible && m_TargetVisible)
 	{
 		if(hasHooked == true)
 			m_CanAim = false;
 		else
 			m_CanAim = true;
-		Aim(NormalizeAim(targetPos), cfgSilent);
+		Aim(NormalizeAim(targetPos));
 		Controls()->m_InputData[LOCAL].m_Hook = 1;
 		hasHooked = true;
 	}
@@ -48,21 +47,20 @@ void FAimbot::HookVisible(bool cfgVar, bool cfgSilent, vec2 targetPos)
 
 // Gets
 
-vec2 FAimbot::GetClosestHitpoint(FConfig::AimbotConfig *cfg)
+void FAimbot::GetClosestHitpoint()
 {
-	if(cfg == nullptr)
-		return vec2(0, 0);
-	const int closestId = fHelper->GetClosestId(cfg->fov / (pi * 0.5f));
-	if(fHelper->IsValidId(closestId))
+	while(true)
 	{
-		if(cfg->hook)
-			return HitpointScan(closestId, cfg->edge, cfg->accuracy);
+		const int closestId = fHelper->GetClosestId(fConfig->aimbotCfg.fov / (pi * 0.5f));
+		if(fHelper->IsValidId(closestId))
+			m_TargetPos = EdgeScan(closestId);
+		else
+			m_TargetPos = vec2(0, 0);
+		thread_sleep(10);
 	}
-	return vec2(0, 0);
 }
 
-
-// Aim Stuff
+// Aim
 
 vec2 FAimbot::NormalizeAim(vec2 Pos)
 {
@@ -77,14 +75,16 @@ vec2 FAimbot::NormalizeAim(vec2 Pos)
 	return Pos;
 }
 
-void FAimbot::Aim(vec2 Pos, int silent)
+void FAimbot::Aim(vec2 Pos)
 {
 	if(!m_CanAim)
 		return;
 	m_CanAim = false;
+	if(!m_TargetVisible)
+		return;
 	Controls()->m_InputData[LOCAL].m_TargetX = static_cast<int>(Pos.x);
 	Controls()->m_InputData[LOCAL].m_TargetY = static_cast<int>(Pos.y);
-	if(!silent)
+	if(!fConfig->aimbotCfg.silent)
 	{
 		Controls()->m_MousePos[LOCAL].x = Controls()->m_InputData[LOCAL].m_TargetX;
 		Controls()->m_MousePos[LOCAL].y = Controls()->m_InputData[LOCAL].m_TargetY;
@@ -92,14 +92,26 @@ void FAimbot::Aim(vec2 Pos, int silent)
 }
 
 
+// Thread
+void AimbotProxy(void *pUser)
+{
+	FAimbot *pSelf = (FAimbot *)pUser;
+	pSelf->GetClosestHitpoint();
+}
+
+void FAimbot::RunThread()
+{
+	if(m_pAimbotThread == NULL)
+		m_pAimbotThread = thread_init_and_detach(AimbotProxy, this, "Aimbot Thread");
+}
+
+
 // Check
 
-bool FAimbot::InFov(int fov, vec2 dir)
+bool FAimbot::InFov(float fov, vec2 dir)
 {
-	const double angle_difference = pi - abs(abs(angle(dir) - angle(Controls()->m_MousePos[LOCAL])) - pi);
+	const float angle_difference = pi - abs(abs(angle(dir) - angle(Controls()->m_MousePos[LOCAL])) - pi);
 	if(angle_difference > fov * (pi / 180))
-	{
 		return false;
-	}
 	return true;
 }

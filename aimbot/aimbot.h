@@ -9,25 +9,29 @@ public:
 	FAimbot(CGameClient *pClient) :
 		FComponent(pClient){}
 
-	void Aimbot(FConfig::AimbotConfig *cfg);
-	void HookVisible(bool cfgVar, bool cfgSilent, vec2 targetPos);
+	void Aimbot();
+	void HookVisible(vec2 targetPos);
 
 	// Checks
-	bool InFov(int fov, vec2 dir);
+	bool InFov(float fov, vec2 dir);
 
 	// Gets
-	vec2 GetClosestHitpoint(FConfig::AimbotConfig *cfg);
+	void GetClosestHitpoint();
 
 	// Scans
-	vec2 HitpointScan(int id, bool edge, float accuracy);
+	vec2 EdgeScan(int id);
 
-	// Aim stuff
+	// Aim 
 	vec2 NormalizeAim(vec2 Pos);
-	void Aim(vec2 Pos, int silent);
+	void Aim(vec2 Pos);
 
-	// GLOBALS
+	// Thread
+	void RunThread();
+	void *m_pAimbotThread = NULL;
+
+	// Globals
 	bool m_CanAim = true;
 	bool m_TargetVisible = false;
+	int m_TargetId = 0;
+	vec2 m_TargetPos = vec2(0, 0);
 };
-
-#define MAX_HITPOINTS 32
