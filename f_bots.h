@@ -9,5 +9,5 @@ class FBots : public FComponent
 public:
 	FBots(CGameClient *pClient) :
 		FComponent(pClient){}
-	void Run(FConfig::AimbotConfig aimbotConfig);
+	void Run();
 };

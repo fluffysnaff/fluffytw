@@ -1,21 +1,24 @@
+#include "f_helper.h"
 #include "f_visuals.h"
 
 
-void FVisuals::Run(int ClientID, float Angle, vec2 Position, FConfig::EspConfig cfg)
+void FVisuals::Run(int ClientID, float Angle, vec2 Position)
 {
+	if(!fConfig->espCfg.enabled)
+		return;
 	Graphics()->TextureClear();
-	RenderFov(cfg.fovEnabled, cfg.aimbotFov);
+	DrawFov();
 }
 
 
 // Fov
 
-void FVisuals::RenderFov(bool config, int fov)
+void FVisuals::DrawFov()
 {
-	if(!config)
+	if(!fConfig->espCfg.drawFov)
 		return;
-	DrawFovLine(static_cast<float>(fov * 0.01));
-	DrawFovLine(static_cast<float>(fov * -0.01));
+	DrawFovLine(static_cast<float>(fConfig->aimbotCfg.fov * 0.01));
+	DrawFovLine(static_cast<float>(fConfig->aimbotCfg.fov * -0.01));
 }
 
 void FVisuals::DrawFovLine(float offset)

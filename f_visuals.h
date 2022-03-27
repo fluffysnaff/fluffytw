@@ -10,7 +10,7 @@ public:
 	FVisuals(CGameClient *pClient) :
 		FComponent(pClient){}
 
-	void Run(int ClientID, float Angle, vec2 Position, FConfig::EspConfig cfg);
+	void Run(int ClientID, float Angle, vec2 Position);
 
 	// Draw
 	void DrawLine(vec2 pos1, vec2 pos2, ColorRGBA color = {1, 1, 1, 1});
@@ -18,6 +18,6 @@ public:
 	void DrawBox(vec2 center, float size, ColorRGBA color = {1, 1, 1, 1});
 
 	// Fov
-	void RenderFov(bool config, int fov);
+	void DrawFov();
 	void DrawFovLine(float offset);
 };
