@@ -23,8 +23,10 @@ set(CLIENT_SRC ${ENGINE_CLIENT} ${PLATFORM_CLIENT} ${GAME_CLIENT} ${GAME_EDITOR}
 Inside `gameclient.cpp` add this:
 ```cpp
 #include <memory.h>
+#include "fluffytw/f_config.h"
 #include "fluffytw/f_helper.h"
 std::unique_ptr<FHelper> fHelper;
+std::unique_ptr<FConfig> fConfig;
 ```
 
 Now add this code to `void CGameClient::OnConsoleInit()`:
@@ -33,6 +35,8 @@ void CGameClient::OnConsoleInit()
 {
 	// ...
 	fHelper = std::make_unique<FHelper>(this);
+	fConfig = std::make_unique<FConfig>();
+	// ...
 }
 ```
 
@@ -47,8 +51,8 @@ void CGameClient::OnConsoleInit()
 	Then in `RenderPlayer()` add:
 	```cpp
 	// ...
-	FConfig::EspConfig espCfg = { 0 }; // replace 0 with your g_Config variables
-	fHelper->m_pVisuals->Run(ClientID, Angle, Position, espCfg); // Call this at the end
+	fConfig->EspCfg.enabled = g_Config.m_ClEspEnable; // This is an example
+	fHelper->m_pVisuals->Run(ClientID, Angle, Position); // Call this at the end
 	```
 
 2. Helper  
@@ -73,15 +77,15 @@ void CGameClient::OnConsoleInit()
 	Inside `controls.cpp` include:
 	```cpp
 	#include "game/client/fluffytw/f_helper.h"
+	#include "game/client/fluffytw/f_config.h"
 	```
 	Then in `SnapInput();` add:
 	```cpp
 	// ...
 	if(!m_InputDirectionLeft[g_Config.m_ClDummy] && m_InputDirectionRight[g_Config.m_ClDummy])
 		m_InputData[g_Config.m_ClDummy].m_Direction = 1;
-
-	FConfig::AimbotConfig cfg = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}; // replace 0s with your g_Config variables
-	fHelper->m_pBots->Run(cfg);
+	fConfig->AimbotCfg.enabled = false; // Set what variables you need using fConfig
+	fHelper->m_pBots->Run();
 	// ...
 	```
   
@@ -90,4 +94,8 @@ void CGameClient::OnConsoleInit()
 2. Aimbot isn't working - Debug it. For example set `m_CanAim` always to true and see if it works.  
   
 ## Showcase
-Aimbot: https://streamable.com/s81xls  
+Aimbot:  
+1. Hitpoint scan: https://streamable.com/s81xls  
+2. Bruteforce scan: https://streamable.com/rq31xk  
+  
+Hook prediction: https://streamable.com/
