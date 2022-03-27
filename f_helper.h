@@ -33,7 +33,7 @@ public:
 	bool IntersectCharacter(vec2 hookPos, vec2 targetPos, vec2 &newPos);
 
 	bool PredictHook(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targetVel, float speed);
-	void PredictHookOut(vec2 myPos, vec2 &myVel, vec2 targetPos, vec2 &targetVel);
+	void PredictHookOut(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targetVel);
 	void TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray);
 
 	int GetCustomTile(float x, float y) const;

@@ -77,9 +77,6 @@ bool FHelper::PredictHook(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targe
 	const vec2 delta = targetPos - myPos;
 	const vec2 deltaVel = targetVel - myVel;
 
-	// Tuning()->m_HookFireSpeed isn't acceleration, but
-	// it's a bit weird in TW for some reason
-
 	const float hookSpeed = length(deltaVel) + speed;
 	const float a = dot(deltaVel, deltaVel) - powf(hookSpeed, 2);
 	const float b = 2.f * dot(deltaVel, delta);
@@ -95,7 +92,7 @@ bool FHelper::PredictHook(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targe
 	return false;
 }
 
-void FHelper::PredictHookOut(vec2 myPos, vec2 &myVel, vec2 targetPos, vec2 &targetVel)
+void FHelper::PredictHookOut(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targetVel)
 {
 	const bool Grounded = IsGrounded(LOCAL_ID);
 	const float MaxSpeed = Grounded ? Tuning()->m_GroundControlSpeed : Tuning()->m_AirControlSpeed;
