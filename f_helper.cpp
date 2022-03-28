@@ -73,7 +73,6 @@ bool FHelper::IntersectCharacter(vec2 hookPos, vec2 targetPos, vec2 &newPos)
 
 bool FHelper::PredictHook(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targetVel, float speed)
 {
-	PredictHookOut(myPos, myVel, targetPos, targetVel);
 	const vec2 delta = targetPos - myPos;
 	const vec2 deltaVel = targetVel - myVel;
 
