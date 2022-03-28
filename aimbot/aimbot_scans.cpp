@@ -23,7 +23,7 @@ vec2 FAimbot::EdgeScan(int id)
 	case 0:
 	{
 		const float visibleAngle = atan2(targetPos.y - myPos.y, targetPos.x - myPos.x) + pi / 2;
-		for(float i = visibleAngle; i < pi + visibleAngle; i += fConfig->aimbotCfg.accuracy / 10.f)
+		for(float i = visibleAngle; i < pi + visibleAngle; i += fConfig->aimbotCfg.accuracy / 25.f)
 		{
 			if(hitPointsCount >= MAX_HITPOINTS)
 				break;
@@ -46,7 +46,7 @@ vec2 FAimbot::EdgeScan(int id)
 	}
 	case 1:
 	{
-		for(float i = 0; i < fConfig->aimbotCfg.fov * (180.f / pi); i += fConfig->aimbotCfg.accuracy / 10.f)
+		for(float i = 0; i < fConfig->aimbotCfg.fov * (pi / 180.f); i += fConfig->aimbotCfg.accuracy / 10.f)
 		{
 			if(hitPointsCount >= MAX_HITPOINTS)
 				break;
