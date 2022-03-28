@@ -82,12 +82,16 @@ void FAimbot::Aim(vec2 Pos)
 	m_CanAim = false;
 	if(!m_TargetVisible)
 		return;
-	Controls()->m_InputData[LOCAL].m_TargetX = static_cast<int>(Pos.x);
-	Controls()->m_InputData[LOCAL].m_TargetY = static_cast<int>(Pos.y);
 	if(!fConfig->aimbotCfg.silent)
 	{
-		Controls()->m_MousePos[LOCAL].x = Controls()->m_InputData[LOCAL].m_TargetX;
-		Controls()->m_MousePos[LOCAL].y = Controls()->m_InputData[LOCAL].m_TargetY;
+		Controls()->m_MousePos[LOCAL] = Pos;
+		Controls()->m_InputData[LOCAL].m_TargetX = static_cast<int>(Controls()->m_MousePos[LOCAL].x);
+		Controls()->m_InputData[LOCAL].m_TargetY = static_cast<int>(Controls()->m_MousePos[LOCAL].y);
+	}
+	else
+	{
+		Controls()->m_InputData[LOCAL].m_TargetX = static_cast<int>(Pos.x);
+		Controls()->m_InputData[LOCAL].m_TargetY = static_cast<int>(Pos.y);
 	}
 }
 
