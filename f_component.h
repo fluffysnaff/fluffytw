@@ -9,6 +9,7 @@
 #define DUMMY_ID m_pClient->m_LocalIDs[DUMMY]
 
 #define PHYS_SIZE 28.f
+#define MAX_HITPOINTS 32
 
 
 class FComponent

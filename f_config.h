@@ -22,7 +22,3 @@ public:
 };
 
 extern std::unique_ptr<FConfig> fConfig;
-
-
-// Macros
-#define MAX_HITPOINTS 32
