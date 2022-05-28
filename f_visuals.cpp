@@ -17,8 +17,8 @@ void FVisuals::DrawFov()
 {
 	if(!fConfig->espCfg.drawFov)
 		return;
-	DrawFovLine(static_cast<float>(fConfig->aimbotCfg.fov * 0.01));
-	DrawFovLine(static_cast<float>(fConfig->aimbotCfg.fov * -0.01));
+	DrawFovLine(fConfig->aimbotCfg.fov * 0.01f);
+	DrawFovLine(fConfig->aimbotCfg.fov * -0.01f);
 }
 
 void FVisuals::DrawFovLine(float offset)
