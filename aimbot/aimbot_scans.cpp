@@ -1,8 +1,9 @@
-#include "game/client/fluffytw/f_helper.h"
 #include "aimbot.h"
+#include "game/client/fluffytw/f_helper.h"
 
 vec2 FAimbot::EdgeScan(int id)
 {
+	// Constants
 	vec2 myPos = m_pClient->m_PredictedChar.m_Pos;
 	vec2 myVel = m_pClient->m_PredictedChar.m_Vel;
 	vec2 targetVel = m_pClient->m_aClients[id].m_Predicted.m_Vel;
@@ -11,61 +12,56 @@ vec2 FAimbot::EdgeScan(int id)
 	int hitPointsCount = 0;
 	vec2 hitPoints[MAX_HITPOINTS];
 
+    // Predict hook and return, if it's impossible
 	if(!fHelper->PredictHook(myPos, myVel, targetPos, targetVel, Tuning()->m_HookFireSpeed))
 		return vec2(0, 0);
-	if(fHelper->HitScanHook(myPos, targetPos, targetPos - myPos, PHYS_SIZE))
-		return targetPos - myPos; // first, scan for normal direction only
-	if(!fConfig->aimbotCfg.edge)
-		return vec2(0, 0); // edge scan is disabled, normal scan failed
 
-	switch(fConfig->aimbotCfg.scanType)
+    // If player is hookable right away, return the position
+	if(fHelper->HitScanHook(myPos, targetPos, targetPos - myPos, PHYS_SIZE))
+		return targetPos - myPos;
+
+	// If hitpoint scan is disabled and normal scan failed, return
+	if(!fConfig->aimbotCfg.edge)
+		return vec2(0, 0);
+
+	/* Gets the angle range we should be able to hook
+	 *
+	 * a = the range
+	 * myPos
+	 * |\
+	 * | \
+	 * |  \
+	 * |__a\
+	 *      targetPos
+	*/
+	const float visibleAngle = atan2(targetPos.y - myPos.y, targetPos.x - myPos.x) + pi / 2;
+	for(float i = visibleAngle; i < pi + visibleAngle; i += fConfig->aimbotCfg.accuracy / 10.f)
 	{
-	case 0:
-	{
-		const float visibleAngle = atan2(targetPos.y - myPos.y, targetPos.x - myPos.x) + pi / 2;
-		for(float i = visibleAngle; i < pi + visibleAngle; i += fConfig->aimbotCfg.accuracy / 25.f)
+		// Return if we have enough hitpoints
+		if(hitPointsCount >= MAX_HITPOINTS)
+			break;
+
+		// Convert desired angle(hitpoint) to Cartesian coordinates
+		vec2 pos = vec2(static_cast<int>(targetPos.x + (cosf(i) * PHYS_SIZE)), 
+			static_cast<int>(targetPos.y + (sinf(i) * PHYS_SIZE)));
+		const vec2 dir = pos - myPos;
+
+		// Check if hitpoint is hookable and if it is
+		// append it to `hitPoints` and increase `hitPointsCount`
+		if(fHelper->HitScanHook(myPos, targetPos, dir, PHYS_SIZE))
 		{
-			if(hitPointsCount >= MAX_HITPOINTS)
-				break;
-			const float x = targetPos.x + (cosf(i) * PHYS_SIZE);
-			const float y = targetPos.y + (sinf(i) * PHYS_SIZE);
-			vec2 pos = vec2(static_cast<int>(x), static_cast<int>(y));
-			const vec2 dir = pos - myPos;
-			if(fHelper->HitScanHook(myPos, targetPos, dir, PHYS_SIZE))
-			{
-				hitPoints[hitPointsCount] = dir;
-				hitPointsCount++;
-			}
+			hitPoints[hitPointsCount] = dir;
+			hitPointsCount++;
 		}
-		if(hitPointsCount > 0)
-		{
-			const int middleIndex = (hitPointsCount - 1) / 2;
-			return hitPoints[middleIndex];
-		}
-		break;
 	}
-	case 1:
+
+	// If hitpoints were found
+	// return the best(i.e. middle) hitpoint position
+	if(hitPointsCount > 0)
 	{
-		for(float i = 0; i < fConfig->aimbotCfg.fov * (pi / 180.f); i += fConfig->aimbotCfg.accuracy / 10.f)
-		{
-			if(hitPointsCount >= MAX_HITPOINTS)
-				break;
-			const vec2 dir = (normalize(direction(i)) * PHYS_SIZE + targetPos) - myPos;
-			if(fHelper->HitScanHook(myPos, targetPos, dir, PHYS_SIZE))
-			{
-				hitPoints[hitPointsCount] = dir;
-				hitPointsCount++;
-			}
-		}
-		if(hitPointsCount > 0)
-		{
-			const int middleIndex = (hitPointsCount - 1) / 2;
-			return hitPoints[middleIndex];
-		}
-		break;
-	}
-	default:
-		break;
+		// Calculate the middle index of `hitPoints` array
+		const int middleIndex = (hitPointsCount - 1) / 2;
+		return hitPoints[middleIndex];
 	}
 	return vec2(0, 0);
 }
