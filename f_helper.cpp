@@ -18,7 +18,7 @@ FHelper::~FHelper()
 bool FHelper::HitScanHook(vec2 initPos, vec2 targetPos, vec2 scanDir, float radius)
 {
 	vec2 ExDirection = normalize(scanDir);
-	vec2 FinishPos = initPos + ExDirection * (Tuning()->m_HookLength - 42);
+	vec2 FinishPos = initPos + ExDirection * (Tuning()->m_HookLength - radius * 1.5f);
 
 	vec2 OldPos = initPos + ExDirection * radius * 1.5f;
 	vec2 NewPos = OldPos;
@@ -71,12 +71,12 @@ bool FHelper::IntersectCharacter(vec2 hookPos, vec2 targetPos, vec2 &newPos)
 	return false;
 }
 
-bool FHelper::PredictHook(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targetVel, float speed)
+bool FHelper::PredictHook(vec2 &myPos, vec2 myVel, vec2 &targetPos, vec2 targetVel, float speed)
 {
 	const vec2 delta = targetPos - myPos;
 	const vec2 deltaVel = targetVel - myVel;
 
-	const float hookSpeed = length(deltaVel) + speed;
+	const float hookSpeed = length(deltaVel) * 0.75f + speed;
 	const float a = dot(deltaVel, deltaVel) - powf(hookSpeed, 2);
 	const float b = 2.f * dot(deltaVel, delta);
 	const float c = dot(delta, delta);
@@ -160,7 +160,7 @@ void FHelper::TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArra
 	CCharacterCore tempcore;
 	mem_zero(&tempcore, sizeof(tempcore));
 	tempcore.Init(&tempworld, m_pClient->Collision());
-	tempcore.Read(pCharacter);
+	tempcore.ReadCharacter(pCharacter);
 
 	for(int i = 0; i < t; i++)
 	{

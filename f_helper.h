@@ -32,12 +32,12 @@ public:
 	bool HitScanHook(vec2 InitPos, vec2 targetPos, vec2 scanDir, float radius);
 	bool IntersectCharacter(vec2 hookPos, vec2 targetPos, vec2 &newPos);
 
-	bool PredictHook(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targetVel, float speed);
+	bool PredictHook(vec2 &myPos, vec2 myVel, vec2 &targetPos, vec2 targetVel, float speed);
 	void PredictHookOut(vec2 &myPos, vec2 &myVel, vec2 &targetPos, vec2 &targetVel);
 	void TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray);
 
 	int GetCustomTile(float x, float y) const;
-	int GetClosestId(int fov = 360, float range = 395.f);
+	int GetClosestId(int fov = 360, float range = 408.f); // hook_length + phys_size = 408.f
 	float GetPing() const;
 
 	bool IsLocalActive();
