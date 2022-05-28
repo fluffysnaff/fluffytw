@@ -1,26 +1,33 @@
-#include "game/client/fluffytw/f_helper.h"
 #include "aimbot.h"
+#include "game/client/fluffytw/f_helper.h"
 
 void FAimbot::Aimbot()
 {
 	if(!fConfig->aimbotCfg.enabled)
 		return;
-	RunThread();
+
+	// Get closest hook point into `m_TargetPos`
+	GetClosestHitpoint();
+
+	// Validate hook point
 	m_TargetVisible = m_TargetPos == vec2(0, 0) ? false : true;
+
+	// Hook visible if it's enabled
 	HookVisible(m_TargetPos);
-	if(Controls()->m_InputData[LOCAL].m_Hook == 0)
-	{
-		m_CanAim = true;
-	}
+
+	// Aim at the target
 	if(Controls()->m_InputData[LOCAL].m_Hook == 1)
-	{
 		Aim(NormalizeAim(m_TargetPos));
-	}
+	else
+		m_CanAim = true;
 }
 
 void FAimbot::HookVisible(vec2 targetPos)
 {
+	// Constant
 	static bool hasHooked = false;
+
+	// Reset input if needed and return
 	if(!fConfig->aimbotCfg.hookVisible)
 	{
 		if(hasHooked)
@@ -31,41 +38,48 @@ void FAimbot::HookVisible(vec2 targetPos)
 		}
 		return;
 	}
-	if(fConfig->aimbotCfg.hookVisible && m_TargetVisible)
-	{
-		if(hasHooked == true)
-			m_CanAim = false;
-		else
-			m_CanAim = true;
-		Aim(NormalizeAim(targetPos));
-		Controls()->m_InputData[LOCAL].m_Hook = 1;
-		hasHooked = true;
-	}
 
+	// If target is not visible return
+	if(!m_TargetVisible)
+		return;
+
+    // Handle 'can aim' logic		
+	m_CanAim = true;
+	if(hasHooked == true)
+		m_CanAim = false;
+
+	// Aim and hook
+	Aim(NormalizeAim(targetPos));
+	Controls()->m_InputData[LOCAL].m_Hook = 1;
+
+	// Hooked, so update `hasHooked`
+	hasHooked = true;
 }
-
 
 // Gets
 
 void FAimbot::GetClosestHitpoint()
 {
-	while(true)
+	// Get closest id in FOV
+	const int closestId = fHelper->GetClosestId(fConfig->aimbotCfg.fov / (pi * 0.5f));
+
+	// If ID is invalid return
+	if(!fHelper->IsValidId(closestId))
 	{
-		const int closestId = fHelper->GetClosestId(fConfig->aimbotCfg.fov / (pi * 0.5f));
-		if(fHelper->IsValidId(closestId))
-			m_TargetPos = EdgeScan(closestId);
-		else
-			m_TargetPos = vec2(0, 0);
-		thread_sleep(10);
+		m_TargetPos = vec2(0.f, 0.f);
+		return;
 	}
+	// ID is valid, edge scan
+	m_TargetPos = EdgeScan(closestId);
 }
 
 // Aim
-
 vec2 FAimbot::NormalizeAim(vec2 Pos)
 {
-	const float CameraMaxDistance = 200;
-	const float FollowFactor = (g_Config.m_ClDyncam ? g_Config.m_ClDyncamFollowFactor : g_Config.m_ClMouseFollowfactor) / 100.0f;
+    // This function returns a position that has the direction of hitpoint
+	// and is clamped at `g_Config.m_ClMouseMaxDistance`
+	const float CameraMaxDistance = 200.f;
+	const float FollowFactor = (g_Config.m_ClDyncam ? g_Config.m_ClDyncamFollowFactor : g_Config.m_ClMouseFollowfactor) / 100.f;
 	const float DeadZone = g_Config.m_ClDyncam ? g_Config.m_ClDyncamDeadzone : g_Config.m_ClMouseDeadzone;
 	const float MaxDistance = g_Config.m_ClMouseMaxDistance;
 	const float MouseMax = minimum((FollowFactor != 0.f ? CameraMaxDistance / FollowFactor + DeadZone : MaxDistance), MaxDistance);
@@ -77,11 +91,14 @@ vec2 FAimbot::NormalizeAim(vec2 Pos)
 
 void FAimbot::Aim(vec2 Pos)
 {
-	if(!m_CanAim)
+    // Return if we already aimed or target is not visible
+	if(!m_CanAim || !m_TargetVisible)
 		return;
+
+	// Aimbot will aim -> update `m_CanAim`
 	m_CanAim = false;
-	if(!m_TargetVisible)
-		return;
+
+	// Aim using desired way
 	if(!fConfig->aimbotCfg.silent)
 	{
 		Controls()->m_MousePos[LOCAL] = Pos;
@@ -95,23 +112,7 @@ void FAimbot::Aim(vec2 Pos)
 	}
 }
 
-
-// Thread
-void AimbotProxy(void *pUser)
-{
-	FAimbot *pSelf = (FAimbot *)pUser;
-	pSelf->GetClosestHitpoint();
-}
-
-void FAimbot::RunThread()
-{
-	if(m_pAimbotThread == NULL)
-		m_pAimbotThread = thread_init_and_detach(AimbotProxy, this, "Aimbot Thread");
-}
-
-
 // Check
-
 bool FAimbot::InFov(float fov, vec2 dir)
 {
 	const float angle_difference = pi - abs(abs(angle(dir) - angle(Controls()->m_MousePos[LOCAL])) - pi);
