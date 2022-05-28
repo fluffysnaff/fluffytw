@@ -1,19 +1,16 @@
 #pragma once
 
-#include <game/client/gameclient.h>
 #include "game/client/fluffytw/f_component.h"
+#include <game/client/gameclient.h>
 
 class FAimbot : public FComponent
 {
 public:
 	FAimbot(CGameClient *pClient) :
-		FComponent(pClient){}
+		FComponent(pClient) {}
 
 	void Aimbot();
 	void HookVisible(vec2 targetPos);
-
-	// Checks
-	bool InFov(float fov, vec2 dir);
 
 	// Gets
 	void GetClosestHitpoint();
@@ -21,13 +18,12 @@ public:
 	// Scans
 	vec2 EdgeScan(int id);
 
-	// Aim 
+	// Aim
 	vec2 NormalizeAim(vec2 Pos);
 	void Aim(vec2 Pos);
 
-	// Thread
-	void RunThread();
-	void *m_pAimbotThread = NULL;
+	// Check
+	bool InFov(float fov, vec2 dir);
 
 	// Globals
 	bool m_CanAim = true;
