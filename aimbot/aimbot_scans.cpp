@@ -35,7 +35,8 @@ vec2 FAimbot::EdgeScan(int id)
 	 *      targetPos
 	*/
 	const float visibleAngle = atan2(targetPos.y - myPos.y, targetPos.x - myPos.x) + pi / 2;
-	for(float i = visibleAngle; i < pi + visibleAngle; i += fConfig->aimbotCfg.accuracy / 10.f)
+	const float mouseAngle = angle(Controls()->m_MousePos[LOCAL]);
+	for(float i = mouseAngle + visibleAngle; i < fConfig->aimbotCfg.fov + mouseAngle + visibleAngle; i += 1 / fConfig->aimbotCfg.accuracy)
 	{
 		// Return if we have enough hitpoints
 		if(hitPointsCount >= MAX_HITPOINTS)
