@@ -84,7 +84,7 @@ void CGameClient::OnConsoleInit()
 	// ...
 	if(!m_InputDirectionLeft[g_Config.m_ClDummy] && m_InputDirectionRight[g_Config.m_ClDummy])
 		m_InputData[g_Config.m_ClDummy].m_Direction = 1;
-	fConfig->AimbotCfg.enabled = false; // Set what variables you need using fConfig
+	fConfig->aimbotCfg.enabled = false; // Set what variables you need using fConfig
 	fHelper->m_pBots->Run();
 	// ...
 	```
