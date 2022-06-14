@@ -1,5 +1,5 @@
 ﻿#include "game/gamecore.h"
-#include "game/client/prediction//entities/character.h"
+#include "game/client/prediction/entities/character.h"
 #include "f_helper.h"
 
 FHelper::FHelper(CGameClient *client) :
