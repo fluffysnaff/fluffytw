@@ -51,7 +51,7 @@ void CGameClient::OnConsoleInit()
 	Then in `RenderPlayer()` add:
 	```cpp
 	// ...
-	fConfig->EspCfg.enabled = g_Config.m_ClEspEnable; // This is an example
+	fConfig->espCfg.enabled = g_Config.m_ClEspEnable; // This is an example
 	fHelper->m_pVisuals->Run(ClientID, Angle, Position); // Call this at the end
 	```
 
