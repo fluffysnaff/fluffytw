@@ -3,10 +3,10 @@
 #include "game/client/gameclient.h"
 
 #define LOCAL g_Config.m_ClDummy
-#define LOCAL_ID m_pClient->m_LocalIDs[LOCAL]
+#define LOCAL_ID m_pClient->m_aLocalIDs[LOCAL]
 
 #define DUMMY !g_Config.m_ClDummy
-#define DUMMY_ID m_pClient->m_LocalIDs[DUMMY]
+#define DUMMY_ID m_pClient->m_aLocalIDs[DUMMY]
 
 #define PHYS_SIZE 28.f
 #define MAX_HITPOINTS 32
@@ -32,6 +32,6 @@ protected:
 	[[nodiscard]] IClient*       Client()     const { return m_pClient->Client(); }
 	[[nodiscard]] IGraphics*     Graphics()   const { return m_pClient->Graphics(); }
 	[[nodiscard]] CGameWorld*	 GameWorld()  const { return &m_pClient->m_GameWorld; }
-	[[nodiscard]] CTuningParams* Tuning()     const { return m_pClient->m_Tuning; }
+	[[nodiscard]] CTuningParams* Tuning()     const { return m_pClient->m_aTuning; }
 
 };

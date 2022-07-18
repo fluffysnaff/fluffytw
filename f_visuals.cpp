@@ -23,7 +23,7 @@ void FVisuals::DrawFov()
 
 void FVisuals::DrawFovLine(float offset)
 {
-	const float Angle = angle(Controls()->m_MousePos[g_Config.m_ClDummy]) + offset;
+	const float Angle = angle(Controls()->m_aMousePos[g_Config.m_ClDummy]) + offset;
 	const vec2 ExDirection = normalize(direction(Angle));
 
 	const vec2 InitPos = m_pClient->m_LocalCharacterPos;
