@@ -20,20 +20,18 @@ FHelper::~FHelper()
 
 void FHelper::TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray)
 {
-	CWorldCore tempworld;
-	CCharacterCore tempcore;
-	mem_zero(&tempcore, sizeof(tempcore));
-	tempcore.Init(&tempworld, m_pClient->Collision());
-	tempcore.Read(pCharacter);
+	CWorldCore tmpWorld;
+	auto tmpCore = CCharacterCore();
+	auto tmpTeams = CTeamsCore();
+	tmpCore.Init(&tmpWorld, Collision(), &tmpTeams);
+	tmpCore.Read(pCharacter);
 
 	for(int i = 0; i < t; i++)
 	{
-		tempcore.Tick(false);
-		tempcore.Move();
-		tempcore.Quantize();
-		m_pPosArray[i] = tempcore.m_Pos;
+		tmpCore.Tick(false);
+		tmpCore.Move();
+		m_pPosArray[i] = tmpCore.m_Pos + tmpCore.m_Vel;
 	}
-	tempcore.Write(pCharacter);
 }
 
 
