@@ -12,7 +12,6 @@ void FVisuals::Run(int ClientID, float Angle, vec2 Position)
 
 
 // Fov
-
 void FVisuals::DrawFov()
 {
 	if(!fConfig->espCfg.drawFov)
