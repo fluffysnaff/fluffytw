@@ -82,14 +82,14 @@ int FHelper::GetClosestId(int fov, float range)
 
 int FHelper::GetCustomTile(float x, float y) const
 {
-	if(!m_pClient->Collision()->m_pTiles)
+	if(!m_pClient->Collision()->GetTiles())
 		return 0;
 
-	int Nx = clamp(static_cast<int>(x / 32), 0, m_pClient->Collision()->m_Width - 1);
-	int Ny = clamp(static_cast<int>(y / 32), 0, m_pClient->Collision()->m_Height - 1);
-	int pos = Ny * m_pClient->Collision()->m_Width + Nx;
+	int Nx = clamp(static_cast<int>(x / 32), 0, m_pClient->Collision()->GetWidth() - 1);
+	int Ny = clamp(static_cast<int>(y / 32), 0, m_pClient->Collision()->GetHeight() - 1);
+	int pos = Ny * m_pClient->Collision()->GetWidth() + Nx;
 
-	return m_pClient->Collision()->m_pTiles[pos].m_Index;
+	return m_pClient->Collision()->GetTiles()[pos].m_Index;
 }
 
 
