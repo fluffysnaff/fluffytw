@@ -26,9 +26,10 @@ vec2 FAimbot::EdgeScan()
 	if(!fConfig->aimbotCfg.edge)
 		return vec2(0, 0);
 
-	/* Gets the angle range we should be able to hook
+	/* Gets the angle we should be able to hook
 	 *
-	 * a = the range
+	 * a = visibleAngle 
+	 *
 	 * myPos
 	 * |\
 	 * | \
