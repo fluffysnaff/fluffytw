@@ -52,18 +52,18 @@ void CGameClient::OnConsoleInit()
 	```cpp
 	// ...
 	fConfig->espCfg.enabled = g_Config.m_ClEspEnable; // This is an example
-	fHelper->m_pVisuals->Run(ClientID, Angle, Position); // Call this at the end
+	fHelper->m_pVisuals->Run(ClientID, Angle, Position); // Make sure to call this
 	```
 
 2. Helper  
 	Make this public:
 	```cpp
-		// inside collision.h
-		// from: 
-		class CTile *m_pTiles;
-		int m_Width;
-		int m_Height;
-		class CLayers *m_pLayers;
+	// inside collision.h
+	// from: 
+	class CTile *m_pTiles;
+	int m_Width;
+	int m_Height;
+	class CLayers *m_pLayers;
 		
 	// to: 
 	public:
@@ -82,17 +82,21 @@ void CGameClient::OnConsoleInit()
 	Then in `SnapInput();` add:
 	```cpp
 	// ...
-	if(!m_InputDirectionLeft[g_Config.m_ClDummy] && m_InputDirectionRight[g_Config.m_ClDummy])
-		m_InputData[g_Config.m_ClDummy].m_Direction = 1;
 	fConfig->aimbotCfg.enabled = false; // Set what variables you need using fConfig
 	fHelper->m_pBots->Run();
 	// ...
 	```
+	It should be placed after:
+	```cpp
+	if(!m_aInputDirectionLeft[g_Config.m_ClDummy] && m_aInputDirectionRight[g_Config.m_ClDummy])
+		m_aInputData[g_Config.m_ClDummy].m_Direction = 1;
+	```   
+
   
 ## Possible problems
 1. If something isn't working, make sure that configs are setup right and everything is executing.  
 2. Aimbot isn't working - Debug it. For example set `m_CanAim` always to true and see if it works.  
 
-Aimbot:  
+## Showcase
 1. [Hitpoint scan](https://streamable.com/s81xls)   
-2. [Hook prediction](https://streamable.com/j51ilg)  
+2. [Hook prediction](https://streamable.com/j51ilg)  & [Without hook prediction](https://streamable.com/4zegsy)
