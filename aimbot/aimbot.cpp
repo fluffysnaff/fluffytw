@@ -55,9 +55,7 @@ void FAimbot::HookVisible(vec2 targetPos)
 // Gets
 void FAimbot::GetClosestHitpoint()
 {
-	// Get closest id in FOV
-	m_TargetId = GetClosestId(fConfig->aimbotCfg.fov / (pi * 0.5f));
-	// If ID is invalid return
+	m_TargetId = GetClosestId(fConfig->aimbotCfg.fov);	
 	if(!fHelper->IsValidId(m_TargetId))
 	{
 		m_TargetPos = vec2(0.f, 0.f);
@@ -66,6 +64,7 @@ void FAimbot::GetClosestHitpoint()
 		m_TargetId = -1;
 		return;
 	}
+
 	m_MyPos = m_pClient->m_PredictedChar.m_Pos;
 	m_MyVel = m_pClient->m_PredictedChar.m_Vel;
 	m_TargetPos = m_pClient->m_aClients[m_TargetId].m_Predicted.m_Pos;
@@ -84,7 +83,7 @@ int FAimbot::GetClosestId(int fov, float range)
 	auto *player = dynamic_cast<CCharacter *>(m_pClient->m_GameWorld.FindFirst(m_pClient->m_GameWorld.ENTTYPE_CHARACTER));
 	for(; player; player = dynamic_cast<CCharacter *>(player->TypeNext()))
 	{
-		int i = player->ID();
+		int i = player->GetID();
 		if(i == LOCAL_ID || !player)
 			continue;
 
@@ -99,7 +98,7 @@ int FAimbot::GetClosestId(int fov, float range)
 		if(IsOneSpec || IsOneSolo)
 			continue;
 
-		if(!m_pClient->m_Teams.SameTeam(i, LOCAL_ID) || OwnClientData.m_NoHookHit)
+		if(!m_pClient->m_Teams.SameTeam(i, LOCAL_ID) || OwnClientData.m_HookHitDisabled)
 			continue;
 
 		if(!InFov(fov, Position - Pos))
@@ -250,8 +249,9 @@ void FAimbot::Aim(vec2 Pos)
 // Check
 bool FAimbot::InFov(float fov, vec2 dir)
 {
-	const float angle_difference = pi - abs(abs(angle(dir) - angle(Controls()->m_aMousePos[LOCAL])) - pi);
-	if(angle_difference > fov * (pi / 180))
+	const float differenceAngle = abs(atan2(sin(angle(dir) - angle(Controls()->m_aMousePos[LOCAL])),
+		                              cos(angle(dir) - angle(Controls()->m_aMousePos[LOCAL])))) * 100.f;
+	if(differenceAngle > fov)
 		return false;
 	return true;
 }

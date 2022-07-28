@@ -46,7 +46,7 @@ int FHelper::GetClosestId(int fov, float range)
 	auto *player = dynamic_cast<CCharacter *>(m_pClient->m_GameWorld.FindFirst(m_pClient->m_GameWorld.ENTTYPE_CHARACTER));
 	for(; player; player = dynamic_cast<CCharacter *>(player->TypeNext()))
 	{
-		int i = player->ID();
+		int i = player->GetID();
 		if(i == LOCAL_ID || !player)
 			continue;
 
@@ -61,7 +61,7 @@ int FHelper::GetClosestId(int fov, float range)
 		if(IsOneSpec || IsOneSolo)
 			continue;
 
-		if(!m_pClient->m_Teams.SameTeam(i, LOCAL_ID) || OwnClientData.m_NoHookHit)
+		if(!m_pClient->m_Teams.SameTeam(i, LOCAL_ID) || OwnClientData.m_HookHitDisabled)
 			continue;
 
 		if(!m_pAimbot->InFov(fov, Position - Pos))
