@@ -56,21 +56,12 @@ void CGameClient::OnConsoleInit()
 	```
 
 2. Helper  
-	Make this public:
+	Add this in `CColision` class:
 	```cpp
 	// inside collision.h
-	// from: 
-	class CTile *m_pTiles;
-	int m_Width;
-	int m_Height;
-	class CLayers *m_pLayers;
-		
-	// to: 
 	public:
-		class CTile *m_pTiles;
-		int m_Width;
-		int m_Height;
-		class CLayers *m_pLayers;
+	    // ...
+	    CTile *GetTiles() const { return m_pTiles; }
 	```
 
 3. Bots  
