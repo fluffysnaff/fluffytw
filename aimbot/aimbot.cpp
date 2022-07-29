@@ -177,7 +177,7 @@ bool FAimbot::HitScanHook(vec2 initPos, vec2 targetPos, vec2 scanDir)
 			return true;
 
 		if(Hit)
-			return false;
+			break;
 
 		newPos.x = round_to_int(newPos.x);
 		newPos.y = round_to_int(newPos.y);
@@ -196,7 +196,7 @@ bool FAimbot::IntersectCharacter(vec2 hookPos, vec2 targetPos, vec2 &newPos)
 	vec2 closestPoint;
 	if(closest_point_on_line(hookPos, newPos, targetPos, closestPoint))
 	{
-		if(distance(targetPos, closestPoint) < PHYS_SIZE - 1.f)
+		if(distance(targetPos, closestPoint) < PHYS_SIZE + 2.f)
 		{
 			newPos = closestPoint;
 			return true;
