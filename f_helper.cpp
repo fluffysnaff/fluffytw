@@ -1,9 +1,6 @@
-﻿#include "game/gamecore.h"
-#include "game/client/prediction/entities/character.h"
-#include "game/collision.h"
-#include "f_helper.h"
+﻿#include <game/client/prediction/entities/character.h>
 
-#include "game/mapitems.h"
+#include "f_helper.h"
 
 FHelper::FHelper(CGameClient *client) noexcept
 	: m_pClient(client),
