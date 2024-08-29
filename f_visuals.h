@@ -17,7 +17,8 @@ public:
 	void DrawCircle(vec2 pos, float size, ColorRGBA color = {1, 1, 1, 1});
 	void DrawBox(vec2 center, float size, ColorRGBA color = {1, 1, 1, 1});
 
-	// Fov
+private:
+	// Aimbot Fov
 	void DrawFov();
 	void DrawFovLine(float offset);
 };
