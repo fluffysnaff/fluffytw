@@ -5,18 +5,11 @@
 
 #include "game/mapitems.h"
 
-FHelper::FHelper(CGameClient *client) :
-	m_pClient(client),
-	m_pBots(new FBots(client)),
-	m_pAimbot(new FAimbot(client)),
-	m_pVisuals(new FVisuals(client)) {}
-
-FHelper::~FHelper()
-{
-	delete m_pBots;
-	delete m_pAimbot;
-	delete m_pVisuals;
-}
+FHelper::FHelper(CGameClient *client) noexcept
+	: m_pClient(client),
+	m_pBots(std::make_unique<FBots>(client)),
+	m_pAimbot(std::make_unique<FAimbot>(client)),
+	m_pVisuals(std::make_unique<FVisuals>(client)) {}
 
 void FHelper::TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray)
 {

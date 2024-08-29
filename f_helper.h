@@ -1,5 +1,7 @@
 #pragma once
 
+#include <memory>
+
 #include "f_bots.h"
 #include "f_visuals.h"
 #include "aimbot/aimbot.h"
@@ -18,16 +20,15 @@ protected:
 	[[nodiscard]] CTuningParams* Tuning()     const { return m_pClient->m_aTuning; }
 
 public:
-	FHelper(CGameClient *client);
-	~FHelper();
+	FHelper(CGameClient *client) noexcept;
 
-	// CGameClient pointer
+	// Main pointer(needs to be raw)
 	CGameClient* m_pClient = nullptr;
 
-	// fluffytw pointers
-	FBots*		 m_pBots = nullptr;
-	FAimbot*     m_pAimbot = nullptr;
-	FVisuals*    m_pVisuals = nullptr;
+	// Pointers
+	std::unique_ptr<FBots>    m_pBots;
+	std::unique_ptr<FAimbot>  m_pAimbot;
+	std::unique_ptr<FVisuals> m_pVisuals;
 
 	void  TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray);
 	int   GetCustomTile(float x, float y) const;
