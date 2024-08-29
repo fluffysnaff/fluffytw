@@ -83,7 +83,7 @@ int FAimbot::GetClosestId(int fov, float range)
 	auto *player = dynamic_cast<CCharacter *>(m_pClient->m_GameWorld.FindFirst(m_pClient->m_GameWorld.ENTTYPE_CHARACTER));
 	for(; player; player = dynamic_cast<CCharacter *>(player->TypeNext()))
 	{
-		int i = player->GetID();
+		int i = player->GetId();
 		if(i == LOCAL_ID || !player)
 			continue;
 

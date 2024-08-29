@@ -3,10 +3,10 @@
 #include "game/client/gameclient.h"
 
 #define LOCAL g_Config.m_ClDummy
-#define LOCAL_ID m_pClient->m_aLocalIDs[LOCAL]
+#define LOCAL_ID m_pClient->m_aLocalIds[LOCAL]
 
 #define DUMMY !g_Config.m_ClDummy
-#define DUMMY_ID m_pClient->m_aLocalIDs[DUMMY]
+#define DUMMY_ID m_pClient->m_aLocalIds[DUMMY]
 
 #define PHYS_SIZE 28.f
 #define MAX_HITPOINTS 32
