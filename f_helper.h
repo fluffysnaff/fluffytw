@@ -2,9 +2,11 @@
 
 #include <memory>
 
-#include "f_bots.h"
-#include "f_visuals.h"
-#include "aimbot/aimbot.h"
+#include <game/client/fluffytw/f_bots.h>
+#include <game/client/fluffytw/f_visuals.h>
+#include <game/client/fluffytw/aimbot/aimbot.h>
+
+#include "base/logger.h"
 
 class FHelper
 {
@@ -38,6 +40,29 @@ public:
 
 	bool  IsValidId(int id);
 	bool  IsGrounded(int id, vec2 pos = vec2(0, 0));
+	// Example usage fHelper->dbg_msg("bot", "bot: hook = %d", Controls()->m_aInputData[LOCAL].m_Hook)
+	// prints to the chat as echo for some simple debug messages or information
+	void dbg_msg(const char *sys, const char *fmt, ...)
+	{
+		va_list args;
+		va_start(args, fmt);
+		CLogMessage Msg;
+		Msg.m_Level = LEVEL_INFO;
+		str_timestamp_format(Msg.m_aTimestamp, sizeof(Msg.m_aTimestamp), FORMAT_SPACE);
+		Msg.m_TimestampLength = str_length(Msg.m_aTimestamp);
+		str_copy(Msg.m_aSystem, sys);
+		Msg.m_SystemLength = str_length(Msg.m_aSystem);
+
+		// TODO: Add level?
+		str_format(Msg.m_aLine, sizeof(Msg.m_aLine), "%s %c %s: ", Msg.m_aTimestamp, "EWIDT"[LEVEL_INFO], Msg.m_aSystem);
+		Msg.m_LineMessageOffset = str_length(Msg.m_aLine);
+
+		char *pMessage = Msg.m_aLine + Msg.m_LineMessageOffset;
+		int MessageSize = sizeof(Msg.m_aLine) - Msg.m_LineMessageOffset;
+		str_format_v(pMessage, MessageSize, fmt, args);
+		m_pClient->Echo(pMessage);
+		va_end(args);
+	}
 };
 
 extern std::unique_ptr<FHelper> fHelper;
