@@ -23,10 +23,8 @@ set(CLIENT_SRC ${ENGINE_CLIENT} ${PLATFORM_CLIENT} ${GAME_CLIENT} ${GAME_EDITOR}
 Inside `gameclient.cpp` add this:
 ```cpp
 #include <memory.h>
-#include "fluffytw/f_config.h"
 #include "fluffytw/f_helper.h"
 std::unique_ptr<FHelper> fHelper;
-std::unique_ptr<FConfig> fConfig;
 ```
 
 Now add this code to `void CGameClient::OnConsoleInit()`:
@@ -35,7 +33,6 @@ void CGameClient::OnConsoleInit()
 {
 	// ...
 	fHelper = std::make_unique<FHelper>(this);
-	fConfig = std::make_unique<FConfig>();
 	// ...
 }
 ```
@@ -44,14 +41,13 @@ void CGameClient::OnConsoleInit()
 1. Visuals  
 	Inside `players.cpp` include:
 	```cpp
-	#include "game/client/fluffytw/f_config.h"
 	#include "game/client/fluffytw/f_helper.h"
 	```
 	
 	Then in `RenderPlayer()` add:
 	```cpp
 	// ...
-	fConfig->espCfg.enabled = g_Config.m_ClEspEnable; // This is an example
+	fHelper->m_pConfig_->espCfg.enabled = g_Config.m_ClEspEnable; // This is an example
 	fHelper->m_pVisuals->Run(ClientID, Angle, Position); // Make sure to call this
 	```
 
@@ -68,12 +64,11 @@ void CGameClient::OnConsoleInit()
 	Inside `controls.cpp` include:
 	```cpp
 	#include "game/client/fluffytw/f_helper.h"
-	#include "game/client/fluffytw/f_config.h"
 	```
 	Then in `SnapInput();` add:
 	```cpp
 	// ...
-	fConfig->aimbotCfg.enabled = false; // Set what variables you need using fConfig
+	fHelper->m_pConfig->aimbotCfg.enabled = false; // Set what variables you need using fConfig
 	fHelper->m_pBots->Run();
 	// ...
 	```

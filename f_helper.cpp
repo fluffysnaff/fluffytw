@@ -6,7 +6,8 @@ FHelper::FHelper(CGameClient *client) noexcept
 	: m_pClient(client),
 	m_pBots(std::make_unique<FBots>(client)),
 	m_pAimbot(std::make_unique<FAimbot>(client)),
-	m_pVisuals(std::make_unique<FVisuals>(client)) {}
+	m_pVisuals(std::make_unique<FVisuals>(client)),
+	m_pConfig(std::make_unique<FConfig>()) {}
 
 void FHelper::TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray)
 {

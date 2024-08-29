@@ -4,7 +4,7 @@
 
 void FVisuals::Run(int ClientID, float Angle, vec2 Position)
 {
-	if(!fConfig->espCfg.enabled)
+	if(!fHelper->m_pConfig->espCfg.enabled)
 		return;
 	Graphics()->TextureClear();
 	DrawFov();
@@ -14,10 +14,10 @@ void FVisuals::Run(int ClientID, float Angle, vec2 Position)
 // Fov
 void FVisuals::DrawFov()
 {
-	if(!fConfig->espCfg.drawFov)
+	if(!fHelper->m_pConfig->espCfg.drawFov)
 		return;
-	DrawFovLine(fConfig->aimbotCfg.fov * 0.01f);
-	DrawFovLine(fConfig->aimbotCfg.fov * -0.01f);
+	DrawFovLine(fHelper->m_pConfig->aimbotCfg.fov * 0.01f);
+	DrawFovLine(fHelper->m_pConfig->aimbotCfg.fov * -0.01f);
 }
 
 void FVisuals::DrawFovLine(float offset)

@@ -5,7 +5,7 @@
 
 void FAimbot::Aimbot()
 {
-	if(!fConfig->aimbotCfg.enabled)
+	if(!fHelper->m_pConfig->aimbotCfg.enabled)
 		return;
 
 	// Get closest hook point into `m_TargetPos`
@@ -23,7 +23,7 @@ void FAimbot::HookVisible(vec2 targetPos)
 	static bool hasHooked = false;
 
 	// Reset input if needed and return
-	if(!fConfig->aimbotCfg.hookVisible)
+	if(!fHelper->m_pConfig->aimbotCfg.hookVisible)
 	{
 		if(hasHooked)
 		{
@@ -55,7 +55,7 @@ void FAimbot::HookVisible(vec2 targetPos)
 // Gets
 void FAimbot::GetClosestHitpoint()
 {
-	m_TargetId = GetClosestId(fConfig->aimbotCfg.fov);	
+	m_TargetId = GetClosestId(fHelper->m_pConfig->aimbotCfg.fov);	
 	if(!fHelper->IsValidId(m_TargetId))
 	{
 		m_TargetPos = vec2(0.f, 0.f);
@@ -232,7 +232,7 @@ void FAimbot::Aim(vec2 Pos)
 		return;
 
 	// Aim using desired way
-	if(!fConfig->aimbotCfg.silent)
+	if(!fHelper->m_pConfig->aimbotCfg.silent)
 	{
 		Controls()->m_aMousePos[LOCAL] = Pos;
 		Controls()->m_aInputData[LOCAL].m_TargetX = static_cast<int>(Controls()->m_aMousePos[LOCAL].x);

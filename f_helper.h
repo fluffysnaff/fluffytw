@@ -3,8 +3,9 @@
 #include <memory>
 
 #include <game/client/fluffytw/f_bots.h>
-#include <game/client/fluffytw/f_visuals.h>
 #include <game/client/fluffytw/aimbot/aimbot.h>
+#include <game/client/fluffytw/f_visuals.h>
+#include <game/client/fluffytw/f_config.h>
 
 #include "base/logger.h"
 
@@ -33,6 +34,7 @@ public:
 	std::unique_ptr<FBots>    m_pBots;
 	std::unique_ptr<FAimbot>  m_pAimbot;
 	std::unique_ptr<FVisuals> m_pVisuals;
+	std::unique_ptr<FConfig>  m_pConfig;
 
 	void TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray);
 	int GetCustomTile(float x, float y) const;

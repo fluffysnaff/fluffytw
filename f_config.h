@@ -20,5 +20,3 @@ public:
 		bool drawFov = false;
 	} espCfg;
 };
-
-extern std::unique_ptr<FConfig> fConfig;
