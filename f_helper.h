@@ -9,15 +9,17 @@
 class FHelper
 {
 protected:
-	[[nodiscard]] CGameClient*   GameClient() const { return m_pClient; }
-	[[nodiscard]] CControls*     Controls()	  const { return &m_pClient->m_Controls; }
-	[[nodiscard]] IConsole*		 Console()    const { return m_pClient->Console(); }
-	[[nodiscard]] IInput*		 Input()      const { return m_pClient->Input(); }
-	[[nodiscard]] CCollision*	 Collision()  const { return m_pClient->Collision(); }
-	[[nodiscard]] IClient*       Client()     const { return m_pClient->Client(); }
-	[[nodiscard]] IGraphics*     Graphics()   const { return m_pClient->Graphics(); }
-	[[nodiscard]] CGameWorld*	 GameWorld()  const { return &m_pClient->m_GameWorld; }
-	[[nodiscard]] CTuningParams* Tuning()     const { return m_pClient->m_aTuning; }
+	[[nodiscard]] CGameClient*	  GameClient()	  const { return m_pClient; }
+	[[nodiscard]] CControls*	  Controls()	  const { return &m_pClient->m_Controls; }
+	[[nodiscard]] IConsole*		  Console()		  const { return m_pClient->Console(); }
+	[[nodiscard]] IInput*		  Input()		  const { return m_pClient->Input(); }
+	[[nodiscard]] CCollision*	  Collision()	  const { return m_pClient->Collision(); }
+	[[nodiscard]] IClient*		  Client()		  const { return m_pClient->Client(); }
+	[[nodiscard]] IGraphics*	  Graphics()	  const { return m_pClient->Graphics(); }
+	[[nodiscard]] CGameWorld*	  GameWorld()	  const { return &m_pClient->m_GameWorld; }
+	[[nodiscard]] CGameWorld*     PredGameWorld() const { return &m_pClient->m_PredictedWorld; }
+	[[nodiscard]] CTuningParams*  Tuning()		  const { return m_pClient->m_aTuning; }
+	[[nodiscard]] IServerBrowser* ServerBrowser() const { return m_pClient->ServerBrowser(); }
 
 public:
 	FHelper(CGameClient *client) noexcept;
