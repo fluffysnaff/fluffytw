@@ -34,12 +34,14 @@ public:
 	std::unique_ptr<FAimbot>  m_pAimbot;
 	std::unique_ptr<FVisuals> m_pVisuals;
 
-	void  TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray);
-	int   GetCustomTile(float x, float y) const;
-	int   GetClosestId(int fov = 360, float range = 394.f); // hook_length + phys_size * 0.5f = 390.f
+	void TickPredict(CNetObj_Character *pCharacter, int t, vec2 *m_pPosArray);
+	int GetCustomTile(float x, float y) const;
+	int GetClosestId(int fov = 360, float range = 394.f); // hook_length + phys_size * 0.5f = 390.f
 
-	bool  IsValidId(int id);
-	bool  IsGrounded(int id, vec2 pos = vec2(0, 0));
+	bool IsLocalActive();
+	bool IsValidId(int id);
+	bool IsGrounded(int id, vec2 pos = vec2(0, 0));
+
 	// Example usage fHelper->dbg_msg("bot", "bot: hook = %d", Controls()->m_aInputData[LOCAL].m_Hook)
 	// prints to the chat as echo for some simple debug messages or information
 	void dbg_msg(const char *sys, const char *fmt, ...)

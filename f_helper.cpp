@@ -99,6 +99,13 @@ bool FHelper::IsGrounded(int id, vec2 pos)
 	return false;
 }
 
+bool FHelper::IsLocalActive()
+{
+	if(Controls()->m_aInputData[LOCAL].m_PlayerFlags & PLAYERFLAG_PLAYING && Client()->State() == IClient::STATE_ONLINE)
+		return true;
+	return false;
+}
+
 bool FHelper::IsValidId(int id)
 {
 	if(id > -1 && id <= MAX_CLIENTS)
