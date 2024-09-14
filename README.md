@@ -86,3 +86,7 @@ void CGameClient::OnConsoleInit()
 ## Showcase
 1. [Hitpoint scan](https://streamable.com/s81xls)   
 2. [Hook prediction](https://streamable.com/j51ilg)  & [Without hook prediction](https://streamable.com/4zegsy)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=fluffysnaff/fluffytw&type=Date)](https://star-history.com/#fluffysnaff/fluffytw&Date)
