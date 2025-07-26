@@ -1,6 +1,18 @@
 # fluffytw
 fluffytw is a base for Teeworlds hacking.
 
+---
+
+## From Open-Source to Ultimate Power
+
+Liking `fluffytw`? If you want to skip the setup and access the most powerful features, like advanced replay bots, ad-free experience, and priority support—all in a ready-to-go package, **KRX Client** is for you.
+
+It's the ultimate, pre-compiled version of our work, built for players who want maximum performance with zero hassle.
+
+➡️ **[Check out KRX Client's Premium Features](https://krxclient.xyz/#pricing)**
+
+---
+
 ## Installation
 Before you start, make sure to clone the DDNet repository.
 ```bash
