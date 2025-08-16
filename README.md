@@ -1,5 +1,23 @@
 # fluffytw
+
+<p align="center">
+  <img src="./images/logo.png" alt="Fluffytw Logo">
+</p>
+
 fluffytw is a base for Teeworlds hacking.
+
+<div align="center">
+  <!-- Primary Badges -->
+  <a href="https://github.com/fluffysnaff/fluffytw"><img src="https://img.shields.io/badge/For-Teeworlds-98d243?style=for-the-badge" alt="For Teeworlds"></a>
+  <a href="https://github.com/fluffysnaff/fluffytw"><img src="https://img.shields.io/badge/Type-Hacking%20Base-blueviolet?style=for-the-badge" alt="Type: Hacking Base"></a>
+  <a href="https://github.com/fluffysnaff/fluffytw/commits/master"><img src="https://img.shields.io/github/last-commit/fluffysnaff/fluffytw?style=for-the-badge" alt="Last Commit"></a>
+  <!-- Secondary / Tech Badges -->
+  <br/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Compatible%20with-DDNet-lightgrey?style=flat-square" alt="Compatible with DDNet">
+  <!-- Special Call-to-Action Badge -->
+  <a href="https://krxclient.xyz/#pricing"><img src="https://img.shields.io/badge/Premium%20Version-KRX%20Client-gold?style=flat-square&logo=rocket" alt="KRX Client"></a>
+</div>
 
 ---
 
