@@ -27,7 +27,7 @@ Liking `fluffytw`? If you want to skip the setup and access the most powerful fe
 
 It's the ultimate, pre-compiled version of our work, built for players who want maximum performance with zero hassle.
 
-➡️ **[Check out KRX Client's Premium Features](https://krxteam.com/krx-client/#pricing)**
+➡️ **[Check out KRX Client's Premium Features](https://krxteam.com/krx-client#pricing)**
 
 ---
 
